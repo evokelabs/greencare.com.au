@@ -1,0 +1,52 @@
+<div class="custom_banner_for_all" style="background-image: url({{section.settings.banner_image | img_url: 'master'}})">
+  <div class="all_banner_wrapper">
+    {% if section.settings.title %}
+    <h1 class="banner_title">
+      {{ section.settings.title }}
+    </h1>
+    {% endif %}
+    {% if section.settings.subheading %}
+    <p class="banner_sub_heading">
+      {{ section.settings.subheading }}
+    </p>
+    {% endif %}
+    {% if section.settings.logo_image %}
+    <img class="banner_logo_image" src="{{ section.settings.logo_image | img_url: 'master' }}">
+    {% endif %}
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Banner",
+    "settings": [
+     {
+     "type": "image_picker",
+     "id": "banner_image",
+     "label": "Banner Image"
+     },
+     {
+     "type": "text",
+     "id": "title",
+     "label": "Heading",
+     "default": "Medical Cannabis Service Support For Healthcare Providers"
+     },
+     {
+     "type": "textarea",
+     "id": "subheading",
+     "label": "Sub Heading"
+     },
+     {
+     "type": "image_picker",
+     "id": "logo_image",
+     "label": "Logo Image"
+     }
+     
+]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

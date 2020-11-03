@@ -1,0 +1,215 @@
+<!-- Remember to include jQuery :) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+<!-- jQuery Modal -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+
+<div class="treatment_section">
+
+  <div class="custom_banner_for_all" style="background-image: url({{section.settings.banner_image | img_url: 'master'}})">
+  <div class="all_banner_wrapper">
+    {% if section.settings.title %}
+    <h1 class="banner_title">
+      {{ section.settings.title }}
+    </h1>
+    {% endif %}
+    {% if section.settings.subheading %}
+    <p class="banner_sub_heading">
+      {{ section.settings.subheading }}
+    </p>
+    {% endif %}
+    {% if section.settings.logo_image %}
+    <img class="banner_logo_image" src="{{ section.settings.logo_image | img_url: 'master' }}">
+    {% endif %}
+  </div>
+</div>
+  
+  
+<!--    <div class="page-width p1">
+  {% if section.settings.title != blank %}
+  <h2 class="section_heading">{{ section.settings.title | escape }}</h2>
+  {% endif %}
+  
+  
+  </div> -->
+  
+    <div class="page-width">
+    <div class="grid grid--flush-bottom">
+
+    {% for block in section.blocks %}
+     
+      <div class="grid__item" >
+        <div class="t_block">
+          
+        <div class="col_left">
+        {% if block.settings.title != blank %}
+          <h3 class="h4">{{ block.settings.title | escape }}</h3>
+        {% endif %}
+        {% if block.settings.text != blank %}
+          {% assign evm_p = block.settings.text %}
+          
+          <div id="treatment-{{ section.id }}" class="rte-setting text_custom1">{{ block.settings.text }}</div>
+         
+        {% endif %}
+
+        {% if block.settings.button_label != blank and block.settings.button_link != blank %}
+          {%- capture ariaLabel -%}
+            {{- block.settings.button_label -}}
+            {%- if block.settings.button_link.type == 'frontpage_link' -%}
+              : {{ 'homepage.general.title' | t -}}
+            {%- elsif block.settings.button_link.type == 'catalog_link' -%}
+              : {{ 'collections.catalog.title' | t -}}
+            {%- elsif block.settings.button_link.object.title -%}
+              : {{ block.settings.button_link.object.title -}}
+            {%- endif -%}
+          {%- endcapture -%}
+
+          	{% capture count %}{% increment _count %}{% endcapture %}
+          
+         <a href="#ex1_{{ count }}" class="btn btn--secondary btn--small" rel="modal:open">{{- block.settings.button_label | escape -}}</a>
+
+        {% endif %}
+     </div>
+          
+          <div class="col_right">
+            {% if block.settings.image != blank %}
+            <div class="t_img" style="background-image:url('{{ block.settings.image | img_url: 'master' }}');">
+                
+             </div>
+          {% else %}
+            <p>
+              {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+            </p>
+          {% endif %}
+          </div>
+          
+      </div>
+      </div>
+    {% endfor %}
+        
+  </div>
+
+  {% if section.blocks.size == 0 %}
+    {% include 'no-blocks' %}
+  {% endif %}
+  </div>
+  
+</div>
+ {% for block in section.blocks %}
+{% capture count1 %}{% increment _count1 %}{% endcapture %}
+<div id="ex1_{{ count1 }}" class="modal">
+  <p>{{ block.settings.text }}</p>
+  <a href="#" rel="modal:close">Close</a>
+</div>
+{% endfor %}
+
+
+
+
+
+
+{% schema %}
+{
+  "name": {
+    "en": "Treatment Page"
+  },
+  "settings": [
+     {
+       "type": "image_picker",
+       "id": "banner_image",
+       "label": "Banner Image"
+     },
+     {
+       "type": "text",
+       "id": "title",
+       "label": "Heading"
+     },
+     {
+       "type": "textarea",
+       "id": "subheading",
+       "label": "Sub Heading"
+     },
+     {
+       "type": "image_picker",
+       "id": "logo_image",
+       "label": "Logo Image"
+     }
+  
+  ],
+  "blocks": [
+    {
+      "type": "text_block",
+      "name": {
+        "en": "Column"
+      },
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": {
+            "en": "Image"
+          }
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": {
+            "en": "Heading"
+          }
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": {
+          
+            "en": "Text"
+          }
+         
+        },
+        {
+          "type": "text",
+          "id": "button_label",
+          "label": {
+           
+            "en": "Button label"
+           
+          }
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": {
+            
+            "en": "Button link"
+          }
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": {
+        
+        "en": "Treatment page"
+      },
+      "category": {
+      
+        "en": "Text"
+      },
+      "blocks": [
+        {
+          "type": "text_block"
+        },
+        {
+          "type": "text_block"
+        },
+        {
+          "type": "text_block"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

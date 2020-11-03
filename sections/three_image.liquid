@@ -1,0 +1,165 @@
+<style>
+
+  .three_image_main{ background-color:{{ section.settings.background_color}};     padding: 70px 0;}
+  
+</style> 
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+
+
+<div class="three_image_main">
+    <div class="page-width" >
+    {% if section.settings.title != blank %}    
+    <h2> {{ section.settings.title }} </h2>
+    {% endif %}
+  
+      <div class="imageblock_container">
+        <div class="imageblock">
+
+          {% if section.settings.image1 != blank %}    
+          <div class="cus_img"><img src="{{ section.settings.image1 | img_url: ' ' }}"  alt="image1" ></div>   
+          {% endif %}
+
+          {% if section.settings.heading1 != blank %}    
+          <h2> {{ section.settings.heading1 }} </h2>
+          {% endif %}
+
+          {% if section.settings.subheading1 != blank %}
+          <div class="short_desc">
+          <p class="text_custom"> {{ section.settings.subheading1 }} </p>
+          </div>
+          {% endif %}
+
+        </div>
+        <div class="imageblock">
+
+          {% if section.settings.image2 != blank %}    
+          <div class="cus_img"><img src="{{ section.settings.image2 | img_url: ' ' }}"  alt="image1" >  </div>  
+          {% endif %}
+
+          {% if section.settings.heading2 != blank %}    
+          <h2> {{ section.settings.heading2 }} </h2>
+          {% endif %}
+
+          {% if section.settings.subheading2 != blank %}    
+          <div class="short_desc">
+          <p class="text_custom"> {{ section.settings.subheading2 }} </p>
+          </div>
+          {% endif %}
+
+
+        </div>
+        <div class="imageblock">
+
+          {% if section.settings.image3 != blank %}    
+          <div class="cus_img"><img src="{{ section.settings.image3 | img_url: ' ' }}"  alt="image1" >   </div> 
+          {% endif %}
+
+          {% if section.settings.heading3 != blank %}    
+          <h2> {{ section.settings.heading3 }} </h2>
+          {% endif %}
+
+          {% if section.settings.subheading3 != blank %} 
+          <div class="short_desc">
+          <p class="text_custom"> {{ section.settings.subheading3 }} </p>
+          </div>
+          {% endif %}
+
+        </div>
+      </div>
+      <div class="threeimagesec_btn">
+      <a href="#" class="btn btn--cta truncate_more_link">{{ section.settings.linktext }}</a>
+      </div>
+  </div>
+  
+</div>
+
+{% schema %}
+  {
+    "name": "Three Image Section",
+    "settings": [
+	{
+         "type": "text",
+         "id": "title",
+         "label": "Title"
+      },
+      {
+         "type": "color",
+         "id": "background_color",
+         "label": "Background color",
+         "default": "#ffffff"
+      },
+     {
+      "type": "image_picker",
+      "id": "image1",
+      "label": "Image1"
+  	  },
+      {
+         "type": "text",
+         "id": "heading1",
+         "label": "Heading"
+      },
+      {
+         "type": "textarea",
+         "id": "subheading1",
+         "default": "Welcome to my shop!",
+         "label": "subheading"
+      },
+		{
+      "type": "image_picker",
+      "id": "image2",
+      "label": "Image2"
+  	  },
+      {
+         "type": "text",
+         "id": "heading2",
+         "label": "Heading"
+      },
+      {
+         "type": "textarea",
+         "id": "subheading2",
+         "default": "Welcome to my shop!",
+         "label": "subheading"
+      },
+	{
+      "type": "image_picker",
+      "id": "image3",
+      "label": "Image3"
+  	  },
+      {
+         "type": "text",
+         "id": "heading3",
+         "label": "Heading"
+      },
+      {
+         "type": "textarea",
+         "id": "subheading3",
+         "default": "Welcome to my shop!",
+         "label": "subheading"
+      },
+      {
+        "id": "link",
+        "type": "url",
+        "label": "Button link"
+      },
+      {
+        "id": "linktext",
+        "type": "text",
+        "label": "Button text",
+        "default": "Click here"
+      }
+	],
+
+  "presets": [
+        {
+			"name": "Three Image Section",
+			"category": "Image"	
+        }
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

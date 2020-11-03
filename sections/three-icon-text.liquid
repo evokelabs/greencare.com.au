@@ -1,0 +1,225 @@
+
+
+<div class="page-width section_full" >
+  {% if section.settings.main_heading != blank %}    
+    <h4 class="section_heading"> {{ section.settings.main_heading }} </h4>
+    {% endif %}
+      
+    {% if section.settings.main_text != blank %}    
+    <p class="section_para"> {{ section.settings.main_text }} </p>
+    {% endif %}
+  
+  <div class="icon_text_main">
+    <div class="iconblock">
+      <div class="icon_inner">
+    
+    {% if section.settings.image1 != blank %}    
+        <div class="custom_icon"><img src="{{ section.settings.image1 | img_url: ' ' }}"  alt="image1" > </div>  
+    {% endif %}
+    
+    {% if section.settings.heading1 != blank %}    
+    <h2> {{ section.settings.heading1 }} </h2>
+    {% endif %}
+    
+    {% if section.settings.subheading1 != blank %}    
+    <h4> {{ section.settings.subheading1 }} </h4>
+    {% endif %}
+      
+    {% if section.settings.subtext1 != blank %}    
+    <p> {{ section.settings.subtext1 }} </p>
+    {% endif %}
+      
+    {% if section.settings.btn_url1 != blank %}    
+            <div class="button_full">
+              <a href="{{ section.settings.btn_url1 }}"> {{ section.settings.btn1 }} </a></div>
+    {% endif %}
+      </div>
+    
+  </div>
+  <div class="iconblock">
+         <div class="icon_inner">
+    {% if section.settings.image2 != blank %}    
+    <div class="custom_icon"><img src="{{ section.settings.image2 | img_url: ' ' }}"  alt="image1" ></div>
+    {% endif %}
+    
+    {% if section.settings.heading2 != blank %}    
+    <h2> {{ section.settings.heading2 }} </h2>
+    {% endif %}
+    
+     {% if section.settings.subheading2 != blank %}    
+    <h4> {{ section.settings.subheading2 }} </h4>
+    {% endif %}
+      
+    {% if section.settings.subtext2 != blank %}    
+    <p> {{ section.settings.subtext2 }} </p>
+    {% endif %}
+      
+    {% if section.settings.btn_url2 != blank %}  
+    <div class="button_full">
+    <a href="{{ section.settings.btn_url2 }}"> {{ section.settings.btn2 }} </a>
+           </div>
+    {% endif %}
+    </div>
+    
+  </div>
+  <div class="iconblock">
+         <div class="icon_inner">
+    {% if section.settings.image3 != blank %}    
+    <div class="custom_icon"><img src="{{ section.settings.image3 | img_url: ' ' }}"  alt="image1" ></div>    
+    {% endif %}
+    
+    {% if section.settings.heading3 != blank %}    
+    <h2> {{ section.settings.heading3 }} </h2>
+    {% endif %}
+    
+     {% if section.settings.subheading3 != blank %}    
+    <h4> {{ section.settings.subheading3 }} </h4>
+    {% endif %}
+      
+    {% if section.settings.subtext3 != blank %}    
+    <p> {{ section.settings.subtext3 }} </p>
+    {% endif %}
+      
+    {% if section.settings.btn_url3 != blank %}   
+               <div class="button_full">
+    <a href="{{ section.settings.btn_url3 }}"> {{ section.settings.btn3 }} </a>
+           </div>
+    {% endif %}
+    </div>
+  </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Icons With Text Section",
+    "settings": [
+     {
+         "type": "text",
+         "id": "main_heading",
+         "label": "Main Heading"
+      },
+      {
+         "type": "textarea",
+         "id": "main_text",
+         "label": "Main sub text"
+      },
+      {
+         "type": "header",
+         "content": "Block 1"
+      },
+      {
+      "type": "image_picker",
+      "id": "image1",
+      "label": "Image1"
+  	  },
+      {
+         "type": "text",
+         "id": "heading1",
+         "label": "Heading"
+      },
+      {
+         "type": "text",
+         "id": "subheading1",
+         "label": "Sub-heading"
+      },
+      {
+         "type": "textarea",
+         "id": "subtext1",
+         "label": "Text"
+      },
+	  {
+         "type": "text",
+         "id": "btn1",
+         "label": "Button Text"
+      },
+	  {
+        "id": "btn_url1",
+        "type": "url",
+        "label": "Button link"
+      },
+      {
+         "type": "header",
+         "content": "Block 2"
+      },
+	  {
+      "type": "image_picker",
+      "id": "image2",
+      "label": "Image2"
+  	  },
+      {
+         "type": "text",
+         "id": "heading2",
+         "label": "Heading"
+      },
+      {
+         "type": "text",
+         "id": "subheading2",
+         "label": "Sub-heading"
+      },
+      {
+         "type": "textarea",
+         "id": "subtext2",
+         "label": "Text"
+      },
+	  {
+         "type": "text",
+         "id": "btn2",
+         "label": "Button Text"
+      },
+	  {
+        "id": "btn_url2",
+        "type": "url",
+        "label": "Button link"
+      },
+      {
+         "type": "header",
+         "content": "Block3"
+      },
+	  {
+      "type": "image_picker",
+      "id": "image3",
+      "label": "Image3"
+  	  },
+      {
+         "type": "text",
+         "id": "heading3",
+         "label": "Heading"
+      },
+      {
+         "type": "text",
+         "id": "subheading3",
+         "label": "Sub-heading"
+      },
+      {
+         "type": "textarea",
+         "id": "subtext3",
+         "label": "Text"
+      },
+	  {
+         "type": "text",
+         "id": "btn3",
+         "label": "Button Text"
+      },
+	  {
+        "id": "btn_url3",
+        "type": "url",
+        "label": "Button link"
+      }
+	],
+
+  "presets": [
+        {
+			"name": "Icons With Text Section",
+			"category": "Text"	
+        }
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
+
