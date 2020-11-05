@@ -1,20 +1,19 @@
 
 <div class="three_block_section">
-  <div class="doctor-page-width">
-  <h1 class="heading_doctor">{{section.settings.heading_Support}}</h1>
-  </div>
   <div class="dc_color">
-    <div class="doctor-page-width">
+    <div class="doctor-page-width">    
+      <h1 class="heading_doctor">{{section.settings.heading_Support}}</h1>
   <div class="inner_block_section">
-    
     {%- for block in section.blocks -%}
     <div class="single_block_section">
       <div class="single_image">
         <img src="{{block.settings.single_block_image | img_url: 'master'}}">
       </div>
-      <h2>{{block.settings.single_block_heading}}</h2>
-      <div class="short_doctor_description">
-        <p class="three_block_doctor">{{block.settings.single_block_pera}}</p>
+      <div class="single_block_section_text">
+        <h2>{{block.settings.single_block_heading}}</h2>
+        <div class="short_doctor_description">
+          <p class="three_block_doctor">{{block.settings.single_block_pera}}</p>
+        </div>
       </div>
     </div>
     {%- endfor -%} 

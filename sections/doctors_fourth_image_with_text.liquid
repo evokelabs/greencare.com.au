@@ -9,7 +9,7 @@
     {% endif %}
     
     {% if section.settings.doctor_sub_heading != '' %}
-    <p class="benefit_span">{{section.settings.doctor_sub_heading }}</p>
+    <h1 class="benefit_span">{{section.settings.doctor_sub_heading }}</h1>
     {% endif %}
     
     {% if section.settings.doctor_list1 != '' %}
@@ -39,6 +39,10 @@
     <li>{{section.settings.doctor_list8 }}</li>
     {% endif %}
     </ul>
+    {% endif %}
+
+    {% if section.settings.doctor_left_pera_fourth != '' %}
+    <p class="para_doctor">{{section.settings.doctor_cta_heading}}</p>
     {% endif %}
       
     {% if section.settings.doctor_button_link_fourth != '' %}
@@ -116,6 +120,11 @@
      "type": "text",
      "id": "doctor_list8",
      "label": "Point 8"
+      },
+      {
+     "type": "html",
+     "id": "doctor_cta_heading",
+     "label": "CTA Heading"
       },
      {
      "type": "url",

@@ -9046,7 +9046,8 @@ h1.doctor-hero__title {
 }
 
 .doctor_image_section {
-    width: 45%;
+    width: 35%;
+    padding: 30px;
 }
 .doctor_text_Section {
     width: 55%;
@@ -9060,6 +9061,7 @@ div#shopify-section-doctors_three_block .three_block_section .single_block_secti
 .doctors_image_with_Text {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .doctors_image_with_Text .threeimagesec_btn {
     text-align: left;
@@ -9069,10 +9071,8 @@ div#shopify-section-doctors_image_with_text {
 }
 .inner_block_section {
    display: flex;
-   flex-wrap: wrap;
-   
+   flex-wrap: wrap;   
    margin: 0px -65px;
-   padding: 80px 0;
 }
 .dc_color {
     background-color: #D4EBDF;
@@ -9084,7 +9084,7 @@ p.benefit_span {
 }
 .inner_block_section .single_block_section {
    width: calc(33.33% - 30px);
-   margin: 0 15px !important;
+   margin: 50px 15px !important;
    text-align: center;
    padding: 0 40px;
 }
@@ -9161,7 +9161,8 @@ p.para_doctor {
     line-height: 36px;
 }
 div#shopify-section-doctors_three_block .three_block_section h1.heading_doctor {
-    padding-top: 0px;
+    padding-top: 48px;
+    text-align: center;
 }
 .doctor_text_Section ul li:before {
     content: "•";
@@ -9174,10 +9175,7 @@ div#shopify-section-doctors_three_block .three_block_section h1.heading_doctor {
     margin-bottom: 8px;
 }
 
-.inner_block_section .single_block_section:nth-child(2) {border-left: 1px solid #fff;border-right: 1px solid #fff;}
-div#shopify-section-doctors_image_with_text h1.heading_doctor {
-    margin-bottom: 28px;
-}
+.inner_block_section .single_block_section:nth-child(2), .inner_block_section .single_block_section:nth-child(5){border-left: 1px solid #fff;border-right: 1px solid #fff;}
 .doctors_image_with_Text .threeimagesec_btn {
     margin-top: 36px;
 }
@@ -9433,7 +9431,7 @@ h2.h1.mega-title.slideshow__title, .h1.mega-title.slideshow__title.h2, .h1.mega-
 }
 @media only screen and (max-width: 768px){
   .three_image_main .imageblock_container .imageblock {width: 100%;padding-bottom: 30px;padding-top: 30px;}
-  .inner_block_section .single_block_section:nth-child(2) {border-top: 1px solid #fff;    border-bottom: 1px solid #fff; }
+  .inner_block_section .single_block_section {border-bottom: 1px solid #fff; }
   .three_image_main .imageblock_container .imageblock:nth-child(2) {border-top: 1px solid #fff; border-bottom: 1px solid #fff; border-right: none;border-left: none;}
   .dc_color .three_block_section h2 {font-size: 24px;margin:20px 0 5px 0;}
   div#shopify-section-doctors_fourth_image_with_text .doctors_image_with_Text h1.heading_doctor, div#shopify-section-doctors_fourth_image_with_text .doctors_image_with_Text .heading_doctor.h1 {margin-bottom: 10px;}
@@ -9506,7 +9504,7 @@ h2.h1.mega-title.slideshow__title, .h1.mega-title.slideshow__title.h2, .h1.mega-
   .three_image_main .imageblock_container p {padding: 0 30px;}
   .three_image_main .imageblock_container .imageblock:nth-child(2) { border-top: 1px solid #fff; border-bottom: 1px solid #fff; }
   .three_block_section h2, .three_block_section .h2 {font-size: 20px;margin: 10px 0;}
-  .inner_block_section {padding: 50px 0;}
+  .inner_block_section {padding: 0;}
   div#shopify-section-doctors_fourth_image_with_text .doctors_image_with_Text {padding: 50px 0px;padding-bottom: 15px;}
   .custom_banner_for_all {height: 350px;}
   .dc_color .single_image img {max-width: 110px;}
@@ -9729,13 +9727,14 @@ font-family: 'Sequel Sans Medium Body';
     font-size: 20px;
   }
   div#shopify-section-doctors_three_block .three_block_section h1.heading_doctor {
-    padding: 0 20px;
+    padding: 48px 0 0 0;
 }
   .inner_block_section .single_block_section {
     width: 100%;
-    padding-bottom: 50px;
+    margin: 10px 15px 0 !important; 
 }
-  .inner_block_section .single_block_section:nth-child(2) {
+  .inner_block_section .single_block_section:nth-child(2), .inner_block_section .single_block_section:nth-child(5)
+{
     border-left: none;
     border-right: none;
 }
