@@ -527,13 +527,18 @@ $color-slideshow-dots: #fff;
 $font-weight-body--bold: {{ base_font_bold.weight | default: 700 }};
 $font-weight-body--bolder: {{ base_font_bolder.weight | default: 700 }};
 
-$font-stack-header: {{ header_font.family }}, {{ header_font.fallback_families }};
+{% comment %} $/font-stack-header: {{ header_font.family }}, {{ header_font.fallback_families }}; {% endcomment %}
+$font-stack-header: 'Sequel Sans Medium Body', Arial, 'Lucida Grande', sans-serif;
 $font-style-header: {{ header_font.style }};
 $font-weight-header: {{ header_font.weight }};
 
-$font-stack-body: {{ base_font.family }}, {{ base_font.fallback_families }};
+{% comment %} $font-stack-body: {{ base_font.family }}, {{ base_font.fallback_families }}; {% endcomment %}
+$font-stack-body: 'Sequel Sans Book Body', Arial, 'Lucida Grande', sans-serif;
 $font-style-body: {{ base_font.style }};
 $font-weight-body: {{ base_font.weight }};
+
+
+
 
 $font-size-header: {{ settings.type_header_base_size }} * 1px;
 
@@ -1411,7 +1416,7 @@ select {
   font-style: $font-style-body;
   font-weight: $font-weight-body;
   color: $color-text;
-  line-height: 1.5;
+  line-height: 1.2;
 }
 
 // Prevent zoom on touch devices in active inputs
@@ -1449,8 +1454,7 @@ h6 {
 h1 {
   font-size: em(floor($font-size-header * 1.35));
   text-transform: none;
-  letter-spacing: 0;
-
+  letter-spacing: -0.02em;
   @include media-query($small) {
     font-size: em(floor($font-size-header * 1.25));
   }
@@ -2754,11 +2758,11 @@ hr {
 }
 
 .border-bottom {
-  border-bottom: 1px solid $color-border;
+  border-bottom: 2px solid $color-border;
 }
 
 .border-top {
-  border-top: 1px solid $color-border;
+  border-top: 2px solid $color-border;
 }
 
 .empty-page-content {
@@ -8817,16 +8821,16 @@ $min-height-disclosure: 92px;
 .slideshow__text-content-list p, .slideshow__text-content p {color: #fff;margin: 0;font-family:inherit;}
 span.mega-subtitle.slideshow__subtitle > br:first-child {display: none;}
 
-body{ font-family: 'Sequel Sans Book Body';padding:0 20px;}
-p{font-family: 'Sequel Sans Book Body';}
+body{padding:0 20px;}
+p
 .site-nav.list--inline li a:after{ content: "|"; clear: both; display:none; }
-.site-nav a { padding: 0px; text-transform: uppercase;font-size: 18px;font-family: 'Sequel Sans Book Body';font-weight:600;}
+.site-nav a { padding: 0px; text-transform: uppercase;font-size: 18px;font-weight:600;}
 .imageblock, .iconblock{ width: 33.333%; float: left; display: block; text-align: center;padding: 0 20px;}
 .site-nav li:first-child .site-nav__label {padding-left: 0;}
 .three_image_main .imageblock_container .imageblock{width: calc(33.33% - 30px);margin: 0 15px !important;text-align: center;  padding: 0 40px;}
-.three_image_main .imageblock_container .imageblock:nth-child(2) {border-left: 1px solid #fff; border-right: 1px solid #fff;}
+.three_image_main .imageblock_container .imageblock:nth-child(2) {border-left: 2px solid #fff; border-right: 2px solid #fff;}
 .site-nav__label {border-bottom: none;padding: 0 12px;}
-.header_btn a {font-family: 'Sequel Sans Book Body';background: #225d4a;color: #fff;padding: 13px 25px;border-radius: 36px;font-size: 16px;border: 2px solid #225d4a;transition: 0.4s;font-weight:600;}
+.header_btn a {background: #225d4a;color: #fff;padding: 13px 25px;border-radius: 36px;font-size: 16px;border: 2px solid #225d4a;transition: 0.4s;font-weight:600;}
 .site-header {padding: 0 20px;}
 .site-header__logo-image img {max-width: 100% !important;}
 .header_btn a:hover{background: #fff;color: #204C39;border: 2px solid #204C39;transition: 0.4s;}
@@ -8835,24 +8839,24 @@ p{font-family: 'Sequel Sans Book Body';}
 .slideshow__pause{display:none;}
 nav#AccessibleNav {width: 58%;}
 .site-header__icons {width: 20%;}
-.slideshow__btn {padding: 9px 25px;border-radius: 36px;font-weight: 600;font-size: 18px;font-family: 'Sequel Sans Book Body';letter-spacing: 0.23px;}
+.slideshow__btn {padding: 9px 25px;border-radius: 36px;font-weight: 600;font-size: 18px;letter-spacing: 0.23px;}
 .iconblock {width: 33.33%;float: left;text-align: center;padding: 0 0 0 30px;position: relative;}
 .icon_inner {background: #DDF1E9;    padding: 100px 30px 45px;}
 .iconblock:nth-child(2) .icon_inner {background: #DDEAEF;}
 .icon_text_main {margin: 0 0 -30px -30px;}
-.iconblock a {text-transform: uppercase;letter-spacing: 0.23px;background: #225d4a;color: #fff;padding: 10px 25px;border-radius: 35px;transition: 0.4s;font-weight:600;}
+.iconblock a {text-transform: uppercase;letter-spacing: 0.23px;background: #225d4a;color: #fff;padding: 20px 44px;border-radius: 35px;transition: 0.4s;font-weight:600;}
 .iconblock p {color:#000;float: left;width: 100%;margin: 0 0 0px 0;line-height:30px}
-.iconblock h2 {color:#225d4a;font-family: 'Sequel Sans Medium Body';margin: 20px 0 10px 0;letter-spacing: 0;text-transform: unset;font-size: 30px;}
+.iconblock h2 {color:#225d4a;margin: 20px 0 10px 0;letter-spacing: 0;text-transform: unset;font-size: 30px;}
 button.btn.video-control.video-control__play {background: #8CCFB7;height: 80px;width: 80px;border-radius: 50%;padding: 15px 0px 15px 8px;}
 button.btn.video-control.video-control__play .icon {display: inline-block;width: 45px;height: 45px;}
 .video-control__play svg {width: 50px;height: 50px;}
-.section_heading{text-align: center;font-size: 36px;margin: 0 0 10px 0;color:#225d4a;font-family: 'Sequel Sans Medium Body';letter-spacing: -1px;}
-.three_image_main h2 {font-size: 36px;text-transform: unset;letter-spacing: 0;text-align: center;margin: 0 0 60px 0;    font-family: 'Sequel Sans Medium Body';}
+.section_heading{text-align: center;font-size: 36px;margin: 0 0 10px 0;color:#225d4a;letter-spacing: -1px;}
+.three_image_main h2 {font-size: 36px;text-transform: unset;letter-spacing: 0;text-align: center;margin: 0 0 60px 0;}
 h2.h1.mega-title.slideshow__title {font-size: 50px;text-shadow: none;letter-spacing: 0.85px;margin:0;}
 .slideshow__btn-wrapper--push {margin-top: 60px;}
 .imageblock h2 {margin: 25px 0 10px 0;}
 /* .cus_img {padding: 0 70px;} */
-.icon_inner h4 {margin: 0 0 5px 0;font-family: 'Sequel Sans Medium Body';color:#225d4a;}
+.icon_inner h4 {margin: 0 0 5px 0;color:#225d4a;}
 .custom_icon {position: relative;left: 50%;transform: translate(-50%, 0px);max-width: 120px;margin-top:-155px;}
 .section_full{max-width:100% !important;padding:0 !important;}
 .site-footer__item{margin-bottom: 0;}
@@ -8878,7 +8882,7 @@ button.btn.newsletter__submit:hover {border: 1px solid #ffffff;color: #fff;}
 }
 span.mega-subtitle.slideshow__subtitle {text-shadow: none;float: left;width: 100%;letter-spacing: 0px;}
 button.btn.video-control.video-control__play:hover path{fill: #204C39;}
-h2.h3 {font-family: 'Sequel Sans Medium Body';letter-spacing: 0;font-size: 40px;}
+h2.h3 {letter-spacing: 0;font-size: 40px;}
 :focus{outline:none;}
 .site-footer__rte a:hover, .site-footer__linklist-item a:hover, .site-footer__copyright-content a:hover {
     color: #fff;
@@ -8937,10 +8941,10 @@ h2.h3 {font-family: 'Sequel Sans Medium Body';letter-spacing: 0;font-size: 40px;
 
 /*By Shalu*/
 .slideshow__text-content{/*max-width: 600px;*/margin-left: 10px;}
-h2.h1.mega-title.slideshow__title, .h1.mega-title.slideshow__title.h2{font-size: 52px;font-family: 'Sequel Sans Medium Disp';}
+h2.h1.mega-title.slideshow__title, .h1.mega-title.slideshow__title.h2{font-size: 52px;}
 .imageblock_container{  display: flex;flex-wrap: wrap;  margin: 0px -65px;}
 .threeimagesec_btn{margin:40px auto 0;text-align: center;float: left;width: 100%;}
-.threeimagesec_btn .btn{border-radius: 37px;letter-spacing: 0;padding: 12px 26px;letter-spacing: 0.24px;transition: 0.4s;    font-family: 'Sequel Sans Medium Body';}
+.threeimagesec_btn .btn{border-radius: 37px;letter-spacing: 0;padding: 12px 26px;letter-spacing: 0.24px;transition: 0.4s;}
 .password-content .site-header__logo-image img {max-width: 30% !important;}
 .video-section-wrapper--medium.video-section-wrapper--min-height {margin: 0px 0 0 0;}
 .slideshow__text-wrap--mobile{display:none !important;}
@@ -8986,13 +8990,13 @@ nav#AccessibleNav .icon {width: 25px;height: 25px;margin:5px 0 0 0;}
 h2.h3, .h3.h2,.section_heading,.three_image_main h2, .three_image_main .h2 ,.treatment_section h2.section_heading, .treatment_section .section_heading.h2{font-size: 42px;letter-spacing: 0px;}
 .imageblock h2,.iconblock h2{font-size: 32px;}
 i.fa.fa-linkedin {font-size: 28px;vertical-align: super;}
-.threeimagesec_btn a.btn.btn--cta {font-size: 18px;letter-spacing: 0.24px;padding: 10px 30px;}
+.threeimagesec_btn a.btn.btn--cta {font-size: 18px;letter-spacing: 0.24px;padding: 20px 44px;}
 button.btn.video-control.video-control__play{height: 100px;width: 100px;padding: 22px 0px 15px 15px;}
 .video-control__play svg {width: 40px;height: 55px;}
 .section_para {font-size: 20px;text-align: center;margin: 0 0 130px 0;line-height:32px;}
 .iconblock h4{font-size: 25px;}
 .iconblock p {margin: 5px 0 0px 0;font-size: 18px;    line-height: 28px;}
-.iconblock a {padding: 12px 30px;font-size: 18px;}
+.iconblock a {font-size: 18px;}
 .icon_inner {padding: 100px 60px 40px;min-height:485px;float: left;width: 100%;}
 span.mega-subtitle.slideshow__subtitle {line-height: 40px;
     max-width: 40%;
@@ -9040,23 +9044,19 @@ h1.doctor-hero__title {
     transform: translateY(-50%);
     max-width: 720px;
     margin: 0 auto;
-    font-family: 'Sequel Sans Medium Body';
     letter-spacing: 0.57px;
     font-size: 40px;
 }
 
 .doctor_image_section {
-    width: 35%;
-    padding: 30px;
+    width: 30%;
+    padding: 0 30px;
+    text-align: end;
 }
 .doctor_text_Section {
-    width: 55%;
+  width: 55%;
   padding: 0 80px;
   padding-left: 0px;
-}
-
-div#shopify-section-doctors_three_block .three_block_section .single_block_section p.three_block_doctor {
-    line-height: 30px;
 }
 .doctors_image_with_Text {
     display: flex;
@@ -9072,7 +9072,6 @@ div#shopify-section-doctors_image_with_text {
 .inner_block_section {
    display: flex;
    flex-wrap: wrap;   
-   margin: 0px -65px;
 }
 .dc_color {
     background-color: #D4EBDF;
@@ -9089,7 +9088,6 @@ p.benefit_span {
    padding: 0 40px;
 }
 .three_image_main .imageblock_container .imageblock h2 {
-font-family: 'Sequel Sans Medium Body';
     text-transform: uppercase;
     font-size: 26px;
     letter-spacing: 0px !important;
@@ -9113,8 +9111,8 @@ font-family: 'Sequel Sans Medium Body';
 }
 h1.heading_doctor{
     font-size: 40px;
-    font-family: 'Sequel Sans Medium Body';
     color: #225d4a;
+
 }
 
 .three_block_section h2 {
@@ -9123,7 +9121,6 @@ h1.heading_doctor{
     text-transform: unset;
     letter-spacing: 0;
     text-align: center;
-    font-family: 'Sequel Sans Medium Body';
     text-transform: uppercase;
     letter-spacing: 0px !important;
 }
@@ -9147,7 +9144,8 @@ div#shopify-section-doctors_fourth_image_with_text .doctor_image_section img {
     width: 100%;
 }
 .doctor_image_section img {
-    width: 100%;
+    height: auto;
+    width: fit-content;
 }
 .doct_main_page .grid {
    margin: 0 !important;
@@ -9157,8 +9155,7 @@ div#shopify-section-doctors_fourth_image_with_text .doctor_image_section img {
    padding: 60px 60px 20px;
 }
 p.para_doctor {
-      font-size: 20px;
-    line-height: 36px;
+  font-size: 20px;
 }
 div#shopify-section-doctors_three_block .three_block_section h1.heading_doctor {
     padding-top: 48px;
@@ -9175,9 +9172,9 @@ div#shopify-section-doctors_three_block .three_block_section h1.heading_doctor {
     margin-bottom: 8px;
 }
 
-.inner_block_section .single_block_section:nth-child(2), .inner_block_section .single_block_section:nth-child(5){border-left: 1px solid #fff;border-right: 1px solid #fff;}
+.inner_block_section .single_block_section:nth-child(2), .inner_block_section .single_block_section:nth-child(5){border-left: 2px solid #fff;border-right: 2px solid #fff;}
 .doctors_image_with_Text .threeimagesec_btn {
-    margin-top: 36px;
+    margin-top: 20px;
 }
 div#shopify-section-doctors_fourth_image_with_text .doctors_image_with_Text .threeimagesec_btn {
     margin-top: 26px;
@@ -9224,8 +9221,8 @@ h1.doctor-hero__title, .doctor-hero__title.h1 {
 /* Banners css */
 .all_banner_wrapper{width:750px;position:absolute;left:50%;top: 50%;-ms-transform: translate(-50%, -50%);-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%);text-align:center;}
 .custom_banner_for_all{position:relative;}
-.all_banner_wrapper h1.banner_title {color: #fff;font-size: 38px;margin: 0 0 10px 0;font-family: 'Sequel Sans Medium Body';}
-.all_banner_wrapper p.banner_sub_heading {color: #fff; line-height: 28px;font-weight:600;font-size:20px;}
+.all_banner_wrapper h1.banner_title {color: #fff;font-size: 38px;margin: 0 0 10px 0;}
+.all_banner_wrapper p.banner_sub_heading {color: #fff; line-height: 28px;font-weight:600;font-size:24px;}
 .all_banner_wrapper img.banner_logo_image {max-width: 50px;}
 
 .doct_main_page .all_banner_wrapper { width: 730px;}
@@ -9243,8 +9240,8 @@ h1.doctor-hero__title, .doctor-hero__title.h1 {
 .rte-setting.cost_text:after {content: "";position: absolute;background: #fff;height: 138px;width: 1px;top: 0;right: 0;}
 .rte-setting.cost_text:last-child:after {display: none;}
 .cost_text_wrap {float: left;width: 100%;margin: 10px 0 0 0;}
-.cost_text p:first-child {font-size: 34px;font-weight: 600;font-family: 'Sequel Sans Medium Body';margin:0 0 8px 0;}
-.cost_section p:nth-child(2){ font-weight: 600;font-family: 'Sequel Sans Book body';font-size: 24px;}
+.cost_text p:first-child {font-size: 34px;font-weight: 600;margin:0 0 8px 0;}
+.cost_section p:nth-child(2){ font-weight: 600;font-size: 24px;}
 .cost_section p:nth-child(4) {font-size: 16px;line-height: 24px;}
 .page-width.cost_section h2.h3 {letter-spacing: -1px;margin: 0 0 10px 0;}
 /* Cost Section */
@@ -9278,7 +9275,7 @@ h1.doctor-hero__title, .doctor-hero__title.h1 {
 @media only screen and (max-width: 1440px){
   .section_full {margin-top: 50px;}
   body {padding: 0 12px;}
-  .three_image_main .imageblock_container .imageblock h2 {font-family: 'Sequel Sans Medium Body';text-transform: uppercase;font-size: 26px; letter-spacing: 0px !important;}
+  .three_image_main .imageblock_container .imageblock h2 {text-transform: uppercase;font-size: 26px; letter-spacing: 0px !important;}
   .three_image_main .imageblock_container p {font-size: 18px;line-height: 28px;}
   h1.doctor-hero__title {font-size: 35px; max-width: 820px;}
   #shopify-section-doctors_fourth_image_with_text .doctors_image_with_Text .doctor_image_section {padding: 0 45px 0 0;}
@@ -9299,7 +9296,7 @@ h1.doctor-hero__title, .doctor-hero__title.h1 {
   .slideshow{max-height: 110vh;}
   .slideshow__btn-wrapper--push{margin-top: 30px; float: left;}
   .imageblock p{font-size: 24px; line-height: 38px;}
-  .threeimagesec_btn a.btn.btn--cta, .threeimagesec_btn .shopify-payment-button a.btn--cta.shopify-payment-button__button--unbranded, .shopify-payment-button .threeimagesec_btn a.btn--cta.shopify-payment-button__button--unbranded{font-size: 16px;padding:8px 24px;}
+  .threeimagesec_btn a.btn.btn--cta, .threeimagesec_btn .shopify-payment-button a.btn--cta.shopify-payment-button__button--unbranded, .shopify-payment-button .threeimagesec_btn a.btn--cta.shopify-payment-button__button--unbranded{font-size: 16px; padding:14px 30px;}
   .section_para{font-size:18px;line-height:30px;margin: 10px 0 110px 0;}
   .icon_inner{padding: 80px 30px 35px;min-height:475px;}
   .iconblock h4, .iconblock .h4 {font-size: 20px; margin: 10px 0 0px;}
@@ -9314,7 +9311,6 @@ h1.doctor-hero__title, .doctor-hero__title.h1 {
   #shopify-section-treatment  #treatment-treatment  a{ font-size: 19px;display: inline-block;}
   .t_img {    height: 160px;width: 160px;}
   .treatment_section .t_banner{height: 260px;}
-  p.para_doctor {font-size: 16px; line-height: 32px;}
   h1.heading_doctor, .heading_doctor.h1 {    font-size: 34px;margin-bottom:15px;}
   .doctor_text_Section ul li{font-size: 16px; margin-bottom: 0px}
   span.mega-subtitle.slideshow__subtitle {line-height: 35px;font-size: 22px;}
@@ -9374,7 +9370,6 @@ h1.doctor-hero__title, .doctor-hero__title.h1 {
   .doctor_text_Section {padding: 0 55px 0 0;}
    h1.heading_doctor {font-size: 25px;margin-bottom:10px !important;}
   div#shopify-section-doctors_three_block .three_block_section .single_block_section p.three_block_doctor { line-height: 22px;font-size: 14px;}
-  p.para_doctor {   line-height: 1.5;}
   .site-nav a {font-size: 14px;}
   .index-section {padding-top: 40px;padding-bottom: 40px;}
   .header_btn a {padding: 8px 18px;font-size: 14px;}
@@ -9431,8 +9426,8 @@ h2.h1.mega-title.slideshow__title, .h1.mega-title.slideshow__title.h2, .h1.mega-
 }
 @media only screen and (max-width: 768px){
   .three_image_main .imageblock_container .imageblock {width: 100%;padding-bottom: 30px;padding-top: 30px;}
-  .inner_block_section .single_block_section {border-bottom: 1px solid #fff; }
-  .three_image_main .imageblock_container .imageblock:nth-child(2) {border-top: 1px solid #fff; border-bottom: 1px solid #fff; border-right: none;border-left: none;}
+  .inner_block_section .single_block_section {border-bottom: 2px solid #fff; }
+  .three_image_main .imageblock_container .imageblock:nth-child(2) {border-top: 2px solid #fff; border-bottom: 2px solid #fff; border-right: none;border-left: none;}
   .dc_color .three_block_section h2 {font-size: 24px;margin:20px 0 5px 0;}
   div#shopify-section-doctors_fourth_image_with_text .doctors_image_with_Text h1.heading_doctor, div#shopify-section-doctors_fourth_image_with_text .doctors_image_with_Text .heading_doctor.h1 {margin-bottom: 10px;}
   div#shopify-section-doctors_fourth_image_with_text p.para_doctor {margin-bottom: 10px;}
@@ -9502,7 +9497,7 @@ h2.h1.mega-title.slideshow__title, .h1.mega-title.slideshow__title.h2, .h1.mega-
 @media only screen and (max-width: 749px){
   .iconblock { padding: 0px 0 0 10px;}
   .three_image_main .imageblock_container p {padding: 0 30px;}
-  .three_image_main .imageblock_container .imageblock:nth-child(2) { border-top: 1px solid #fff; border-bottom: 1px solid #fff; }
+  .three_image_main .imageblock_container .imageblock:nth-child(2) { border-top: 2px solid #fff; border-bottom: 2px solid #fff; }
   .three_block_section h2, .three_block_section .h2 {font-size: 20px;margin: 10px 0;}
   .inner_block_section {padding: 0;}
   div#shopify-section-doctors_fourth_image_with_text .doctors_image_with_Text {padding: 50px 0px;padding-bottom: 15px;}
@@ -9644,7 +9639,6 @@ h2.h1.mega-title.slideshow__title, .h1.mega-title.slideshow__title.h2, .h1.mega-
 /* doctor page css */
 @media only screen and (min-width: 1920px) and (max-width: 2100px) {
   .three_image_main .imageblock_container .imageblock h2 {
-font-family: 'Sequel Sans Medium Body';
     text-transform: uppercase;
     font-size: 25px;
     letter-spacing: 0px !important;
@@ -9663,10 +9657,6 @@ font-family: 'Sequel Sans Medium Body';
   } */
   h1.heading_doctor {
   font-size: 42px;
-  }
-  p.para_doctor {
-  font-size: 20px;
-  line-height: 36px;
   }
   div#shopify-section-doctors_image_with_text .doctor_text_Section a.btn.btn--cta.truncate_more_link {
   font-size: 27px;
@@ -9717,6 +9707,7 @@ font-family: 'Sequel Sans Medium Body';
 }
   .doctor_image_section {
     width: 100%;
+    text-align: left;
 }
   .three_image_main .imageblock_container .imageblock {
    width: 100%;
