@@ -122,7 +122,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/GreencareBanner02.jpg",
               "alignment": "center center",
-              "slide_title": "<p>Do you suffer from<\/p><p>a sleep disorder, anxiety,<\/p><p> or chronic pain?<\/p>",
+              "slide_title": "<p>Do you suffer<\/p><p>from a sleep<p>disorder, anxiety,<\/p><p>or chronic pain?<\/p>",
               "subheading": "Connect with one of our specialist doctors from the comfort of your own home today.",
               "button_label": "BOOK APPOINTMENT",
               "button_link": "#"
@@ -202,13 +202,13 @@
           "image1": "shopify:\/\/shop_images\/Group_40.png",
           "heading1": "Step 1",
           "subheading1": "Initial Consultation",
-          "subtext1": "Consult with one of Greencare’s specialist nurses to review your medical history and discuss your plant based treatment options.\n<br><br>\nConsult Fee: $30",
+          "subtext1": "Consult with one of Greencare’s specialist nurses to review your medical history and discuss your plant based treatment options.<br><br>",
           "btn1": "Book Now",
           "btn_url1": "#",
           "image2": "shopify:\/\/shop_images\/Group_40.png",
           "heading2": "Step 2",
           "subheading2": "Physician Consultation",
-          "subtext2": "Following this initial consultation you will receive a personalised plan to suit your individual health requirements and treatment recommendations. Greencare Clinics work collaboratively with your treating physician via TeleHealth, Australia wide.\n\nYou can talk with us using whatever technology suits you best - your computer,\nlaptop, tablet or smartphone.\n<br><br>\nConsult Fee: $165 (includes 3 month Physician Follow Up)",
+          "subtext2": "Following this initial consultation you will receive a personalised plan to suit your individual health requirements and treatment recommendations. Greencare Clinics work collaboratively with your treating physician via TeleHealth, Australia wide.\n\nYou can talk with us using whatever technology suits you best - your computer,\nlaptop, tablet or smartphone.",
           "btn2": "",
           "image3": "shopify:\/\/shop_images\/Group_40.png",
           "heading3": "Step 3",
@@ -431,7 +431,7 @@
         "settings": {
           "doctor_left_heading_fourth": "Work with Greencare Clinics",
           "doctor_left_pera_fourth": "Greencare Clinics is a trusted Australian based health service company, comprising a team\nof authorized specialist physicians and nurses who provide premium healthcare advice\nand support for patients when accessing legal medical cannabis via online consultations.\n<br><br>\nOur team are experts in the field of medicinal cannabis and are registered Authorised\nPrescribers for Cannabis with the TGA.\n<br><br>\nWe are always interested in speaking with doctors, mental health and allied health\nprofessionals interested in working with Medicinal Cannabis medicine as an effective plant\nbased medical treatment.\n<br><br>",
-          "doctor_sub_heading": "<h1>Benefits of working with Greencare Clinics:<\/h1>",
+          "doctor_sub_heading": "<h1 class='heading_doctor'>Benefits of working with Greencare Clinics:<\/h1>",
           "doctor_list1": "<b>Flexible Hours<\/b> - We are a 7 day practice which can accommodate flexible working hours.",
           "doctor_list2": "<b>Flexible Work Location<\/b> - Work from the comfort of your own home or office",
           "doctor_list3": "<b>Attractive Hourly Rates<\/b> - 70% of gross billings. (Up to $450+ per hour).",
