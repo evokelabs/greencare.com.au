@@ -122,7 +122,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/GreencareBanner02.jpg",
               "alignment": "center center",
-              "slide_title": "<p>Do you suffer<\/p><p>from a sleep<p>disorder, anxiety,<\/p><p>or chronic pain?<\/p>",
+              "slide_title": "<p>Do you suffer<\/p><p>from a sleep<\/p><p>disorder, anxiety,<\/p><p>or chronic pain?<\/p>",
               "subheading": "Connect with one of our specialist doctors from the comfort of your own home today.",
               "button_label": "BOOK APPOINTMENT",
               "button_link": "#"
@@ -225,9 +225,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/Anxiety.jpg",
               "title": "Anxiety",
-              "text": "<p>Medicinal cannabis, particularly CBD, can alleviate anxiety by activating certain biological receptors and pathways associated with adenosine and serotonin. It can also slow and reduce the uptake of beneficial chemicals like serotonin, dopamine and GABA, allowing our bodies to use these naturally produced chemicals for a more sustained period of time.<\/p>",
-              "button_label": "LEARN MORE",
-              "button_link": "shopify:\/\/pages\/anxiety"
+              "text": "<p>Medicinal cannabis, particularly CBD, can alleviate anxiety by activating certain biological receptors and pathways associated with adenosine and serotonin. It can also slow and reduce the uptake of beneficial chemicals like serotonin, dopamine and GABA, allowing our bodies to use these naturally produced chemicals for a more sustained period of time.<\/p>"
             }
           },
           "1595590632772": {
@@ -235,9 +233,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/Sleep.jpg",
               "title": "Sleep",
-              "text": "<p>Cannabis is commonly used as a sleep aid because it has been shown to both reduce the onset of sleep and increase the over-all duration of sleep without causing the patient to feel excessively tired the next day.<\/p>",
-              "button_label": "LEARN MORE",
-              "button_link": "shopify:\/\/pages\/sleep"
+              "text": "<p>Cannabis is commonly used as a sleep aid because it has been shown to both reduce the onset of sleep and increase the over-all duration of sleep without causing the patient to feel excessively tired the next day.<\/p>"
             }
           },
           "1595590716365": {
@@ -245,9 +241,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/Pain.jpg",
               "title": "Pain",
-              "text": "<p>One of the most widely popular uses for medicinal cannabis products is for pain management. Medical cannabis is an increasingly popular alternative to traditional pain-relieving medications, including opioids. It may ease certain types of chronic pain, including pain resulting from nerve damage and inflammation.<\/p>",
-              "button_label": "LEARN MORE",
-              "button_link": "shopify:\/\/pages\/pain"
+              "text": "<p>One of the most widely popular uses for medicinal cannabis products is for pain management. Medical cannabis is an increasingly popular alternative to traditional pain-relieving medications, including opioids. It may ease certain types of chronic pain, including pain resulting from nerve damage and inflammation.<\/p>"
             }
           },
           "1595590750091": {
@@ -255,9 +249,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/Mental_Health.jpg",
               "title": "Mental Health",
-              "text": "<p>Cannabis is beneficial in treating some mental health disorders such as anxiety, stress, and depression. <a href=\"https:\/\/www.bing.com\/search?q=Tetrahydrocannabinol&amp;filters=sid%3aea0beab5-fc5c-d508-ae2d-4af9532a2e96&amp;form=ENTLNK\">THC<\/a> has been shown to help regulate the system that causes fear and anxiety in the body and brain.<\/p>",
-              "button_label": "LEARN MORE",
-              "button_link": "shopify:\/\/pages\/mental-health"
+              "text": "<p>Cannabis is beneficial in treating some mental health disorders such as anxiety, stress, and depression. <a href=\"https:\/\/www.bing.com\/search?q=Tetrahydrocannabinol&amp;filters=sid%3aea0beab5-fc5c-d508-ae2d-4af9532a2e96&amp;form=ENTLNK\">THC<\/a> has been shown to help regulate the system that causes fear and anxiety in the body and brain.<\/p>"
             }
           },
           "1595590797570": {
@@ -265,9 +257,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/Cancer.jpg",
               "title": "Cancer",
-              "text": "<p>Studies have shown that there are possible benefits <a href=\"https:\/\/www.webmd.com\/brain\/ss\/slideshow-medical-marijuana\">medical cannabis<\/a> can have on <a href=\"https:\/\/www.webmd.com\/cancer\/understanding-cancer-symptoms\">cancer symptoms<\/a> and treatment side effects. This includes alleviating n<a href=\"https:\/\/www.webmd.com\/children\/ss\/nausea-vomiting-remedies-treatment\">ausea and vomiting<\/a> for patients undergoing chemotherapy and assisting with cancer-related pain by cannabinoid receptors in the brain and other parts of the body. Nerve pain as a result of <a href=\"https:\/\/www.webmd.com\/cancer\/chemotherapy-what-to-expect\">chemotherapy<\/a> or other <a href=\"https:\/\/www.webmd.com\/cancer\/ss\/does-this-cause-cancer\">cancer<\/a> treatments may also be effectively treated by medicinal cannabis. There are some studies that show medicinal cannabis may also help improve appetite for people with cancer.<\/p>",
-              "button_label": "LEARN MORE",
-              "button_link": "shopify:\/\/pages\/cancer"
+              "text": "<p>Studies have shown that there are possible benefits <a href=\"https:\/\/www.webmd.com\/brain\/ss\/slideshow-medical-marijuana\">medical cannabis<\/a> can have on <a href=\"https:\/\/www.webmd.com\/cancer\/understanding-cancer-symptoms\">cancer symptoms<\/a> and treatment side effects. This includes alleviating n<a href=\"https:\/\/www.webmd.com\/children\/ss\/nausea-vomiting-remedies-treatment\">ausea and vomiting<\/a> for patients undergoing chemotherapy and assisting with cancer-related pain by cannabinoid receptors in the brain and other parts of the body. Nerve pain as a result of <a href=\"https:\/\/www.webmd.com\/cancer\/chemotherapy-what-to-expect\">chemotherapy<\/a> or other <a href=\"https:\/\/www.webmd.com\/cancer\/ss\/does-this-cause-cancer\">cancer<\/a> treatments may also be effectively treated by medicinal cannabis. There are some studies that show medicinal cannabis may also help improve appetite for people with cancer.<\/p>"
             }
           },
           "1595590831725": {
@@ -275,9 +265,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/Gastro.jpg",
               "title": "Gastro",
-              "text": "<p>Some research suggests that medicinal cannabis might play a role in gut health. In particular, inflammatory bowel disease (IBD), including <a href=\"https:\/\/badgut.org\/information-centre\/a-z-digestive-topics\/crohns-disease\/\">Crohn’s disease<\/a> and <a href=\"https:\/\/badgut.org\/information-centre\/a-z-digestive-topics\/ulcerative-colitis\/\">ulcerative colitis<\/a>, might be influenced in part by CBD treatment which might modulate inflammatory responses. Medicinal cannabis can also assist with appetite stimulation and help to reduce nausea and vomiting.<\/p>",
-              "button_label": "LEARN MORE",
-              "button_link": "shopify:\/\/pages\/gastro"
+              "text": "<p>Some research suggests that medicinal cannabis might play a role in gut health. In particular, inflammatory bowel disease (IBD), including <a href=\"https:\/\/badgut.org\/information-centre\/a-z-digestive-topics\/crohns-disease\/\">Crohn’s disease<\/a> and <a href=\"https:\/\/badgut.org\/information-centre\/a-z-digestive-topics\/ulcerative-colitis\/\">ulcerative colitis<\/a>, might be influenced in part by CBD treatment which might modulate inflammatory responses. Medicinal cannabis can also assist with appetite stimulation and help to reduce nausea and vomiting.<\/p>"
             }
           },
           "1595590855430": {
@@ -285,9 +273,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/Neurological.jpg",
               "title": "Neutrological",
-              "text": "<p>Cannabis can assist in the reduction of neurodegeneration; it is an antioxidant, is neuroprotective and antipsychotic. It is also thought to help support healthy brain function and encourages neurogenesis.<\/p>",
-              "button_label": "LEARN MORE",
-              "button_link": "shopify:\/\/pages\/neutrological"
+              "text": "<p>Cannabis can assist in the reduction of neurodegeneration; it is an antioxidant, is neuroprotective and antipsychotic. It is also thought to help support healthy brain function and encourages neurogenesis.<\/p>"
             }
           },
           "1595590890205": {
@@ -295,9 +281,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/Epilepsy.jpg",
               "title": "Epilepsy",
-              "text": "<p>Due to its ability to reduce muscle spasms and seizures, more and more researchers are conducting studies into the treatment benefits of CBD on those with epilepsy as well as multiple sclerosis.<\/p>",
-              "button_label": "LEARN MORE",
-              "button_link": "shopify:\/\/pages\/neutrological"
+              "text": "<p>Due to its ability to reduce muscle spasms and seizures, more and more researchers are conducting studies into the treatment benefits of CBD on those with epilepsy as well as multiple sclerosis.<\/p>"
             }
           }
         },
@@ -306,10 +290,10 @@
           "1595590632772",
           "1595590716365",
           "1595590750091",
-          "1595590797570",
-          "1595590831725",
           "1595590855430",
-          "1595590890205"
+          "1595590890205",
+          "1595590797570",
+          "1595590831725"
         ],
         "settings": {
           "banner_image": "shopify:\/\/shop_images\/MS010_Website_Banners2.jpg",
@@ -431,7 +415,7 @@
         "settings": {
           "doctor_left_heading_fourth": "Work with Greencare Clinics",
           "doctor_left_pera_fourth": "Greencare Clinics is a trusted Australian based health service company, comprising a team\nof authorized specialist physicians and nurses who provide premium healthcare advice\nand support for patients when accessing legal medical cannabis via online consultations.\n<br><br>\nOur team are experts in the field of medicinal cannabis and are registered Authorised\nPrescribers for Cannabis with the TGA.\n<br><br>\nWe are always interested in speaking with doctors, mental health and allied health\nprofessionals interested in working with Medicinal Cannabis medicine as an effective plant\nbased medical treatment.\n<br><br>",
-          "doctor_sub_heading": "<h1 class='heading_doctor'>Benefits of working with Greencare Clinics:<\/h1>",
+          "doctor_sub_heading": "<h1 class=\"heading_doctor\">Benefits of working with Greencare Clinics:<\/h1>",
           "doctor_list1": "<b>Flexible Hours<\/b> - We are a 7 day practice which can accommodate flexible working hours.",
           "doctor_list2": "<b>Flexible Work Location<\/b> - Work from the comfort of your own home or office",
           "doctor_list3": "<b>Attractive Hourly Rates<\/b> - 70% of gross billings. (Up to $450+ per hour).",
@@ -473,6 +457,15 @@
           "text2": "<p>Step 2<\/p><p>Physician Consultation<\/p><p>$189<\/p><p>Nursing support included <\/p>",
           "text3": "<p>Optional<\/p><p>3 Month Follow up<\/p><p>$59<\/p>",
           "text_size": "medium",
+          "logo_image": "shopify:\/\/shop_images\/Group_238.png"
+        }
+      },
+      "banner_image_career": {
+        "type": "banner_image_career",
+        "settings": {
+          "banner_image": "shopify:\/\/shop_images\/MS010_Website_Banners3.jpg",
+          "title": "Careers",
+          "subheading": "Work with Greencare Clinics",
           "logo_image": "shopify:\/\/shop_images\/Group_238.png"
         }
       }
