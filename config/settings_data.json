@@ -133,7 +133,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/GreencareBanner03.jpg",
               "alignment": "center center",
-              "slide_title": "<p>Medical cannabis<\/p><p>is now accessible<\/p><p>for all Australians.<\/p>",
+              "slide_title": "<p>Plant based medicines<\/p><p>are now accessible<\/p><p>for all Australians.<\/p>",
               "subheading": "",
               "button_label": "BOOK Today",
               "button_link": "#"
@@ -159,7 +159,7 @@
         "settings": {
           "full_width": false,
           "section_title": "Plant based medicine",
-          "text": "<p>We support the responsible use of medical cannabis as a naturally derived medicine, in an effort to treat disease and\/or improve symptoms. Cannabis is used to reduce nausea and vomiting during chemotherapy, to improve appetite in people with HIV\/AIDS, and to treat chronic pain, muscle spasms and even insomnia.<\/p>",
+          "text": "<p>We support the responsible use of naturally derived medicines, in an effort to treat disease and\/or improve symptoms. Our doctors are highly expereinced in treating patients for nausea and vomiting during chemotherapy, to improve appetite in people with HIV\/AIDS, and to treat chronic pain, muscle spasms and even insomnia.<\/p>",
           "text_size": "medium"
         }
       },
@@ -198,11 +198,11 @@
         "type": "three-icon-text",
         "settings": {
           "main_heading": "Becoming a Greencare patient:",
-          "main_text": "Medical Cannabis is not like other prescription medications and can be challenging for patients to access. At Greencare Clinics we make this process as simple and as comfortable as possible for our patients, following the below 3 step approach.",
+          "main_text": "Plant based medicine is not like other prescription medications and can be challenging for patients to access.  At Greencare Clinics we make this process as simple and as comfortable as possible for our patients, following the below 3 step approach.",
           "image1": "shopify:\/\/shop_images\/Group_40.png",
           "heading1": "Step 1",
           "subheading1": "Initial Consultation",
-          "subtext1": "Consult with one of Greencare’s specialist nurses to review your medical history and discuss your plant based treatment options.<br><br>",
+          "subtext1": "Consult with one of Greencare’s specialist nurses to review your medical history and discuss your plant based treatment options.\n\n<br><br>",
           "btn1": "Book Now",
           "btn_url1": "#",
           "image2": "shopify:\/\/shop_images\/Group_40.png",
@@ -213,19 +213,38 @@
           "image3": "shopify:\/\/shop_images\/Group_40.png",
           "heading3": "Step 3",
           "subheading3": "Medication Approval",
-          "subtext3": "Following your physician consultation, your TGA application will promptly be reviewed and your prescription is dispensed from our preferred pharmacy.\n\nGreencare Clinics provide ongoing support from their team of specialist nurses via\nTele Health.\n\nMedical Cannabis approvals are received and approved within 24 - 48 hours.",
+          "subtext3": "Following your physician consultation, your TGA application will promptly be reviewed and your prescription is dispensed from our preferred pharmacy.\n\nGreencare Clinics provide ongoing support from their team of specialist nurses via\nTele Health.\n\nMedical approvals are received and approved within 24 - 48 hours.",
           "btn3": ""
         }
       },
       "treatment": {
         "type": "treatment",
         "blocks": {
-          "1595590570977": {
+          "1595590750091": {
             "type": "text_block",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Anxiety.jpg",
-              "title": "Anxiety",
-              "text": "<p>Medicinal cannabis, particularly CBD, can alleviate anxiety by activating certain biological receptors and pathways associated with adenosine and serotonin. It can also slow and reduce the uptake of beneficial chemicals like serotonin, dopamine and GABA, allowing our bodies to use these naturally produced chemicals for a more sustained period of time.<\/p>"
+              "image": "shopify:\/\/shop_images\/shutterstock_1123160147.jpg",
+              "title": "Mental Health",
+              "text": "<p>Mental health conditions are often treated with pharmaceutical drugs which usually have a number of side effects including insomnia, headache and drowsiness. Research shows that some mental health disorders such as anxiety, stress, depression, PTSD can be benefited by the use of plant based medicines without the negative side effects from traditional medicines.  <a href=\"https:\/\/www.bing.com\/search?q=Tetrahydrocannabinol&amp;filters=sid%3aea0beab5-fc5c-d508-ae2d-4af9532a2e96&amp;form=ENTLNK\"><span style=\"text-decoration:underline\">THC<\/span><\/a> has been shown to help regulate the system that causes fear and anxiety in the body and brain.<\/p>",
+              "button_label": ""
+            }
+          },
+          "1595590716365": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Pain.jpg",
+              "title": "Chronic Pain",
+              "text": "<p>One of the most widely popular uses for endocannabinoid medicines is for pain management. Patients are increasingly searching for an alternative to traditional pain-relieving medications, including painkillers and opioids, to help manage their symptoms. Research shows alternative medicines may ease certain types of chronic pain, including pain resulting from nerve damage and inflammation, improving patients quality of life without causing serious side effects.<\/p>",
+              "button_label": ""
+            }
+          },
+          "1595590831725": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Gastro.jpg",
+              "title": "Gut Health",
+              "text": "<p>Some research suggests that endocannabinoid medicines may play a role in achieving good gut health. In particular, inflammatory bowel disease (IBD), <a href=\"https:\/\/badgut.org\/information-centre\/a-z-digestive-topics\/crohns-disease\/\">Crohn’s disease<\/a> and <a href=\"https:\/\/badgut.org\/information-centre\/a-z-digestive-topics\/ulcerative-colitis\/\">ulcerative colitis<\/a>, might be positively influenced in part by CBD treatment which might modulate inflammatory responses. Plant based medicines can also assist with appetite stimulation and help to reduce nausea and vomiting.<\/p>",
+              "button_label": ""
             }
           },
           "1595590632772": {
@@ -233,72 +252,91 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/Sleep.jpg",
               "title": "Sleep",
-              "text": "<p>Cannabis is commonly used as a sleep aid because it has been shown to both reduce the onset of sleep and increase the over-all duration of sleep without causing the patient to feel excessively tired the next day.<\/p>"
+              "text": "<p>There are many plant based treatments used as a sleep aid that have been shown to reduce the onset of sleep and increase the overall duration of sleep without causing the patients to feel excessively tired the next day.<\/p>",
+              "button_label": ""
             }
           },
-          "1595590716365": {
+          "1595590570977": {
             "type": "text_block",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Pain.jpg",
-              "title": "Pain",
-              "text": "<p>One of the most widely popular uses for medicinal cannabis products is for pain management. Medical cannabis is an increasingly popular alternative to traditional pain-relieving medications, including opioids. It may ease certain types of chronic pain, including pain resulting from nerve damage and inflammation.<\/p>"
-            }
-          },
-          "1595590750091": {
-            "type": "text_block",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Mental_Health.jpg",
-              "title": "Mental Health",
-              "text": "<p>Cannabis is beneficial in treating some mental health disorders such as anxiety, stress, and depression. <a href=\"https:\/\/www.bing.com\/search?q=Tetrahydrocannabinol&amp;filters=sid%3aea0beab5-fc5c-d508-ae2d-4af9532a2e96&amp;form=ENTLNK\">THC<\/a> has been shown to help regulate the system that causes fear and anxiety in the body and brain.<\/p>"
+              "image": "shopify:\/\/shop_images\/shutterstock_1800995530.jpg",
+              "title": "Anxiety",
+              "text": "<p>Plant based treatments and endocannabinoid medicine can alleviate anxiety by activating certain biological receptors and pathways associated with adenosine and serotonin. It can also slow and reduce the uptake of beneficial chemicals like serotonin, dopamine and GABA, allowing our bodies to use these naturally produced chemicals for a more sustained period of time.<\/p>",
+              "button_label": ""
             }
           },
           "1595590797570": {
             "type": "text_block",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Cancer.jpg",
-              "title": "Cancer",
-              "text": "<p>Studies have shown that there are possible benefits <a href=\"https:\/\/www.webmd.com\/brain\/ss\/slideshow-medical-marijuana\">medical cannabis<\/a> can have on <a href=\"https:\/\/www.webmd.com\/cancer\/understanding-cancer-symptoms\">cancer symptoms<\/a> and treatment side effects. This includes alleviating n<a href=\"https:\/\/www.webmd.com\/children\/ss\/nausea-vomiting-remedies-treatment\">ausea and vomiting<\/a> for patients undergoing chemotherapy and assisting with cancer-related pain by cannabinoid receptors in the brain and other parts of the body. Nerve pain as a result of <a href=\"https:\/\/www.webmd.com\/cancer\/chemotherapy-what-to-expect\">chemotherapy<\/a> or other <a href=\"https:\/\/www.webmd.com\/cancer\/ss\/does-this-cause-cancer\">cancer<\/a> treatments may also be effectively treated by medicinal cannabis. There are some studies that show medicinal cannabis may also help improve appetite for people with cancer.<\/p>"
-            }
-          },
-          "1595590831725": {
-            "type": "text_block",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Gastro.jpg",
-              "title": "Gastro",
-              "text": "<p>Some research suggests that medicinal cannabis might play a role in gut health. In particular, inflammatory bowel disease (IBD), including <a href=\"https:\/\/badgut.org\/information-centre\/a-z-digestive-topics\/crohns-disease\/\">Crohn’s disease<\/a> and <a href=\"https:\/\/badgut.org\/information-centre\/a-z-digestive-topics\/ulcerative-colitis\/\">ulcerative colitis<\/a>, might be influenced in part by CBD treatment which might modulate inflammatory responses. Medicinal cannabis can also assist with appetite stimulation and help to reduce nausea and vomiting.<\/p>"
+              "image": "shopify:\/\/shop_images\/cancer.png",
+              "title": "Cancer Symptoms",
+              "text": "<p>Studies have shown that there are possible benefits of endocannaboid medicine on relieving <a href=\"https:\/\/www.webmd.com\/cancer\/understanding-cancer-symptoms\"><span style=\"text-decoration:underline\">cancer symptoms<\/span><\/a> and treatment side effects. This includes alleviating <a href=\"https:\/\/www.webmd.com\/children\/ss\/nausea-vomiting-remedies-treatment\"><span style=\"text-decoration:underline\">nausea and vomiting<\/span><\/a> for patients undergoing chemotherapy and assisting with cancer-related pain by cannabinoid receptors in the brain and other parts of the body. Nerve pain as a result of <a href=\"https:\/\/www.webmd.com\/cancer\/chemotherapy-what-to-expect\"><span style=\"text-decoration:underline\">chemotherapy<\/span><\/a> or other traditional <a href=\"https:\/\/www.webmd.com\/cancer\/ss\/does-this-cause-cancer\">cancer<\/a> treatments may also be effectively treated and there are some studies that show that plant based alternatives may also help improve appetite for people with cancer.<\/p>",
+              "button_label": ""
             }
           },
           "1595590855430": {
             "type": "text_block",
             "settings": {
               "image": "shopify:\/\/shop_images\/Neurological.jpg",
-              "title": "Neutrological",
-              "text": "<p>Cannabis can assist in the reduction of neurodegeneration; it is an antioxidant, is neuroprotective and antipsychotic. It is also thought to help support healthy brain function and encourages neurogenesis.<\/p>"
+              "title": "Neurological",
+              "text": "<p>Plant based medicines are thought to help support healthy brain function and encourages neurogenesis. They can assist in the reduction of neurodegeneration as some are an antioxidant, which is also neuroprotective and antipsychotic. <\/p><p>Due to its ability to reduce muscle spasms and seizures, more and more researchers are conducting studies into the treatment benefits of endocannabinoid medicines on those with epilepsy.<\/p>",
+              "button_label": ""
             }
           },
           "1595590890205": {
             "type": "text_block",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Epilepsy.jpg",
-              "title": "Epilepsy",
-              "text": "<p>Due to its ability to reduce muscle spasms and seizures, more and more researchers are conducting studies into the treatment benefits of CBD on those with epilepsy as well as multiple sclerosis.<\/p>"
+              "image": "shopify:\/\/shop_images\/shutterstock_1374918320.jpg",
+              "title": "Migranes",
+              "text": "<p>Migraines are very common with more than 80% of people experiencing migraines before the age of 35. Some people find that their headaches can lead to migraines and if they are frequent, over the counter medicines simply do not work after prolonged use. Plant based alternatives are used to treat migraines if traditional migraine medications are no longer helping with patients sometimes seeing a drop in the frequency and severity of their migraines.<\/p><p><\/p>",
+              "button_label": ""
+            }
+          },
+          "8ff12671-d6f7-4d74-9849-84878f1fa5b6": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/shutterstock_345652055.jpg",
+              "title": "Chronic Illness",
+              "text": "<p>Endocannabinoid medicines have great potential as an analgesic and can be beneficial in relieving a patients ongoing pain and therefore can provide relief to patients living with Chronic illnesses. Suffering a chronic illness effects a patients quality of life and often have multiple and complex causes. Plant based medicines are a great alternative to pain medications and opioids when managing chronic pain. <\/p>",
+              "button_label": ""
+            }
+          },
+          "ff7c0012-dd36-4af7-a7a7-03156635b783": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/shutterstock_796971718_57148fea-c35d-43bd-8f90-a43270843e89.jpg",
+              "title": "Palliative Care",
+              "text": "<p>Living with a terminal or life-threatening disease is extremely challenging for patients and studies have shown that endocannabinoid medicines may have a therapeutic effect. They can be used to help to alleviate some of a patients symptoms and including nausea as well as physical and psychosocial  pain.<\/p>",
+              "button_label": ""
+            }
+          },
+          "a1589040-92f8-4beb-9f94-17623e2e1a5d": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/smoking.png",
+              "title": "Quit Smoking",
+              "text": "<p>Studies suggest that endocannabidiol medicines can aid in helping a patient quit smoking for good. Symptoms of nicotine withdrawal can vary from person to person and often can deter a person from quitting smoking. These can include a lack of concentration, anger management issues and\/or anxious behaviour with disruptions in your sleep pattern, and sudden weight gain. Plant based medicines help patients to relax and contribute to increasing will power, mental strength and decreasing pain which in turn, helps a patient with the management of nicotine withdrawal.<\/p>",
+              "button_label": ""
             }
           }
         },
         "block_order": [
-          "1595590570977",
-          "1595590632772",
-          "1595590716365",
           "1595590750091",
+          "1595590716365",
+          "1595590831725",
+          "1595590632772",
+          "1595590570977",
+          "1595590797570",
           "1595590855430",
           "1595590890205",
-          "1595590797570",
-          "1595590831725"
+          "8ff12671-d6f7-4d74-9849-84878f1fa5b6",
+          "ff7c0012-dd36-4af7-a7a7-03156635b783",
+          "a1589040-92f8-4beb-9f94-17623e2e1a5d"
         ],
         "settings": {
-          "banner_image": "shopify:\/\/shop_images\/MS010_Website_Banners2.jpg",
+          "banner_image": "shopify:\/\/shop_images\/MS010_Website_Banners2_d94eb93e-dfcb-4fab-ab8c-ada61d5314eb.jpg",
           "title": "Treatments",
-          "subheading": "Medicinal cannabis may be helpful with the management of symptoms associated with a wide\nvariety of conditions that have not responded to conventional treatments. The TGA does not\nhave an approved list of indications that may be applied for but common conditions include:",
+          "subheading": "Plant Based medicines and Endocannabinoids may be helpful with the management of symptoms associated with a wide\nvariety of conditions that have not responded to conventional treatments. \n\nThe TGA does not\nhave an approved list of indications that may be applied for but common conditions include:",
           "logo_image": "shopify:\/\/shop_images\/Group_238.png"
         }
       },
@@ -330,9 +368,9 @@
       "banner_image_doctor": {
         "type": "banner_image_doctor",
         "settings": {
-          "banner_image": "shopify:\/\/shop_images\/MS010_Website_Banners3.jpg",
+          "banner_image": "shopify:\/\/shop_images\/MS010_Website_Banners3_80891efb-a42f-4591-97a2-4443b947c6d0.jpg",
           "title": "Doctors",
-          "subheading": "Greencare’s specialist physicians and nurses are experts in this complex and variable medicine, and follow all State and TGA prescribing guidelines when considering medical cannabis as a treatment option.",
+          "subheading": "Greencare’s specialist physicians and nurses are experts in this complex and variable medicine, and follow all State and TGA prescribing guidelines when considering Endocannabinoid Medicine and Plant Based Alternatives as a treatment option.",
           "logo_image": "shopify:\/\/shop_images\/Group_238.png"
         }
       },
@@ -415,7 +453,7 @@
         "settings": {
           "doctor_left_heading_fourth": "Work with Greencare Clinics",
           "doctor_left_pera_fourth": "Greencare Clinics is a trusted Australian based health service company, comprising a team\nof authorized specialist physicians and nurses who provide premium healthcare advice\nand support for patients when accessing legal medical cannabis via online consultations.\n<br><br>\nOur team are experts in the field of medicinal cannabis and are registered Authorised\nPrescribers for Cannabis with the TGA.\n<br><br>\nWe are always interested in speaking with doctors, mental health and allied health\nprofessionals interested in working with Medicinal Cannabis medicine as an effective plant\nbased medical treatment.\n<br><br>",
-          "doctor_sub_heading": "<h1 class=\"heading_doctor\">Benefits of working with Greencare Clinics:<\/h1>",
+          "doctor_sub_heading": "<h1 class=\"heading_doctor\">Benefits of working us:<\/h1>",
           "doctor_list1": "<b>Flexible Hours<\/b> - We are a 7 day practice which can accommodate flexible working hours.",
           "doctor_list2": "<b>Flexible Work Location<\/b> - Work from the comfort of your own home or office",
           "doctor_list3": "<b>Attractive Hourly Rates<\/b> - 70% of gross billings. (Up to $450+ per hour).",
@@ -433,16 +471,16 @@
       "about_banner": {
         "type": "about_banner",
         "settings": {
-          "banner_image": "shopify:\/\/shop_images\/MS010_Website_Banners.jpg",
+          "banner_image": "shopify:\/\/shop_images\/MS010_Website_Banners_e6a3e4c1-cb18-428a-af6f-30297a4688c2.jpg",
           "title": "About",
-          "subheading": "Greencare Clinics is a health services company comprising a team of\nauthorized specialist physicians and nurses who provide premium healthcare\nadvice and support for patients when accessing legal medical cannabis.",
+          "subheading": "Greencare Clinics is a health services company comprising a team of\nauthorized specialist physicians and nurses who provide premium healthcare\nadvice and support for patients when accessing legal Plant Based and Endocannabinoid medicines.",
           "logo_image": "shopify:\/\/shop_images\/Group_238.png"
         }
       },
       "faq_banner": {
         "type": "faq_banner",
         "settings": {
-          "banner_image": "shopify:\/\/shop_images\/MS010_Website_Banners4.jpg",
+          "banner_image": "shopify:\/\/shop_images\/MS010_Website_Banners3_80891efb-a42f-4591-97a2-4443b947c6d0.jpg",
           "title": "FAQ's",
           "subheading": "Cannabis has been shown to relieve pain, prevent or reduce vomiting,\nand has anti-inflammatory and antioxidant properties. It can be particularly useful where other medications have failed.",
           "logo_image": "shopify:\/\/shop_images\/Group_238.png"
@@ -463,9 +501,9 @@
       "banner_image_career": {
         "type": "banner_image_career",
         "settings": {
-          "banner_image": "shopify:\/\/shop_images\/MS010_Website_Banners3.jpg",
+          "banner_image": "shopify:\/\/shop_images\/MS010_Website_Banners6.jpg",
           "title": "Careers",
-          "subheading": "Work with Greencare Clinics",
+          "subheading": "Greencare Clinics is a trusted Australian based health service company, comprising a team of authorized specialist physicians and nurses who provide premium healthcare advice and support for patients when accessing endocannabinoid medicines and plant based alternatives to traditional treatments via online consultations.",
           "logo_image": "shopify:\/\/shop_images\/Group_238.png"
         }
       }
