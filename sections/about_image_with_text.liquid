@@ -1,0 +1,55 @@
+<div class="doctor-page-width">
+<div class="doctors_image_with_Text">
+  <div class="doctor_text_Section">
+    {% if section.settings.about_left_heading_fourth != '' %}
+    <h1 class="heading_doctor">{{section.settings.about_left_heading_fourth}}</h1>
+    {% endif %}
+    {% if section.settings.doctor_left_pera_fourth != '' %}
+    <p class="para_doctor">{{section.settings.about_left_pera_fourth }}</p>
+    {% endif %}
+    {% if section.settings.doctor_left_pera_fourth != '' %}
+    <p class="para_doctor">{{section.settings.about_cta_heading}}</p>
+        {% endif %}
+      
+   
+    
+  </div>
+  
+  {% if section.settings.about_banner_right_image_fourth != '' %}
+  <div class="doctor_image_section">
+    <img src="{{section.settings.about_banner_right_image_fourth | img_url: 'master'}}">
+  </div>
+  {% endif %}
+  
+</div>
+</div>
+{% schema %}
+  {
+    "name": "About Image With Text",
+    "settings": [
+     {
+     "type": "text",
+     "id": "about_left_heading_fourth",
+     "label": "Heading",
+     "default": "Referring Patients"
+     },
+     {
+     "type": "html",
+     "id": "about_left_pera_fourth",
+     "label": "Content"
+      },
+      {
+     "type": "image_picker",
+     "id": "about_banner_right_image_fourth",
+     "label": "Image"
+     }
+
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

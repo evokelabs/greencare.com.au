@@ -225,7 +225,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/shutterstock_1123160147.jpg",
               "title": "Mental Health",
-              "text": "<p>Mental health conditions are often treated with pharmaceutical drugs which usually have a number of side effects including insomnia, headache and drowsiness. Research shows that some mental health disorders such as anxiety, stress, depression, PTSD can be benefited by the use of plant based medicines without the negative side effects from traditional medicines.  <a href=\"https:\/\/www.bing.com\/search?q=Tetrahydrocannabinol&amp;filters=sid%3aea0beab5-fc5c-d508-ae2d-4af9532a2e96&amp;form=ENTLNK\"><span style=\"text-decoration:underline\">THC<\/span><\/a> has been shown to help regulate the system that causes fear and anxiety in the body and brain.<\/p>",
+              "text": "<p>Mental health conditions are often treated with pharmaceutical drugs which usually have a number of side effects including insomnia, headache and drowsiness. Research shows that some mental health disorders such as anxiety, stress, depression, PTSD can be benefited by the use of plant based medicines without the negative side effects from traditional medicines.  <a href=\"https:\/\/www.bing.com\/search?q=Tetrahydrocannabinol&amp;filters=sid%3aea0beab5-fc5c-d508-ae2d-4af9532a2e96&amp;form=ENTLNK\">THC<\/a> has been shown to help regulate the system that causes fear and anxiety in the body and brain.<\/p>",
               "button_label": ""
             }
           },
@@ -270,7 +270,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/cancer.png",
               "title": "Cancer Symptoms",
-              "text": "<p>Studies have shown that there are possible benefits of endocannaboid medicine on relieving <a href=\"https:\/\/www.webmd.com\/cancer\/understanding-cancer-symptoms\"><span style=\"text-decoration:underline\">cancer symptoms<\/span><\/a> and treatment side effects. This includes alleviating <a href=\"https:\/\/www.webmd.com\/children\/ss\/nausea-vomiting-remedies-treatment\"><span style=\"text-decoration:underline\">nausea and vomiting<\/span><\/a> for patients undergoing chemotherapy and assisting with cancer-related pain by cannabinoid receptors in the brain and other parts of the body. Nerve pain as a result of <a href=\"https:\/\/www.webmd.com\/cancer\/chemotherapy-what-to-expect\"><span style=\"text-decoration:underline\">chemotherapy<\/span><\/a> or other traditional <a href=\"https:\/\/www.webmd.com\/cancer\/ss\/does-this-cause-cancer\">cancer<\/a> treatments may also be effectively treated and there are some studies that show that plant based alternatives may also help improve appetite for people with cancer.<\/p>",
+              "text": "<p>Studies have shown that there are possible benefits of endocannaboid medicine on relieving <a href=\"https:\/\/www.webmd.com\/cancer\/understanding-cancer-symptoms\">cancer symptoms<\/a> and treatment side effects. This includes alleviating <a href=\"https:\/\/www.webmd.com\/children\/ss\/nausea-vomiting-remedies-treatment\">nausea and vomiting<\/a> for patients undergoing chemotherapy and assisting with cancer-related pain by cannabinoid receptors in the brain and other parts of the body. Nerve pain as a result of <a href=\"https:\/\/www.webmd.com\/cancer\/chemotherapy-what-to-expect\">chemotherapy<\/a> or other traditional <a href=\"https:\/\/www.webmd.com\/cancer\/ss\/does-this-cause-cancer\">cancer<\/a> treatments may also be effectively treated and there are some studies that show that plant based alternatives may also help improve appetite for people with cancer.<\/p>",
               "button_label": ""
             }
           },
@@ -461,7 +461,10 @@
           "doctor_list5": "<b>Supportive Team Culture<\/b> - Nursing Assistance provided",
           "doctor_list6": "<b>Training<\/b> - Throughout the year",
           "doctor_list7": "<b>Remain Informed<\/b> - Industry updates shared each month",
-          "doctor_list8": "",
+          "doctor_list8": "<b>We source patients for you<\/b>",
+          "doctor_list9": "<b>We handle all the paperwork with the TGA<\/b> - You can focus on patient care",
+          "doctor_list10": "<b>We ensure all patients have filled out an in depth pre screening questionnaire<\/b> - All relevant patient information is available for you prior to your appointments",
+          "doctor_list11": "<b>We promote our service and the benefits of Plant Based Medicine legally and ethically<\/b> - With the support of leading industry experts and advocates",
           "doctor_cta_heading": "<br>\n<b>For more information about working with Greencare Clinics, contact us today.<\/b>",
           "doctor_button_link_fourth": "shopify:\/\/pages\/contact-us",
           "doctor_left_pera_button_fourth": "Contact Us",
@@ -505,6 +508,23 @@
           "title": "Careers",
           "subheading": "Greencare Clinics is a trusted Australian based health service company, comprising a team of authorized specialist physicians and nurses who provide premium healthcare advice and support for patients when accessing endocannabinoid medicines and plant based alternatives to traditional treatments via online consultations.",
           "logo_image": "shopify:\/\/shop_images\/Group_238.png"
+        }
+      },
+      "banner_image_about": {
+        "type": "banner_image_about",
+        "settings": {
+          "banner_image": "shopify:\/\/shop_images\/MS010_Website_Banners_e6a3e4c1-cb18-428a-af6f-30297a4688c2.jpg",
+          "title": "About Us",
+          "subheading": "Greencare Clinics is a health services company comprising a team of\nauthorized specialist physicians and nurses who provide premium healthcare\nadvice and support for patients when accessing legal Plant Based and Endocannabinoid medicines.",
+          "logo_image": "shopify:\/\/shop_images\/Group_238.png"
+        }
+      },
+      "about_image_with_text": {
+        "type": "about_image_with_text",
+        "settings": {
+          "about_left_heading_fourth": "About Us",
+          "about_left_pera_fourth": "About Us Content",
+          "about_banner_right_image_fourth": "shopify:\/\/shop_images\/doctorclipboard.png"
         }
       }
     },

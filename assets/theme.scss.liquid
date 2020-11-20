@@ -1588,7 +1588,7 @@ p {
 
 /*================ Lists ================*/
 li {
-  list-style: none;
+  {% comment %} list-style: none; {% endcomment %}
 }
 
 /*================ Misc styles ================*/
@@ -8930,8 +8930,8 @@ h2.h3 {letter-spacing: 0;font-size: 40px;}
 .t_banner{background-size: cover;width: 100%;height: 250px;    margin-bottom: 75px;}
 .treatment_section .grid__item {margin: 0 0 30px 0;}
 .treatment_section .page-width {padding:35px 0 0}
-.t_block {background: #D4EBDF;padding: 40px;float: left;width: 100%;position:relative; min-height: 400px;}
-.treatment_section .grid__item:nth-last-child(-n + 2) .t_block{min-height: 500px; max-height: 500px;}
+.t_block {background: #D4EBDF;padding: 40px;float: left;width: 100%;position:relative; min-height: 500px;}
+#treatment-treatment a {color: #000; text-decoration: underline;}
 .treatment_section .grid__item:nth-child(2) .t_block,
 .treatment_section .grid__item:nth-child(3) .t_block,
 .treatment_section .grid__item:nth-child(6) .t_block,
@@ -8946,7 +8946,7 @@ h2.h3 {letter-spacing: 0;font-size: 40px;}
     margin: 0;
 }
 .t_block p{line-height: 1.2}
-.t_img {height: 225px;width: 225px;background-size: cover;border-radius: 50%;position: absolute;top: 50%;right: 30px;    transform: translate(0%, -50%);background-position: center;}
+.t_img {height: 215px;width: 215px;background-size: cover;border-radius: 50%;position: absolute;top: 50%; transform: translate(0%, -50%);background-position: center;}
 .treatment_section h2.section_heading {
     margin-bottom: 50px;
 }
@@ -9090,7 +9090,15 @@ h1.doctor-hero__title {
 .doctors_image_with_Text .threeimagesec_btn {
     text-align: left;
 }
-div#shopify-section-doctors_image_with_text {
+
+.doctors_image_with_Text li {
+ list-style-type: disc;
+    list-style-position: inside;
+    text-indent: -1.3em;
+    padding-left: 1.3em;
+}
+
+div#shopify-section-doctors_image_with_text, div#shopify-section-about_image_with_text {
     padding: 50px 0px;
 }
 .inner_block_section {
@@ -9183,11 +9191,11 @@ div#shopify-section-doctors_three_block .three_block_section h1.heading_doctor {
     padding-top: 48px;
     text-align: center;
 }
-.doctor_text_Section ul li:before {
+{% comment %} .doctor_text_Section ul li:before {
     content: "•";
     font-size: 15pt;
     margin-right: 15px;
-}
+} {% endcomment %}
 .doctor_text_Section ul li {
     color: #000;
     font-size: 20px;
@@ -9278,10 +9286,6 @@ h1.doctor-hero__title, .doctor-hero__title.h1 {
   nav#AccessibleNav { margin: 22px 0 0 0;}
   .icon_inner {padding: 100px 30px 30px;min-height:370px;}
   .iconblock p {line-height: 24px;}
-}
-
-@media only screen and (max-width: 1720px){
-.treatment_section .grid__item:nth-last-child(-n + 2) .t_block{min-height: 460px; max-height: 460px;}
 }
 
 @media only screen and (max-width: 1600px){
@@ -9387,7 +9391,7 @@ h1.doctor-hero__title, .doctor-hero__title.h1 {
 }
 @media only screen and (max-width: 1024px){
   .three_image_main .imageblock_container p {   font-size: 16px;   line-height: 24px;}
-  div#shopify-section-doctors_image_with_text {padding: 50px 0px;}
+  div#shopify-section-doctors_image_with_text, div#shopify-section-about_image_with_text {padding: 50px 0px;}
   .site-footer {padding: 35px 30px;}
   .doctors_image_with_Text .threeimagesec_btn {margin-top: 10px;}
   h1.doctor-hero__title {font-size: 38px;max-width: 700px;}
@@ -9547,7 +9551,7 @@ h2.h1.mega-title.slideshow__title, .h1.mega-title.slideshow__title.h2, .h1.mega-
   div#shopify-section-doctors_fourth_image_with_text .doctors_image_with_Text {padding: 50px 0px;padding-bottom: 15px;}
   .custom_banner_for_all {height: 350px;}
   .dc_color .single_image img {max-width: 110px;}
-  div#shopify-section-doctors_image_with_text {padding: 40px 0px;}
+  div#shopify-section-doctors_image_with_text,div#shopify-section-doctors_image_with_text {padding: 40px 0px;}
    p.para_doctor {font-size: 18px;}
   #shopify-section-doctors_three_block .doctor-page-width, #shopify-section-doctors_fourth_image_with_text .doctors_image_with_Text .doctor_text_Section {padding: 0 20px;}
   #shopify-section-doctors_fourth_image_with_text .doctors_image_with_Text .doctor_image_section {padding: 40px 20px 0;}
