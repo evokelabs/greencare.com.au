@@ -63,7 +63,7 @@
           "color_bg": "#3a3a3a",
           "color_text": "#ffffff",
           "btn_text": "BOOK APPOINTMENT",
-          "btn_url": "#"
+          "btn_url": "/pages/book-appointment"
         }
       },
       "footer": {
@@ -523,7 +523,7 @@
         "type": "about_image_with_text",
         "settings": {
           "about_left_heading_fourth": "About Us",
-          "about_left_pera_fourth": "About Us Content",
+          "about_left_pera_fourth": "Greencare Clinics is an Australian health services company, comprising a team of authorized specialist physicians and nurses who provide premium healthcare advice and support for patients Australia-wide when accessing legal medical cannabis.<br><br>\n\nOur team of specialist physicians and nurses are experts in the field of medical cannabis and are registered Authorised Prescribers for Cannabis with the TGA.<br><br>\n\nAt Greencare, our goal is to support patients in accessing legal medical cannabis medicine as an effective plant based medical treatment, when other treatments have failed them. We aim to work with our patients to assist them in achieving long term health goals based upon their personal needs and conditions.<br><br>\n\nOur focus is on safe and controlled administration of legal medical cannabis, whilst striving for positive outcomes for the patient.  We thoroughly pre-screen our patients to optimize a treatment plan, specifically tailored for them and we monitor patients closely prior to their appointment for any potential adverse events while working towards positive outcomes.<br><br>\n\nGreencare’s specialist team of physicians provides patients with ongoing support and communication throughout the process in order for our patients to feel confident when utilizing this new form of medical treatment.<br><br>\n\nWe are exclusively an online medical consultation service, connecting patients, doctors and nurses via telehealth appointments, making our service simple, discreet and efficient for all.",
           "about_banner_right_image_fourth": "shopify:\/\/shop_images\/doctorclipboard.png"
         }
       }
