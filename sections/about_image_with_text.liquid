@@ -9,7 +9,13 @@
     {% endif %}
     {% if section.settings.doctor_left_pera_fourth != '' %}
     <p class="para_doctor">{{section.settings.about_cta_heading}}</p>
-        {% endif %}
+    {% endif %}
+    {% if section.setting.doctor_left_heading_five != '' %}
+    <h1 class="heading_doctor">{{section.settings.about_left_heading_five}}</h1>
+    {% endif %}
+    {% if section.setting.doctor_left_pera_five != '' %}
+    <p class="para_doctor">{{section.settings.about_left_pera_five}}</p>
+    {% endif %}
       
    
     
@@ -36,6 +42,17 @@
      {
      "type": "html",
      "id": "about_left_pera_fourth",
+     "label": "Content"
+      },
+      {
+     "type": "text",
+     "id": "about_left_heading_five",
+     "label": "Sub Heading",
+     "default": "Founders Story"
+     },
+     {
+     "type": "html",
+     "id": "about_left_pera_five",
      "label": "Content"
       },
       {

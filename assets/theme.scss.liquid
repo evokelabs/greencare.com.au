@@ -9078,9 +9078,15 @@ h1.doctor-hero__title {
 }
 
 .doctor_image_section {
-    width: 30%;
-    padding: 0 30px;
+    padding: 30px 30px;
     text-align: end;
+    overflow: hidden;
+}
+.doctor_image_section img{  
+    height: auto;
+    width: fit-content;
+    border-radius: 50%;
+    width: 480px;
 }
 .doctor_text_Section {
   width: 55%;
@@ -9175,11 +9181,6 @@ div#shopify-section-doctors_image_with_text .doctor_text_Section a.btn.btn--cta.
 div#shopify-section-doctors_fourth_image_with_text .doctor_image_section img {
     max-width: 100%;
     height: auto;
-    width: 100%;
-}
-.doctor_image_section img {
-    height: auto;
-    width: fit-content;
 }
 .doct_main_page .grid {
    margin: 0 !important;
@@ -9344,8 +9345,7 @@ h1.doctor-hero__title, .doctor-hero__title.h1 {
   .site-footer a{font-size: 16px;}
   .index-section.video-section .page-width {max-width: 1170px;}
   #shopify-section-treatment  .t_block h3.h4, #shopify-section-treatment  .t_block .h4.h3{font-size: 25px;}
-  #shopify-section-treatment  .t_block a{font-size: 20px;}
-  #shopify-section-treatment  #treatment-treatment  a{ font-size: 19px;display: inline-block;}
+  #shopify-section-treatment  #treatment-treatment  a{display: inline-block;}
   h1.heading_doctor, .heading_doctor.h1 { font-size: 32px;margin-bottom:15px;}
   .doctor_text_Section ul li{font-size: 16px; margin-bottom: 0px}
   span.mega-subtitle.slideshow__subtitle {line-height: 35px;font-size: 22px;}
@@ -9638,12 +9638,14 @@ h2.h1.mega-title.slideshow__title, .h1.mega-title.slideshow__title.h2, .h1.mega-
   .cost_text p:first-child {font-size: 22px;}
   .rte-setting.cost_text:after {height: 1px;width: 100%;top: unset;bottom: 15px;max-width: 200px;transform: translate(-50%,0);left:50%;}
   .cost_section p:nth-child(4) {font-size: 10px;}
+
   .grid-why-choose-greencare {
   padding: 0px;
 }
 }
 @media only screen and (max-width: 667px){
   .template-index .slideshow__text-content .page-width { max-width: 50%;margin:0;}
+  
 }
 
 
@@ -9662,6 +9664,10 @@ h2.h1.mega-title.slideshow__title, .h1.mega-title.slideshow__title.h2, .h1.mega-
   .site-footer__item-inner--newsletter .newsletter__input { width: 70%;}
   h2.h3, .h3.h2, .h3.h2, .h3.h2, .section_heading, .three_image_main h2, .three_image_main .h2, .three_image_main .h2, .three_image_main .h2 {
     font-size: 26px;}
+      .doctor_image_section img{  
+    width: 100%;
+    height: 100%;
+}
 }
 @media only screen and (max-width: 375px){
    body h1.doctor-hero__title, .doctor-hero__title.h1 {font-size: 18px;}
@@ -9724,25 +9730,15 @@ h2.h1.mega-title.slideshow__title, .h1.mega-title.slideshow__title.h2, .h1.mega-
   }
   .doctor_text_Section ul li {
     font-size: 20px;
-  }
-  div#shopify-section-doctors_fourth_image_with_text .doctor_image_section img {
-    max-width: 100%;
-    height: auto;
-    width: 100%;
-}
+  }  
   div#shopify-section-doctors_fourth_image_with_text .doctors_image_with_Text .threeimagesec_btn a.btn.btn--cta.truncate_more_link {
   font-size: 27px;
   }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1199px) {
-.doctor_image_section img { width: 100%;}
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  div#shopify-section-doctors_fourth_image_with_text .doctor_image_section img {
-    max-width: 100%;
-    height: auto;
-    width: 100%;
-}
+ 
   .site-header{padding:0;}  
 /*   nav#AccessibleNav .icon {width: 14px;height: 14px;} */
   .site-nav {margin: 0;}
