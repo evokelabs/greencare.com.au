@@ -63,7 +63,7 @@
           "color_bg": "#3a3a3a",
           "color_text": "#ffffff",
           "btn_text": "BOOK APPOINTMENT",
-          "btn_url": "/pages/book-appointment"
+          "btn_url": "\/pages\/book-appointment"
         }
       },
       "footer": {
@@ -378,7 +378,7 @@
         "type": "doctors_image_with_text",
         "settings": {
           "doctor_left_heading": "Referring Patients",
-          "doctor_left_pera": "Greencare is a trusted Australian based health service company that supports patients in\naccessing legal medical cannabis medicine when other treatments have failed them. We\noffer consultations via telehealth with a small team of carefully selected physicians and\nnurses who specialise in medical cannabis treatment.\n<br>\n<br>\nIt is our job to walk your patients through the process of becoming a legal user of medical\ncannabis as an effective plant based medical treatment. We screen for drug interactions\nand contraindications while focusing on safe and controlled administration. Our medical team closely monitors patients for any adverse events, whilst striving for positive outcomes.",
+          "doctor_left_pera": "Greencare is a trusted Australian based health service company that supports patients in accessing endocannabinoid medicines and plant based, natural alternatives when other treatments have failed them. We offer consultations via telehealth with a small team of carefully selected physicians and nurses who specialise in plant based treatments.\n<br>\n<br>\nIt is our job to walk your patients through the process of finding the most effective plant based medicine for their current conditions with the focus on optimising their health and wellbeing for the future. We do an in depth pre-screening of all patients, screen for drug interactions and contraindications and closely monitor patients for any adverse events. We focus on safe and controlled administration of plant based medicines, whilst striving for positive outcomes for the patient.\n<br>\n<br>\nWe do not require a referral form from you to treat your patients, you can direct them straight to the Greencare website. A downloadable information pamphlet is available via the button below for you to easily provide information about our service to your patients.",
           "doctor_button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0438\/2697\/0775\/files\/MS010_Greencare_Patient_Referral_Form_Images.pdf?v=1602236589",
           "doctor_left_pera_button": "Referral Form",
           "doctor_banner_right_image": "shopify:\/\/shop_images\/doctorgreen-opt_aa281feb-c946-45a0-afe0-934c2e2dc6f9.png"
@@ -452,7 +452,7 @@
         "type": "doctors_fourth_image_with_text",
         "settings": {
           "doctor_left_heading_fourth": "Work with Greencare Clinics",
-          "doctor_left_pera_fourth": "Greencare Clinics is a trusted Australian based health service company, comprising a team\nof authorized specialist physicians and nurses who provide premium healthcare advice\nand support for patients when accessing legal medical cannabis via online consultations.\n<br><br>\nOur team are experts in the field of medicinal cannabis and are registered Authorised\nPrescribers for Cannabis with the TGA.\n<br><br>\nWe are always interested in speaking with doctors, mental health and allied health\nprofessionals interested in working with Medicinal Cannabis medicine as an effective plant\nbased medical treatment.\n<br><br>",
+          "doctor_left_pera_fourth": "We are exclusively an online medical consultation service, connecting patients, doctors and nurses via telehealth appointments using the latest all inclusive technology made by Doctors for Doctors, making our service simple, discreet and efficient for all.\n<br><br>\nOur team are experts in the field of Plant Based and Endocannabinoid medicines and are registered Authorised Prescribers with the TGA. \n<br><br>\nWe are supported by leading industry experts and advocates, including dual-qualified, PhD-qualified scientist and lawyer, Dr Nicoletti.\n<br><br>\nWe are always interested in speaking with doctors, mental health and allied health professionals interested in working with Endocannabinoid Medicines as an effective plant based medical treatment and look forward to speaking with you soon.\n<br><br>",
           "doctor_sub_heading": "<h1 class=\"heading_doctor\">Benefits of working us:<\/h1>",
           "doctor_list1": "<b>Flexible Hours<\/b> - We are a 7 day practice which can accommodate flexible working hours.",
           "doctor_list2": "<b>Flexible Work Location<\/b> - Work from the comfort of your own home or office",
@@ -522,9 +522,18 @@
       "about_image_with_text": {
         "type": "about_image_with_text",
         "settings": {
-          "about_left_heading_fourth": "About Us",
-          "about_left_pera_fourth": "Greencare Clinics is an Australian health services company, comprising a team of authorized specialist physicians and nurses who provide premium healthcare advice and support for patients Australia-wide when accessing legal medical cannabis.<br><br>\n\nOur team of specialist physicians and nurses are experts in the field of medical cannabis and are registered Authorised Prescribers for Cannabis with the TGA.<br><br>\n\nAt Greencare, our goal is to support patients in accessing legal medical cannabis medicine as an effective plant based medical treatment, when other treatments have failed them. We aim to work with our patients to assist them in achieving long term health goals based upon their personal needs and conditions.<br><br>\n\nOur focus is on safe and controlled administration of legal medical cannabis, whilst striving for positive outcomes for the patient.  We thoroughly pre-screen our patients to optimize a treatment plan, specifically tailored for them and we monitor patients closely prior to their appointment for any potential adverse events while working towards positive outcomes.<br><br>\n\nGreencare’s specialist team of physicians provides patients with ongoing support and communication throughout the process in order for our patients to feel confident when utilizing this new form of medical treatment.<br><br>\n\nWe are exclusively an online medical consultation service, connecting patients, doctors and nurses via telehealth appointments, making our service simple, discreet and efficient for all.",
+          "about_left_heading_fourth": "Our Mission",
+          "about_left_pera_fourth": "At Greencare, our goal is to support patients in accessing legal Plant Based and Endocannabinoid medicines as an effective plant based medical treatment, when other treatments have failed them. \n<br><br>\nWe aim to work with our patients to assist them in achieving long term health goals based upon their personal needs and conditions. \n<br><br>\nOur focus is on safe and controlled administration, we thoroughly pre-screen our patients to optimise a treatment plan, specifically tailored for them. We monitor our patients closely post appointments for any potential adverse events while working towards positive outcomes. \n<br><br>\nGreencare’s specialist team of physicians provides patients with ongoing support and communication throughout the process in order for our patients to feel confident when utilizing this new form of medical treatment. \n<br><br>\nOur specialist physicians and nurses are experts in the field of  legal Plant Based and Endocannabinoid medicines and are registered Authorised Prescribers with the TGA. \n<br><br>\nWe are exclusively an online medical consultation service, connecting patients, doctors and nurses via telehealth appointments, making our service simple, discreet and efficient for all.\n<br><br><br>\n\n<h1 class=\"heading-doctor\">Founders Story<\/h1>\nGreencare’s founder was first exposed to the world of plant based alternatives and endocannabinoid medicines when a friend who was suffering with cancer, found great benefit managing their pain and nausea whilst using the medicines.  A family member suffering from Fibromyalgia had seen significantly positive results and personally he also found great relief with his own struggle with insomnia thanks to the medicines prescribed.  \n<br><br>\nSince seeing these initial benefits, Greencare’s founder consulted with practicing medical doctors, leading experts and advocates in the field of plant based medicine and found himself wishing to share the opportunity and expertise of these people to the wider Australian community. \n<br><br>\nHoping to benefit as many people as possible through a more natural approach to health care, Greencare Clinics was created to provide a naturally derived alternative to traditional medicines to manage your health.",
           "about_banner_right_image_fourth": "shopify:\/\/shop_images\/doctorclipboard.png"
+        }
+      },
+      "banner_image_booking": {
+        "type": "banner_image_booking",
+        "settings": {
+          "banner_image": "shopify:\/\/shop_images\/MS010_Website_Banners3_80891efb-a42f-4591-97a2-4443b947c6d0.jpg",
+          "title": "Book Appointment",
+          "subheading": "Greencare Clinics opening March 31st 2021. We look forward to helping you on your wellness journey",
+          "logo_image": "shopify:\/\/shop_images\/Group_238.png"
         }
       }
     },
