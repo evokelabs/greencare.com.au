@@ -9092,6 +9092,11 @@ h1.doctor-hero__title {
   width: 55%;
   padding: 0 15px;
 }
+#shopify-section-doctors_fourth_image_with_text .doctor_text_Section {
+  flex-direction: column;
+  display: flex;
+
+}
 .doctors_image_with_Text {
     display: flex;
     flex-wrap: wrap;
@@ -9113,7 +9118,8 @@ div#shopify-section-doctors_image_with_text, div#shopify-section-about_image_wit
 }
 .inner_block_section {
    display: flex;
-   flex-wrap: wrap;   
+   flex-wrap: wrap;  
+   justify-content: center; 
 }
 .dc_color {
     background-color: #D4EBDF;
@@ -9192,9 +9198,12 @@ div#shopify-section-doctors_fourth_image_with_text .doctor_image_section img {
 p.para_doctor {
   font-size: 20px;
 }
-div#shopify-section-doctors_three_block .three_block_section h1.heading_doctor {
+div#shopify-section-doctors_three_block .three_block_section h1.heading_doctor, #shopify-section-careers_three_block .three_block_section h1.heading_doctor{
     padding-top: 48px;
     text-align: center;
+}
+#shopify-section-careers_three_block .threeimagesec_btn {
+  margin: 0 0 40px;
 }
 {% comment %} .doctor_text_Section ul li:before {
     content: "•";
@@ -9207,7 +9216,8 @@ div#shopify-section-doctors_three_block .three_block_section h1.heading_doctor {
     margin-bottom: 8px;
 }
 
-.inner_block_section .single_block_section:nth-child(2), .inner_block_section .single_block_section:nth-child(5){border-left: 2px solid #fff;border-right: 2px solid #fff;}
+.inner_block_section .single_block_section:nth-child(2), .inner_block_section .single_block_section:nth-child(5), .inner_block_section .single_block_section:nth-child(8) {border-left: 2px solid #fff;border-right: 2px solid #fff;}
+.inner_block_section .single_block_section:nth-child(10) {border-right: 2px solid #fff;}
 .doctors_image_with_Text .threeimagesec_btn {
     margin-top: 20px;
 }
@@ -9440,18 +9450,19 @@ h1.doctor-hero__title, .doctor-hero__title.h1 {
   .three_block_section h2, .three_block_section .h2 { margin: 15px 0 5px 0;font-size: 20px;}
   .single_image img {max-width: 85px;} 
   .page-width.cost_section {max-width: 900px;padding: 30px 30px 20px;}
-
   .inner_block_section .single_block_section {border-bottom: 2px solid #fff; }
+  .inner_block_section .single_block_section:nth-child(11) {border-bottom: none;}
   .inner_block_section .single_block_section {width: 100%; padding-bottom: 30px;padding-top: 30px;} 
     .inner_block_section .single_block_section {
     width: 100%;
     margin: 10px 15px 0 !important; 
 }
-  .inner_block_section .single_block_section:nth-child(2), .inner_block_section .single_block_section:nth-child(5)
-{
-    border-left: none;
-    border-right: none;
-}
+  .inner_block_section .single_block_section:nth-child(2), .inner_block_section .single_block_section:nth-child(5),   .inner_block_section .single_block_section:nth-child(8), .inner_block_section .single_block_section:nth-child(10)
+    {
+        border-left: none;
+        border-right: none;
+    }
+
 .grid-why-choose-greencare, .grid-treatment {
   width: 100%;
 }

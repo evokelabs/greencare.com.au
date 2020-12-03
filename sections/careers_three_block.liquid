@@ -1,0 +1,82 @@
+
+<div class="three_block_section">
+  <div class="dc_color">
+    <div class="doctor-page-width">    
+      <h1 class="heading_doctor">{{section.settings.heading_Support}}</h1>
+  <div class="inner_block_section">
+    {%- for block in section.blocks -%}
+    <div class="single_block_section">
+      <div class="single_image">
+        <img src="{{block.settings.single_block_image | img_url: 'master'}}">
+      </div>
+      <div class="single_block_section_text">
+        <h2>{{block.settings.single_block_heading}}</h2>
+        <div class="short_doctor_description">
+          <p class="three_block_doctor">{{block.settings.single_block_pera}}</p>
+        </div>
+      </div>
+    </div>
+    {%- endfor -%} 
+
+    {% if section.settings.careers_button_link != '' %}
+    <div class="threeimagesec_btn">
+      <a href="{{section.settings.careers_button_link}}" class="btn btn--cta">{{section.settings.careers_button_text}}</a>
+    </div>
+    {% endif %}
+  </div>
+</div>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Career Blocks",
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading_Support",
+        "label": "Heading",
+        "default": "Supporting Patients"
+      },
+      {
+        "type": "url",
+        "id": "careers_button_link",
+        "label": "Link"
+     },
+     {
+        "type": "text",
+        "id": "careers_button_text",
+        "label": "Text",
+        "default": "Contact Us"
+     }
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "category banner",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "single_block_image",
+            "label": "image"
+          },
+          {
+            "type": "text",
+            "id": "single_block_heading",
+            "label": "Heading"
+          },
+          {
+            "type": "text",
+            "id": "single_block_pera",
+            "label": "Content"
+          }      
+        ]
+      }
+   ]   
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
