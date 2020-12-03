@@ -158,8 +158,8 @@
         "type": "rich-text",
         "settings": {
           "full_width": false,
-          "section_title": "Plant based medicine",
-          "text": "<p>We support the responsible use of naturally derived medicines, in an effort to treat disease and\/or improve symptoms. Our doctors are highly expereinced in treating patients for nausea and vomiting during chemotherapy, to improve appetite in people with HIV\/AIDS, and to treat chronic pain, muscle spasms and even insomnia.<\/p>",
+          "section_title": "Why Plant Based Medicine",
+          "text": "<p>We believe patients should have access to alternative medicines and therapies  to improve their health and wellbeing when traditional treatments have failed them. We support the responsible use of naturally derived medicines, in an effort to treat disease and\/or improve symptoms so that patients can get the most out of their life.  <\/p><p><\/p><p>Our doctors are highly experienced in treating patients who present with many different symptoms. Some of which include: patients experiencing nausea and vomiting during chemotherapy, to improve appetite in people with HIV\/AIDS, to treat chronic pain and diseases, muscle spasms and even insomnia.<\/p>",
           "text_size": "medium"
         }
       },
@@ -197,23 +197,23 @@
       "1595419385253": {
         "type": "three-icon-text",
         "settings": {
-          "main_heading": "Becoming a Greencare patient:",
-          "main_text": "Plant based medicine is not like other prescription medications and can be challenging for patients to access.  At Greencare Clinics we make this process as simple and as comfortable as possible for our patients, following the below 3 step approach.",
+          "main_heading": "Becoming a Greencare patient",
+          "main_text": "Prescription Plant Based and Endocannabinoid medicines are not like other prescription medications and can be challenging for patients to access.\n<br>\n<br>\nAt Greencare Clinics, we connect TGA approved prescribers and patients through our online clinic using the latest technology in telehealth, making the process as simple and comfortable as possible.",
           "image1": "shopify:\/\/shop_images\/Group_40.png",
           "heading1": "Step 1",
-          "subheading1": "Initial Consultation",
-          "subtext1": "Consult with one of Greencare’s specialist nurses to review your medical history and discuss your plant based treatment options.\n\n<br><br>",
-          "btn1": "Book Now",
+          "subheading1": "Eligibility and Information",
+          "subtext1": "Before booking an appointment with one of our specialised team members, we recommend reading our FAQs page and taking our eligibility test.\n<br><br>\nThese will answer any simple questions you may have about prescription plant based and endocannabinoid medicine.",
+          "btn1": "Eligibility test",
           "btn_url1": "#",
           "image2": "shopify:\/\/shop_images\/Group_40.png",
           "heading2": "Step 2",
-          "subheading2": "Physician Consultation",
-          "subtext2": "Following this initial consultation you will receive a personalised plan to suit your individual health requirements and treatment recommendations. Greencare Clinics work collaboratively with your treating physician via TeleHealth, Australia wide.\n\nYou can talk with us using whatever technology suits you best - your computer,\nlaptop, tablet or smartphone.",
+          "subheading2": "Choose an Appointment",
+          "subtext2": "At Greencare we offer different types of consultations with our specialist team to suit your individual needs and situations. \n<br> <br> To learn more about our appointment types and which is best for you see the below chart.",
           "btn2": "",
           "image3": "shopify:\/\/shop_images\/Group_40.png",
           "heading3": "Step 3",
           "subheading3": "Medication Approval",
-          "subtext3": "Following your physician consultation, your TGA application will promptly be reviewed and your prescription is dispensed from our preferred pharmacy.\n\nGreencare Clinics provide ongoing support from their team of specialist nurses via\nTele Health.\n\nMedical approvals are received and approved within 24 - 48 hours.",
+          "subtext3": "Following your physician consultation, your TGA application will promptly be reviewed and your prescription is dispensed from our preferred pharmacy.\n<br> <br>\nGreencare Clinics provide ongoing support from their team of specialist nurses via\nTele Health.\n\nMedical approvals are received and approved within 24 - 48 hours.",
           "btn3": ""
         }
       },
@@ -492,10 +492,10 @@
         "type": "cost-section",
         "settings": {
           "full_width": false,
-          "section_title": "Consultation Fees",
-          "text1": "<p>Step 1<\/p><p>Inital Consultation<\/p><p>$40 <\/p>",
-          "text2": "<p>Step 2<\/p><p>Physician Consultation<\/p><p>$189<\/p><p>Nursing support included <\/p>",
-          "text3": "<p>Optional<\/p><p>3 Month Follow up<\/p><p>$59<\/p>",
+          "section_title": "Appointment Options",
+          "text1": "<p>Nurse Consult<\/p><p>(optional)<\/p><p><\/p><p>If you have read our FAQs and taken our eligibility test but still have questions we recommend booking a consultation with one of our Nurses. Our specialist Nurses will be able to answer any questions you may have about prescription Plant Based and Endocannabinoid Medicines in relation to your own health and treatment, as well as further information on the medicine in general. <br\/><\/p><p><\/p>",
+          "text2": "<p>Doctor Consult<\/p><p>(Initial)<\/p><p><\/p><p>If you are clear about your symptoms, have been referred by your GP and\/or have read our FAQs and taken our eligibility test and feel comfortable proceeding with an appointment, we recommend booking a consultation with one of our doctors. Prior to your appointment you will fill out an in depth questionnaire so that our Doctors are well informed with your current situation and can prepare for your appointment accordingly. During your appointment our Doctors will discuss with you via telehealth an individualised potential treatment plan for your specific symptoms using prescription plant based and endocannabinoid medicine, with the end goal of optimising your health and wellbeing. Our Doctors will then apply for your prescription medication and you will receive an email with the approval and prescription for you to then take to our recommended pharmacist to collect. <\/p><p><br\/><\/p><p><\/p>",
+          "text3": "<p>Lifestyle Plans<\/p><p>(12 or 24 month Subscriptions) <\/p><p>At Greencare Clinics we believe in Plant Based medicine becoming part of your lifestyle and therefore we offer a range of plans to suit your needs and finances. These plans include follow up Nurse and\/or Doctor consultations, Nurse Hotline, Virtual Events and monthly updates on the industry depending on your choice of plan. <\/p>",
           "text_size": "medium",
           "logo_image": "shopify:\/\/shop_images\/Group_238.png"
         }
