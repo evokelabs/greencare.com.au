@@ -33,7 +33,7 @@
     "social_snapchat_link": "",
     "social_youtube_link": "",
     "social_vimeo_link": "",
-    "favicon": "",
+    "favicon": "shopify:\/\/shop_images\/Group_238.png",
     "enable_ajax": true,
     "checkout_header_image": "",
     "checkout_logo_image": "",
@@ -452,22 +452,21 @@
         "type": "doctors_fourth_image_with_text",
         "settings": {
           "doctor_left_heading_fourth": "Work with Greencare Clinics",
-          "doctor_left_pera_fourth": "We are exclusively an online medical consultation service, connecting patients, doctors and nurses via telehealth appointments using the latest all inclusive technology made by Doctors for Doctors, making our service simple, discreet and efficient for all.\n<br><br>\nOur team are experts in the field of Plant Based and Endocannabinoid medicines and are registered Authorised Prescribers with the TGA. \n<br><br>\nWe are supported by leading industry experts and advocates, including dual-qualified, PhD-qualified scientist and lawyer, Dr Nicoletti.\n<br><br>\nWe are always interested in speaking with doctors, mental health and allied health professionals interested in working with Endocannabinoid Medicines as an effective plant based medical treatment and look forward to speaking with you soon.\n<br><br>",
-          "doctor_sub_heading": "<h1 class=\"heading_doctor\">Benefits of working us:<\/h1>",
-          "doctor_list1": "<b>Flexible Hours<\/b> - We are a 7 day practice which can accommodate flexible working hours.",
-          "doctor_list2": "<b>Flexible Work Location<\/b> - Work from the comfort of your own home or office",
-          "doctor_list3": "<b>Attractive Hourly Rates<\/b> - 70% of gross billings. (Up to $450+ per hour).",
-          "doctor_list4": "<b>Career Progression<\/b> - Build your career within the Medical Cannabis Sector",
-          "doctor_list5": "<b>Supportive Team Culture<\/b> - Nursing Assistance provided",
-          "doctor_list6": "<b>Training<\/b> - Throughout the year",
-          "doctor_list7": "<b>Remain Informed<\/b> - Industry updates shared each month",
-          "doctor_list8": "<b>We source patients for you<\/b>",
-          "doctor_list9": "<b>We handle all the paperwork with the TGA<\/b> - You can focus on patient care",
-          "doctor_list10": "<b>We ensure all patients have filled out an in depth pre screening questionnaire<\/b> - All relevant patient information is available for you prior to your appointments",
-          "doctor_list11": "<b>We promote our service and the benefits of Plant Based Medicine legally and ethically<\/b> - With the support of leading industry experts and advocates",
-          "doctor_cta_heading": "<br>\n<b>For more information about working with Greencare Clinics, contact us today.<\/b>",
-          "doctor_button_link_fourth": "shopify:\/\/pages\/contact-us",
-          "doctor_left_pera_button_fourth": "Contact Us",
+          "doctor_left_pera_fourth": "Greencare Clinics is a trusted Australian based health service company, comprising a team of authorized specialist physicians and nurses who provide premium healthcare advice and support for patients when accessing legal medical cannabis via online consultations.\n<br><br> \nOur team are experts in the field of medicinal cannabis and are registered Authorised Prescribers for Cannabis with the TGA. \n<br><br>\nWe are always interested in speaking with doctors, mental health and allied health professionals interested in working with Medicinal Cannabis medicine as an effective plant based medical treatment.",
+          "doctor_sub_heading": "",
+          "doctor_list1": "",
+          "doctor_list2": "",
+          "doctor_list3": "",
+          "doctor_list4": "",
+          "doctor_list5": "",
+          "doctor_list6": "",
+          "doctor_list7": "",
+          "doctor_list8": "",
+          "doctor_list9": "",
+          "doctor_list10": "",
+          "doctor_list11": "",
+          "doctor_cta_heading": "",
+          "doctor_left_pera_button_fourth": "",
           "doctor_banner_right_image_fourth": "shopify:\/\/shop_images\/doctorclipboard.png"
         }
       },
@@ -536,6 +535,89 @@
           "title": "Book Appointment",
           "subheading": "Greencare Clinics opening March 31st 2021. \n<br>\n<br>\nWe look forward to helping you on your wellness journey",
           "logo_image": "shopify:\/\/shop_images\/Group_238.png"
+        }
+      },
+      "careers_three_block": {
+        "type": "careers_three_block",
+        "blocks": {
+          "8e53193a-8e0c-4de0-b8b8-526db39e5f36": {
+            "type": "image",
+            "settings": {
+              "single_block_image": "shopify:\/\/shop_images\/01-hours.png",
+              "single_block_heading": "Flexible Hours & WORK LOCATION",
+              "single_block_pera": "We are a 7 day practice which can accommodate flexible working hours from your own home or office."
+            }
+          },
+          "3f0d5075-af9f-4bf5-b30e-938b77b9310e": {
+            "type": "image",
+            "settings": {
+              "single_block_image": "shopify:\/\/shop_images\/03-attractivehourlyrates.png",
+              "single_block_heading": "Attractive Hourly Rates",
+              "single_block_pera": "70% of gross billings."
+            }
+          },
+          "daa234ef-8c49-41e8-baeb-d794c8c38865": {
+            "type": "image",
+            "settings": {
+              "single_block_image": "shopify:\/\/shop_images\/05-SupportiveCulture.png",
+              "single_block_heading": "Supportive Team Culture",
+              "single_block_pera": "Nursing Assistance provided."
+            }
+          },
+          "2aea1f08-f7a7-47a0-a87e-baeb27964472": {
+            "type": "image",
+            "settings": {
+              "single_block_image": "shopify:\/\/shop_images\/06-ReadyClientBase.png",
+              "single_block_heading": "Ready Client Base",
+              "single_block_pera": "We source patients for you."
+            }
+          },
+          "b2d2bf7d-f17b-4402-979e-0718a6e8045b": {
+            "type": "image",
+            "settings": {
+              "single_block_image": "shopify:\/\/shop_images\/07-RemainInformed.png",
+              "single_block_heading": "Remain Informed",
+              "single_block_pera": "We share industry updates with our staff monthly."
+            }
+          },
+          "2f9d5c5e-168b-45bb-9192-4b7ef28ec87d": {
+            "type": "image",
+            "settings": {
+              "single_block_image": "shopify:\/\/shop_images\/08-StaffTraining_fb220147-2d53-4072-9f28-11e5bd844057.png",
+              "single_block_heading": "Staff Training",
+              "single_block_pera": "We provide ongoing training throughout the year."
+            }
+          },
+          "eaba211a-e4c1-44d2-93aa-8f37072ef370": {
+            "type": "image",
+            "settings": {
+              "single_block_image": "shopify:\/\/shop_images\/09-LessPaperwork_54819125-57d9-4b64-a54e-4b6faa155623.png",
+              "single_block_heading": "Less Paperwork",
+              "single_block_pera": "We handle all the paperwork with the TGA so you can focus on patient care."
+            }
+          },
+          "60493661-f34d-4619-8e7f-6429a807003d": {
+            "type": "image",
+            "settings": {
+              "single_block_image": "shopify:\/\/shop_images\/10-PatientPreScreening_f5bb31b4-943e-46e8-8cc9-753d4fa1f09c.png",
+              "single_block_heading": "Patient Pre-screening",
+              "single_block_pera": "We perform an in depth questionnaire so all relevant patient information is available prior to appointments."
+            }
+          }
+        },
+        "block_order": [
+          "8e53193a-8e0c-4de0-b8b8-526db39e5f36",
+          "3f0d5075-af9f-4bf5-b30e-938b77b9310e",
+          "daa234ef-8c49-41e8-baeb-d794c8c38865",
+          "2aea1f08-f7a7-47a0-a87e-baeb27964472",
+          "b2d2bf7d-f17b-4402-979e-0718a6e8045b",
+          "2f9d5c5e-168b-45bb-9192-4b7ef28ec87d",
+          "eaba211a-e4c1-44d2-93aa-8f37072ef370",
+          "60493661-f34d-4619-8e7f-6429a807003d"
+        ],
+        "settings": {
+          "heading_Support": "Benefits of working with Greencare Clinics:",
+          "careers_button_text": "Contact Us"
         }
       }
     },
