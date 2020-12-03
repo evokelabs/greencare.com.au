@@ -5,74 +5,74 @@
 </style> 
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
 
+<div class="grid-why-choose-greencare">
+  <div class="three_image_main">
+      <div class="page-width" >
+      {% if section.settings.title != blank %}    
+      <h2> {{ section.settings.title }} </h2>
+      {% endif %}
+    
+        <div class="imageblock_container">
+          <div class="imageblock">
 
-<div class="three_image_main">
-    <div class="page-width" >
-    {% if section.settings.title != blank %}    
-    <h2> {{ section.settings.title }} </h2>
-    {% endif %}
-  
-      <div class="imageblock_container">
-        <div class="imageblock">
+            {% if section.settings.image1 != blank %}    
+            <div class="cus_img"><img src="{{ section.settings.image1 | img_url: ' ' }}"  alt="image1" ></div>   
+            {% endif %}
 
-          {% if section.settings.image1 != blank %}    
-          <div class="cus_img"><img src="{{ section.settings.image1 | img_url: ' ' }}"  alt="image1" ></div>   
-          {% endif %}
+            {% if section.settings.heading1 != blank %}    
+            <h2> {{ section.settings.heading1 }} </h2>
+            {% endif %}
 
-          {% if section.settings.heading1 != blank %}    
-          <h2> {{ section.settings.heading1 }} </h2>
-          {% endif %}
+            {% if section.settings.subheading1 != blank %}
+            <div class="short_desc">
+            <p class="text_custom"> {{ section.settings.subheading1 }} </p>
+            </div>
+            {% endif %}
 
-          {% if section.settings.subheading1 != blank %}
-          <div class="short_desc">
-          <p class="text_custom"> {{ section.settings.subheading1 }} </p>
           </div>
-          {% endif %}
+          <div class="imageblock">
 
-        </div>
-        <div class="imageblock">
+            {% if section.settings.image2 != blank %}    
+            <div class="cus_img"><img src="{{ section.settings.image2 | img_url: ' ' }}"  alt="image1" >  </div>  
+            {% endif %}
 
-          {% if section.settings.image2 != blank %}    
-          <div class="cus_img"><img src="{{ section.settings.image2 | img_url: ' ' }}"  alt="image1" >  </div>  
-          {% endif %}
+            {% if section.settings.heading2 != blank %}    
+            <h2> {{ section.settings.heading2 }} </h2>
+            {% endif %}
 
-          {% if section.settings.heading2 != blank %}    
-          <h2> {{ section.settings.heading2 }} </h2>
-          {% endif %}
+            {% if section.settings.subheading2 != blank %}    
+            <div class="short_desc">
+            <p class="text_custom"> {{ section.settings.subheading2 }} </p>
+            </div>
+            {% endif %}
 
-          {% if section.settings.subheading2 != blank %}    
-          <div class="short_desc">
-          <p class="text_custom"> {{ section.settings.subheading2 }} </p>
+
           </div>
-          {% endif %}
+          <div class="imageblock">
 
+            {% if section.settings.image3 != blank %}    
+            <div class="cus_img"><img src="{{ section.settings.image3 | img_url: ' ' }}"  alt="image1" >   </div> 
+            {% endif %}
 
-        </div>
-        <div class="imageblock">
+            {% if section.settings.heading3 != blank %}    
+            <h2> {{ section.settings.heading3 }} </h2>
+            {% endif %}
 
-          {% if section.settings.image3 != blank %}    
-          <div class="cus_img"><img src="{{ section.settings.image3 | img_url: ' ' }}"  alt="image1" >   </div> 
-          {% endif %}
+            {% if section.settings.subheading3 != blank %} 
+            <div class="short_desc">
+            <p class="text_custom"> {{ section.settings.subheading3 }} </p>
+            </div>
+            {% endif %}
 
-          {% if section.settings.heading3 != blank %}    
-          <h2> {{ section.settings.heading3 }} </h2>
-          {% endif %}
-
-          {% if section.settings.subheading3 != blank %} 
-          <div class="short_desc">
-          <p class="text_custom"> {{ section.settings.subheading3 }} </p>
           </div>
-          {% endif %}
-
         </div>
-      </div>
-      <div class="threeimagesec_btn">
-      <a href="#" class="btn btn--cta truncate_more_link">{{ section.settings.linktext }}</a>
-      </div>
+        <div class="threeimagesec_btn">
+        <a href="#" class="btn btn--cta truncate_more_link">{{ section.settings.linktext }}</a>
+        </div>
+    </div>
+    
   </div>
-  
 </div>
-
 {% schema %}
   {
     "name": "Three Image Section",
