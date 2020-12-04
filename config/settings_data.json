@@ -106,6 +106,16 @@
       "1595329099508": {
         "type": "slideshow",
         "blocks": {
+          "ec2cc415-c5c9-43bd-8c26-f5716f611c93": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/GreencareBanner04.jpg",
+              "alignment": "center center",
+              "slide_title": "Greencare Clinics is opening March 31st 2021",
+              "subheading": "We look forward to helping you on your wellness journey.",
+              "button_label": ""
+            }
+          },
           "1595329099508-0": {
             "type": "image",
             "settings": {
@@ -141,6 +151,7 @@
           }
         },
         "block_order": [
+          "ec2cc415-c5c9-43bd-8c26-f5716f611c93",
           "1595329099508-0",
           "1595329099508-1",
           "1595329121085"
