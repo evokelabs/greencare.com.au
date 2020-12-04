@@ -111,7 +111,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/GreencareBanner04.jpg",
               "alignment": "center center",
-              "slide_title": "Greencare Clinics is opening March 31st 2021",
+              "slide_title": "<p>Greencare Clinics<\/p><p>is opening<\/p><p>March 31st 2021<\/p>",
               "subheading": "We look forward to helping you on your wellness journey.",
               "button_label": ""
             }
@@ -629,6 +629,32 @@
         "settings": {
           "heading_Support": "Benefits of working with Greencare Clinics:",
           "careers_button_text": "Contact Us"
+        }
+      },
+      "slideshow": {
+        "type": "slideshow",
+        "blocks": {
+          "18edeef4-72be-4876-ab67-bce4880eec34": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/GreencareBanner04.jpg",
+              "alignment": "center center",
+              "slide_title": "<p>Greencare Clinics<\/p><p>is opening<\/p><p>March 31st 2021<\/p>",
+              "subheading": "We look forward to helping you on your wellness journey.",
+              "button_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "18edeef4-72be-4876-ab67-bce4880eec34"
+        ],
+        "settings": {
+          "slideshow_height": "adapt",
+          "text_size": "medium",
+          "text_alignment": "left center",
+          "show_overlay": true,
+          "autorotate": false,
+          "autorotate_speed": 3
         }
       }
     },
