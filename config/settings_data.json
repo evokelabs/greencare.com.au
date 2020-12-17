@@ -122,7 +122,7 @@
               "image": "shopify:\/\/shop_images\/GreencareBanner01.jpg",
               "alignment": "center center",
               "slide_title": "<p>Become a<\/p><p>Greencare<\/p><p>patient today<\/p>",
-              "subheading": "Connect with one of our specialist doctors from the comfort of your own home to discuss our plant-based treatment options",
+              "subheading": "We are exclusively an online medical consultation service, connecting patients, doctors and nurses via telehealth appointments, making our service simple, discreet and efficient for all.",
               "button_label": "BOOK APPOINTMENT",
               "button_link": "#"
             }
@@ -209,7 +209,7 @@
         "type": "three-icon-text",
         "settings": {
           "main_heading": "Becoming a Greencare patient",
-          "main_text": "Prescription Plant Based and Endocannabinoid medicines are not like other prescription medications and can be challenging for patients to access.\n<br>\n<br>\nAt Greencare Clinics, we connect TGA approved prescribers and patients through our online clinic using the latest technology in telehealth, making the process as simple and comfortable as possible.",
+          "main_text": "Prescription Plant Based and Endocannabinoid medicines are not like other prescription medications and can be challenging for patients to access.\n<br>\n<br>\nAt Greencare Clinics, we are exclusively an online medical consultation service, connecting patients, doctors and nurses via telehealth appointments, making our service simple, discreet and efficient for all.",
           "image1": "shopify:\/\/shop_images\/Group_40.png",
           "heading1": "Step 1",
           "subheading1": "Eligibility and Information",
@@ -219,8 +219,9 @@
           "image2": "shopify:\/\/shop_images\/Group_40.png",
           "heading2": "Step 2",
           "subheading2": "Choose an Appointment",
-          "subtext2": "At Greencare we offer different types of consultations with our specialist team to suit your individual needs and situations. \n<br> <br> To learn more about our appointment types and which is best for you see the below chart.",
-          "btn2": "",
+          "subtext2": "At Greencare we offer different types of consultations with our specialist team to suit your individual needs and situations. \n<br> <br> To learn more about our appointment types and which may be best for you see our pricing page, or click below to book you appointment now.\n<br> <br>",
+          "btn2": "BOOK NOW",
+          "btn_url2": "shopify:\/\/pages\/book-appointment",
           "image3": "shopify:\/\/shop_images\/Group_40.png",
           "heading3": "Step 3",
           "subheading3": "Medication Approval",
@@ -389,10 +390,10 @@
         "type": "doctors_image_with_text",
         "settings": {
           "doctor_left_heading": "Referring Patients",
-          "doctor_left_pera": "Greencare is a trusted Australian based health service company that supports patients in accessing endocannabinoid medicines and plant based, natural alternatives when other treatments have failed them. We offer consultations via telehealth with a small team of carefully selected physicians and nurses who specialise in plant based treatments.\n<br>\n<br>\nIt is our job to walk your patients through the process of finding the most effective plant based medicine for their current conditions with the focus on optimising their health and wellbeing for the future. We do an in depth pre-screening of all patients, screen for drug interactions and contraindications and closely monitor patients for any adverse events. We focus on safe and controlled administration of plant based medicines, whilst striving for positive outcomes for the patient.\n<br>\n<br>\nWe do not require a referral form from you to treat your patients, you can direct them straight to the Greencare website. A downloadable information pamphlet is available via the button below for you to easily provide information about our service to your patients.",
+          "doctor_left_pera": "Greencare is a trusted Australian based health service company that supports patients in accessing endocannabinoid medicines and plant based, natural alternatives when other treatments have failed them. We offer consultations via telehealth with a small team of carefully selected physicians and nurses who specialise in plant based treatments.\n<br>\n<br>\nIt is our job to walk your patients through the process of finding the most effective plant based medicine for their current conditions with the focus on optimising their health and wellbeing for the future. We do an in depth pre-screening of all patients, screen for drug interactions and contraindications and closely monitor patients for any adverse events. We focus on safe and controlled administration of plant based medicines, whilst striving for positive outcomes for the patient.\n<br>\n<br>\nWe do not require a referral form from you to treat your patients, you can direct them straight to the Greencare website. A downloadable information pamphlet is available via the button below for you to easily provide information about our service to your patients.\n<br>\n<br>",
           "doctor_button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0438\/2697\/0775\/files\/MS010_Greencare_Patient_Referral_Form_Images.pdf?v=1602236589",
-          "doctor_left_pera_button": "Referral Form",
-          "doctor_banner_right_image": "shopify:\/\/shop_images\/doctorgreen-opt_aa281feb-c946-45a0-afe0-934c2e2dc6f9.png"
+          "doctor_left_pera_button": "Patient Pamphlet",
+          "doctor_banner_right_image": "shopify:\/\/shop_images\/dr_online_2.png"
         }
       },
       "doctors_three_block": {
@@ -427,7 +428,7 @@
             "settings": {
               "single_block_image": "shopify:\/\/shop_images\/DoctorIcon-4.png",
               "single_block_heading": "Australian Wide Consultations",
-              "single_block_pera": "We utilise the latest technology to provide you with a discrete and convenient alternative to time consuming, invasive clinic visits."
+              "single_block_pera": "We are an exclusively online clinic,utilising the latest technology, therefore we can consult on appointments anywhere within Australia.  Proving a discrete and convenient alternative to time consuming, invasive clinic visits."
             }
           },
           "4af005d6-2379-4950-8f01-21b9413610c4": {
@@ -478,7 +479,7 @@
           "doctor_list11": "",
           "doctor_cta_heading": "",
           "doctor_left_pera_button_fourth": "",
-          "doctor_banner_right_image_fourth": "shopify:\/\/shop_images\/doctorclipboard.png"
+          "doctor_banner_right_image_fourth": "shopify:\/\/shop_images\/Dr_online.png"
         }
       },
       "about_banner": {
@@ -495,7 +496,7 @@
         "settings": {
           "banner_image": "shopify:\/\/shop_images\/MS010_Website_Banners3_80891efb-a42f-4591-97a2-4443b947c6d0.jpg",
           "title": "FAQ's",
-          "subheading": "Plant based and Endocannabinoid medicine has been shown to help alleviate a range of symptoms including relieving pain, preventing or reduce vomiting and helping to bring on the onset of sleep.\nPlant based medicines have anti-inflammatory and antioxidant properties and can be particularly useful where other medications have failed.",
+          "subheading": "Plant based and Endocannabinoid medicine has been shown to help alleviate a range of symptoms including relieving pain, preventing or reduce vomiting and helping to bring on the onset of sleep.\n<br> <br>\nPlant based medicines have anti-inflammatory and antioxidant properties and can be particularly useful where other medications have failed.",
           "logo_image": "shopify:\/\/shop_images\/Group_238.png"
         }
       },
@@ -504,10 +505,10 @@
         "settings": {
           "full_width": false,
           "section_title": "Appointment Options",
-          "text1": "<p>Nurse Consult<\/p><p>(optional)<\/p><p><\/p><p>If you have read our FAQs and taken our eligibility test but still have questions we recommend booking a consultation with one of our Nurses. Our specialist Nurses will be able to answer any questions you may have about prescription Plant Based and Endocannabinoid Medicines in relation to your own health and treatment, as well as further information on the medicine in general. <br\/><\/p><p><\/p>",
-          "text2": "<p>Doctor Consult<\/p><p>(Initial)<\/p><p><\/p><p>If you are clear about your symptoms, have been referred by your GP and\/or have read our FAQs and taken our eligibility test and feel comfortable proceeding with an appointment, we recommend booking a consultation with one of our doctors. Prior to your appointment you will fill out an in depth questionnaire so that our Doctors are well informed with your current situation and can prepare for your appointment accordingly. During your appointment our Doctors will discuss with you via telehealth an individualised potential treatment plan for your specific symptoms using prescription plant based and endocannabinoid medicine, with the end goal of optimising your health and wellbeing. Our Doctors will then apply for your prescription medication and you will receive an email with the approval and prescription for you to then take to our recommended pharmacist to collect. <\/p><p><br\/><\/p><p><\/p>",
-          "text3": "<p>Lifestyle Plans<\/p><p>(12 or 24 month Subscriptions) <\/p><p>At Greencare Clinics we believe in Plant Based medicine becoming part of your lifestyle and therefore we offer a range of plans to suit your needs and finances. These plans include follow up Nurse and\/or Doctor consultations, Nurse Hotline, Virtual Events and monthly updates on the industry depending on your choice of plan. <\/p>",
-          "text_size": "medium",
+          "text1": "<p>Nurse Consult<\/p><p><\/p><p><\/p><p>We offer an optional consult with one of our specialist Nurses for any Patients who may want to find out more information about Plant Based and Endocannabinoid Medicines before making their initial Doctor&#x27;s appointment. <\/p><p><\/p>",
+          "text2": "<p>Doctor Consult<\/p><p><\/p><p><\/p><p>Our Doctors consult with you in depth about your current health, symptoms and past treatments via telehealth. They will work with you to outline a treatment plan to optimise your health and wellbeing.<\/p><p><\/p>",
+          "text3": "<p>Lifestyle Plans <\/p><p><\/p><p><\/p><p>We believe in plant based and endocannabinoid medicines becoming part of your lifestyle so we offer a range of plans to suit your needs and finances. <\/p><p><\/p>",
+          "text_size": "small",
           "logo_image": "shopify:\/\/shop_images\/Group_238.png"
         }
       },
@@ -525,7 +526,7 @@
         "settings": {
           "banner_image": "shopify:\/\/shop_images\/MS010_Website_Banners_e6a3e4c1-cb18-428a-af6f-30297a4688c2.jpg",
           "title": "About Us",
-          "subheading": "Greencare Clinics is a health services company comprising a team of\nauthorized specialist physicians and nurses who provide premium healthcare\nadvice and support for patients when accessing legal Plant Based and Endocannabinoid medicines.",
+          "subheading": "We are an exclusively online medical consultation service, connecting patients, doctors and nurses via telehealth appointments, making our service simple, discreet and efficient for all.",
           "logo_image": "shopify:\/\/shop_images\/Group_238.png"
         }
       },
@@ -533,7 +534,7 @@
         "type": "about_image_with_text",
         "settings": {
           "about_left_heading_fourth": "Our Mission",
-          "about_left_pera_fourth": "At Greencare, our goal is to support patients in accessing legal Plant Based and Endocannabinoid medicines as an effective plant based medical treatment, when other treatments have failed them. We believe in providing people with alternative treatments to help them on their wellness journey.\n<br><br>\nWe aim to work with our patients to assist them in achieving long term health goals based upon their personal needs and conditions. \n<br><br>\nOur focus is on safe and controlled administration, we thoroughly pre-screen our patients to optimise a treatment plan, specifically tailored for them. We monitor our patients closely post appointments for any potential adverse events while working towards positive outcomes. \n<br><br>\nGreencare’s specialist team of physicians provides patients with ongoing support and communication throughout the process in order for our patients to feel confident when utilizing this new form of medical treatment. \n<br><br>\nOur specialist physicians and nurses are experts in the field of  legal Plant Based and Endocannabinoid medicines and are registered Authorised Prescribers with the TGA. \n<br><br>\nWe are exclusively an online medical consultation service, connecting patients, doctors and nurses via telehealth appointments, making our service simple, discreet and efficient for all.\n<br><br><br>",
+          "about_left_pera_fourth": "Greencare Clinics is a health services company comprising a team of\nauthorized specialist physicians and nurses who provide premium healthcare\nadvice and support for patients when accessing legal Plant Based and Endocannabinoid medicines.\n<br> <br> \nAt Greencare, our goal is to support patients in accessing legal Plant Based and Endocannabinoid medicines as an effective plant based medical treatment, when other treatments have failed them. We believe in providing people with alternative treatments to help them on their wellness journey.\n<br><br>\nWe aim to work with our patients to assist them in achieving long term health goals based upon their personal needs and conditions. \n<br><br>\nOur focus is on safe and controlled administration, we thoroughly pre-screen our patients to optimise a treatment plan, specifically tailored for them. We monitor our patients closely post appointments for any potential adverse events while working towards positive outcomes. \n<br><br>\nGreencare’s specialist team of physicians provides patients with ongoing support and communication throughout the process in order for our patients to feel confident when utilizing this new form of medical treatment. \n<br><br>\nOur team are experts in the field of legal Plant Based and Endocannabinoid medicines and are registered Authorised Prescribers with the TGA. \n<br><br><br>",
           "about_left_heading_five": "Founders Story",
           "about_left_pera_five": "Greencare’s founder was first exposed to the world of plant based alternatives and endocannabinoid medicines when a friend who was suffering with cancer, found great benefit managing their pain and nausea whilst using the medicines.  A family member suffering from Fibromyalgia had seen significantly positive results and personally he also found great relief with his own struggle with insomnia thanks to the medicines prescribed.  \n<br><br>\nSince seeing these initial benefits, Greencare’s founder consulted with practicing medical doctors, leading experts and advocates in the field of plant based medicine and found himself wishing to share the opportunity and expertise of these people to the wider Australian community. \n<br><br>\nHoping to benefit as many people as possible through a more natural approach to health care, Greencare Clinics was created to provide a naturally derived alternative to traditional medicines to manage your health.",
           "about_banner_right_image_fourth": "shopify:\/\/shop_images\/older_couple_beach.jpg"
@@ -564,7 +565,7 @@
             "settings": {
               "single_block_image": "shopify:\/\/shop_images\/03-attractivehourlyrates.png",
               "single_block_heading": "Attractive Hourly Rates",
-              "single_block_pera": "70% of gross billings."
+              "single_block_pera": "Doctors earn $94.50 for each initial consult and $49.50 for follow up consultations. (Incl GST)"
             }
           },
           "daa234ef-8c49-41e8-baeb-d794c8c38865": {
