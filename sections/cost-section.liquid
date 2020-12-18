@@ -19,10 +19,15 @@
         <div class="rich-text__text--{{ section.settings.text_size }} rte-setting text-center cost_text">{{ section.settings.text3 }}</div>
       {% endif %}
       </div>
-      
-      {% if section.settings.logo_image %}
-      <img class="banner_logo_image" src="{{ section.settings.logo_image | img_url: 'master' }}">
+
+      {% if section.settings.pricing_link != blank %}   
+       <a class="btn btn--cta btn--single" href="{{ section.settings.pricing_link}}"> {{ section.settings.pricing_btn}} </a>
       {% endif %}
+
+      {% comment %} {% if section
+      .settings.logo_image %}
+      <img class="banner_logo_image" src="{{ section.settings.logo_image | img_url: 'master' }}">
+      {% endif %} {% endcomment %}
     </div>
   </div>
 </div>
@@ -221,6 +226,16 @@
         }
       ]
     },
+    {
+        "id": "pricing_btn",
+        "type": "text",
+        "label": "Button Text"
+      },
+	  {
+        "id": "pricing_link",
+        "type": "url",
+        "label": "Button link"
+      },
     {
       "type": "image_picker",
       "id": "logo_image",

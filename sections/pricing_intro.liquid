@@ -1,0 +1,33 @@
+<div class="doctor-page-width">
+  <div class="doctors_image_with_Text">
+    <div class="pricing_text_intro">
+      <h1 class="heading_doctor">{{section.settings.pricing_heading}}</h1>
+      <p class="para_doctor">{{section.settings.pricing_copy}}</p>   
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Pricing Intro Text",
+    "settings": [
+     {
+     "type": "text",
+     "id": "pricing_heading",
+     "label": "Heading",
+     "default": "Pricing"
+     },
+     {
+     "type": "html",
+     "id": "pricing_copy",
+     "label": "Content"
+      }   
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

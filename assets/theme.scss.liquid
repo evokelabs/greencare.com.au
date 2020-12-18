@@ -8841,7 +8841,7 @@ body{padding:0 20px;}
 p
 .site-nav.list--inline li a:after{ content: "|"; clear: both; display:none; }
 .site-nav a { padding: 0px; text-transform: uppercase;font-size: 18px;font-weight:600;}
-.imageblock, .iconblock{ width: 33.333%; float: left; display: block; text-align: center;padding: 0 20px;}
+.imageblock, .iconblock{display: block; text-align: center;}
 .site-nav li{display: inline-block;}
 .site-nav button{display: flex;}
 .three_image_main .imageblock_container .imageblock{width: calc(33.33% - 30px);margin: 0 15px !important;text-align: center;  padding: 0 40px;}
@@ -8857,13 +8857,13 @@ p
 nav#AccessibleNav {width: 58%;}
 .site-header__icons {width: 20%;}
 .slideshow__btn {padding: 9px 25px;border-radius: 36px;font-weight: 600;font-size: 18px;letter-spacing: 0.23px;}
-.iconblock {width: 33.33%;float: left;text-align: center;padding: 0 0 0 30px;position: relative;}
+.iconblock {text-align: center;position: relative; background: #DDF1E9; padding: 0 50px;}
 .icon_inner {background: #DDF1E9;    padding: 100px 30px 45px;}
-.iconblock:nth-child(2) .icon_inner {background: #DDEAEF;}
-.icon_text_main {margin: 0 0 -30px -30px;}
-.iconblock a {text-transform: uppercase;letter-spacing: 0.23px;background: #225d4a;color: #fff;padding: 20px 44px;border-radius: 35px;transition: 0.4s;font-weight:600;}
-.iconblock p {color:#000;float: left;width: 100%;margin: 0 0 0px 0;line-height:30px}
-.iconblock h2 {color:#225d4a;margin: 20px 0 10px 0;letter-spacing: 0;text-transform: unset;font-size: 30px;}
+.iconblock:nth-child(2) {background: #DDEAEF;}
+.icon_text_main {display: grid; grid-auto-flow: column; gap: 1.5em}
+.iconblock a {text-transform: uppercase;letter-spacing: 0.23px;background: #225d4a;color: #fff;padding: 20px 44px;border-radius: 35px;transition: 0.4s;font-weight:600; display: inline-block; margin: 0 0 1.5em 0; border: 1px solid #225d4a;}
+.iconblock p {color:#000;width: 100%;margin: 0 0 0px 0;line-height:30px}
+.iconblock h2 {color:#225d4a;letter-spacing: 0;text-transform: unset;font-size: 30px; margin-top: 2.5em;}
 button.btn.video-control.video-control__play {background: #8CCFB7;height: 80px;width: 80px;border-radius: 50%;padding: 15px 0px 15px 8px;}
 button.btn.video-control.video-control__play .icon {display: inline-block;width: 45px;height: 45px;}
 .video-control__play svg {width: 50px;height: 50px;}
@@ -8874,7 +8874,7 @@ h2.h1.mega-title.slideshow__title {font-size: 50px;text-shadow: none;letter-spac
 .imageblock h2 {margin: 25px 0 10px 0;}
 /* .cus_img {padding: 0 70px;} */
 .icon_inner h4 {margin: 0 0 5px 0;color:#225d4a;}
-.custom_icon {position: relative;left: 50%;transform: translate(-50%, 0px);max-width: 120px;margin-top:-155px;}
+.custom_icon {position: relative;left: 50%;transform: translate(-50%, -50%);max-width: 120px; position: absolute;}
 .section_full{max-width:100% !important;padding:0 !important;}
 .site-footer__item{margin-bottom: 0;}
 .site-footer__item-inner p.h4 { font-size: 16px;font-weight: normal;margin-bottom: 15px;}
@@ -9009,11 +9009,12 @@ h2.h3, .h3.h2,.section_heading,.three_image_main h2, .three_image_main .h2 ,.tre
 .imageblock h2,.iconblock h2{font-size: 32px;}
 i.fa.fa-linkedin {font-size: 28px;vertical-align: super;}
 .threeimagesec_btn a.btn.btn--cta {font-size: 18px;letter-spacing: 0.24px;padding: 20px 44px;}
+.btn--single {font-size: 20px; letter-spacing: 0.24px; padding: 20px 44px; border-radius: 35px;}
 button.btn.video-control.video-control__play{height: 100px;width: 100px;padding: 22px 0px 15px 15px;}
 .video-control__play svg {width: 40px;height: 55px;}
-.section_para {font-size: 20px;text-align: center;margin: 0 0 130px 0;line-height: 1.2;}
+.section_para {font-size: 20px;text-align: center;margin: 0 0 80px 0;line-height: 1.2;}
 .iconblock h4{font-size: 25px;}
-.iconblock p {margin: 5px 0 0px 0;font-size: 20px;  line-height: 24px;}
+.iconblock p {margin: 5px 0 1.5em 0;font-size: 20px;  line-height: 24px;}
 .iconblock a {font-size: 20px;}
 .icon_inner {padding: 100px 60px 40px;min-height:400px;float: left;width: 100%;}
 span.mega-subtitle.slideshow__subtitle {line-height: 40px;
@@ -9092,6 +9093,14 @@ h1.doctor-hero__title {
   width: 55%;
   padding: 0 15px;
 }
+.pricing_text_Section {
+  width: 85%;
+  padding: 0 15px 80px;
+}
+.pricing_text_intro {
+  width: 85%;
+  padding: 0 15px 0px;
+}
 #shopify-section-doctors_fourth_image_with_text .doctor_text_Section {
   flex-direction: column;
   display: flex;
@@ -9113,7 +9122,7 @@ h1.doctor-hero__title {
     padding-left: 1.3em;
 }
 
-div#shopify-section-doctors_image_with_text, div#shopify-section-about_image_with_text {
+div#shopify-section-doctors_image_with_text, div#shopify-section-about_image_with_text, div#shopify-section-pricing_intro {
     padding: 50px 0px;
 }
 .inner_block_section {
@@ -9172,6 +9181,26 @@ h1.heading_doctor{
     text-transform: uppercase;
     letter-spacing: 0px !important;
 }
+
+{% comment %} Pricing CSS {% endcomment %}
+
+.pricing-table {width: 85%; margin: 35px auto; font-weight: bold;}
+.pricing-table-headers{background: #225d4a;}
+.pricing-table-headers td{text-align: center; color: #FFF;border: 1px solid #8bb8cb; width: 22%;}
+.pricing-table-headers td:first-child{width: auto};
+.pricing-border-top {border-top: 3px solid #fff;}
+.pricing-border-bottom {border-bottom: 3px solid #fff;}
+
+.pricing-table-body {margin-bottom: 50px;}
+.pricing-table-body td{text-align: center; color: #FFF; width: 22%; border: 1px solid #fff; border-top: 1px solid #fff; border-bottom: 1px solid #fff;}
+.pricing-table-body td:first-child{width: auto; border-left: none;}
+.pricing-table-body td:last-child{border-right: none;}
+.pricing-table-img{max-width: 25px;}
+
+.pricing-table-color-green {color: #225d4a; background: #fff;}
+
+
+
 div#shopify-section-doctors_fourth_image_with_text .doctors_image_with_Text {
     padding: 50px 0px;
     padding-bottom: 40px;
@@ -9198,7 +9227,7 @@ div#shopify-section-doctors_fourth_image_with_text .doctor_image_section img {
 p.para_doctor {
   font-size: 20px;
 }
-div#shopify-section-doctors_three_block .three_block_section h1.heading_doctor, #shopify-section-careers_three_block .three_block_section h1.heading_doctor{
+div#shopify-section-doctors_three_block .three_block_section h1.heading_doctor, #shopify-section-careers_three_block .three_block_section h1.heading_doctor, #shopify-section-pricing_three_block .three_block_section h1.heading_doctor {
     padding-top: 48px;
     text-align: center;
 }
@@ -9280,7 +9309,7 @@ h1.doctor-hero__title, .doctor-hero__title.h1 {
 .rte-setting.cost_text {width: 33.33%;float: left;position: relative; padding: 0 15px;}
 .rte-setting.cost_text:after {content: "";position: absolute;background: #fff;height: 138px;width: 1px;top: 0;right: 0;}
 .rte-setting.cost_text:last-child:after {display: none;}
-.cost_text_wrap {float: left;width: 100%;margin: 10px 0 0 0;}
+.cost_text_wrap {float: left;width: 100%;margin: 10px 0 20px 0;}
 .cost_text p:first-child {font-size: 34px;font-weight: 600;margin:0 0 8px 0;}
 .cost_section p:nth-child(2){ font-weight: 600;font-size: 24px;}
 .cost_section p:nth-child(4) {font-size: 16px;line-height: 24px;}
@@ -9310,7 +9339,7 @@ h1.doctor-hero__title, .doctor-hero__title.h1 {
     #shopify-section-doctors_three_block .doctor-page-width,
     #shopify-section-doctors_fourth_image_with_text .doctors_image_with_Text .doctor_text_Section {padding: 0 80px;}
     #shopify-section-doctors_fourth_image_with_text .doctors_image_with_Text .doctor_image_section {padding: 0 80px 0 0;}
-    .doctor_text_Section{padding: 0 80px;}   
+    .doctor_text_Section, .pricing_text_Section{padding: 0 80px;}   
     .treatment_section .grid--flush-bottom {grid-template-columns: 100%}   
     .treatment_section .grid__item .t_block {min-height: auto; max-height:auto;}
     .treatment_section .grid__item:nth-last-child(-n + 2) .t_block{min-height: auto; max-height:auto;}
@@ -9328,7 +9357,7 @@ h1.doctor-hero__title, .doctor-hero__title.h1 {
   .three_image_main .imageblock_container p {font-size: 20px;line-height: 28px;}
   h1.doctor-hero__title {font-size: 35px; max-width: 820px;}
   #shopify-section-doctors_fourth_image_with_text .doctors_image_with_Text .doctor_image_section {padding: 0 45px 0 0;}
-  .doctor_text_Section {padding: 0 45px;}
+  .doctor_text_Section, .pricing_text_Section {padding: 0 45px;}
   #shopify-section-doctors_three_block .doctor-page-width, #shopify-section-doctors_fourth_image_with_text .doctors_image_with_Text .doctor_text_Section {padding: 0 45px;}
   .t_block p {font-size: 16px;}
   .page_s p {font-size: 19px;line-height: 30px;}
@@ -9348,9 +9377,9 @@ h1.doctor-hero__title, .doctor-hero__title.h1 {
   .section_para{font-size:18px;line-height:30px;margin: 10px 0 110px 0;}
   .icon_inner{padding: 80px 30px 35px;min-height:475px;}
   .iconblock h4, .iconblock .h4 {font-size: 20px; margin: 10px 0 0px;}
-  .custom_icon{max-width: 100px;margin-top: -130px;}
-  .iconblock p{margin: 10px 0 0px 0;font-size: 20px;line-height: 24px; }
-  .iconblock a {padding: 12px 25px;font-size: 16px;}
+  .custom_icon{max-width: 100px;}
+  .iconblock p{font-size: 20px;line-height: 24px; }
+  .iconblock a, .btn--single {padding: 12px 25px;font-size: 16px;}
   .site-footer .page-width {max-width: 1170px;}
   .site-footer a{font-size: 16px;}
   .index-section.video-section .page-width {max-width: 1170px;}
@@ -9381,7 +9410,7 @@ h1.doctor-hero__title, .doctor-hero__title.h1 {
   .imageblock{padding: 0 25px;} 
   .threeimagesec_btn a.btn.btn--cta, .threeimagesec_btn .shopify-payment-button a.btn--cta.shopify-payment-button__button--unbranded, .shopify-payment-button .threeimagesec_btn a.btn--cta.shopify-payment-button__button--unbranded, .threeimagesec_btn .shopify-payment-button a.btn--cta.shopify-payment-button__button--unbranded, .shopify-payment-button .threeimagesec_btn a.btn--cta.shopify-payment-button__button--unbranded {font-size: 16px;}
   .index-section.video-section .page-width { max-width: 1000px;}
-  .icon_inner {padding: 85px 30px 25px;    min-height: 425px;}
+  .icon_inner {padding: 85px 30px 25px;}
   .site-footer .page-width {  max-width: 1100px;}
   .treatment_section .t_banner {height: 230px;}
   .section_full p.section_para {max-width: 1000px;padding-left: 75px;padding-right: 75px;}
@@ -9405,14 +9434,14 @@ h1.doctor-hero__title, .doctor-hero__title.h1 {
 }
 @media only screen and (max-width: 1024px){
   .three_image_main .imageblock_container p {   font-size: 16px;   line-height: 24px;}
-  div#shopify-section-doctors_image_with_text, div#shopify-section-about_image_with_text {padding: 50px 0px;}
+  div#shopify-section-doctors_image_with_text, div#shopify-section-about_image_with_text, div#shopify-section-pricing_intro {padding: 50px 0px;}
   .site-footer {padding: 35px 30px;}
   .doctors_image_with_Text .threeimagesec_btn {margin-top: 10px;}
   h1.doctor-hero__title {font-size: 38px;max-width: 700px;}
   #shopify-section-doctors_fourth_image_with_text .doctors_image_with_Text .doctor_text_Section {padding: 0 55px 0 0;}
   #shopify-section-doctors_fourth_image_with_text .doctors_image_with_Text .doctor_image_section { padding: 0 60px 0 0;}
   #shopify-section-doctors_three_block .doctor-page-width {padding: 0 55px;}
-  .doctor_text_Section {padding: 0 55px 0 0;}
+  .doctor_text_Section, .pricing_text_Section {padding: 0 55px 0 0;}
    h1.heading_doctor {font-size: 25px;margin-bottom:10px !important;}
   div#shopify-section-doctors_three_block .three_block_section .single_block_section p.three_block_doctor { line-height: 22px;font-size: 14px;}
   .site-nav a {font-size: 14px;}
@@ -9440,7 +9469,6 @@ h1.doctor-hero__title, .doctor-hero__title.h1 {
   .iconblock h2, .iconblock .h2 {font-size: 25px;}
   .iconblock p {line-height: 19px;font-size: 14px;}
   .icon_inner h4, .icon_inner .h4{font-size: 20px;}
-  .custom_icon { max-width: 80px;    margin-top: -120px;}
   .slideshow__slide  .slideshow__text-wrap.slideshow__text-wrap--desktop .slideshow__btn-wrapper.slideshow__btn-wrapper--push {margin-top: 50px;}
   .slideshow__text-wrap--desktop .slideshow__text-content{padding:0 15px;}
   .treatment_section .t_banner,.treatment_section p.section_content{ margin-bottom: 55px;}
@@ -9521,11 +9549,10 @@ h2.h1.mega-title.slideshow__title, .h1.mega-title.slideshow__title.h2, .h1.mega-
   .iconblock {padding: 0 0 0 10px;}
   .icon_inner {padding: 50px 15px 15px;min-height: 350px;}
   .icon_inner .button_full {margin: 10px 0 0 0;}
-  .custom_icon {max-width: 65px;    margin-top: -85px;}
   .iconblock h2 {font-size: 20px;margin-bottom: 5px;}
   .icon_inner h4{ font-size: 15px;    margin: 6px 0 0 0;}
   .iconblock p {line-height: 15px;font-size: 12px;margin-bottom: 10px;}
-  .iconblock a {padding: 7px 20px; font-size: 13px;}
+  .iconblock a, .btn--single {padding: 7px 20px; font-size: 13px;}
   .three_image_main {padding: 50px 0;}
   .section_heading {font-size: 32px;}
   .section_para {margin: 0 0 85px 0;}
@@ -9545,12 +9572,12 @@ h2.h1.mega-title.slideshow__title, .h1.mega-title.slideshow__title.h2, .h1.mega-
   .all_banner_wrapper h1.banner_title, .all_banner_wrapper .banner_title.h1 {font-size: 32px;margin: 0 0 0px 0;}
   .all_banner_wrapper p.banner_sub_heading{line-height: 21px;font-size: 14px;margin: 0 0 10px 0;}
   .all_banner_wrapper img.banner_logo_image { max-width: 35px;}
-  .icon_text_main {  margin: 0 0 -30px -10px;}
+  .custom_icon {max-width: 75px;}
+  .icon_text_main {grid-auto-flow: row;}
   .all_banner_wrapper{max-width:100%;}  
   .page-width.cost_section { max-width: 700px;padding: 30px 30px 20px;}
   .cost_section .rte-setting {margin: 0 0 7px 0;}
   .cost_section img.banner_logo_image {width: 50px;}
-  .iconblock h2 {margin: 5px 0 0 0;}
   .cost_text p:first-child { font-size: 26px;}
   .cost_section p:nth-child(2) { font-size: 14px;}
   .cost_section p {font-size: 20px; line-height: 28px;}
@@ -9566,7 +9593,7 @@ h2.h1.mega-title.slideshow__title, .h1.mega-title.slideshow__title.h2, .h1.mega-
   div#shopify-section-doctors_fourth_image_with_text .doctors_image_with_Text {padding: 50px 0px;padding-bottom: 15px;}
   .custom_banner_for_all {height: 350px;}
   .dc_color .single_image img {max-width: 110px;}
-  div#shopify-section-doctors_image_with_text,div#shopify-section-doctors_image_with_text {padding: 40px 0px;}
+  div#shopify-section-doctors_image_with_text,div#shopify-section-doctors_image_with_text,div#shopify-section-pricing_intro{padding: 40px 0px;}
    p.para_doctor {font-size: 18px;}
   #shopify-section-doctors_three_block .doctor-page-width, #shopify-section-doctors_fourth_image_with_text .doctors_image_with_Text .doctor_text_Section {padding: 0 20px;}
   #shopify-section-doctors_fourth_image_with_text .doctors_image_with_Text .doctor_image_section {padding: 40px 20px 0;}
@@ -9625,8 +9652,7 @@ h2.h1.mega-title.slideshow__title, .h1.mega-title.slideshow__title.h2, .h1.mega-
   .video-control__play svg { width: 35px;height: 35px;}
   .section_para, .treatment_section p.section_content {font-size: 16px;}
   .iconblock a{padding: 9px 20px;font-size: 14px; display: inline-block; }
-  .custom_icon{max-width: 75px;}
-  .iconblock {margin: 0 0 90px 0;}  
+  .iconblock {margin: 0 0 50px 0;}  
   .site-header__logo-image img {max-width: 45% !important;}
   .site-header__mobile-nav{padding: 0px;}
   .site-header__icons{ padding-right: 0px;}
@@ -9641,11 +9667,14 @@ h2.h1.mega-title.slideshow__title, .h1.mega-title.slideshow__title.h2, .h1.mega-
   .all_banner_wrapper p.banner_sub_heading {margin: 0 0 20px 0;}
   .icon_inner {padding: 50px 20px 40px;min-height: auto;}
   .page-width.cost_section {max-width: 100%;padding: 40px 30px 30px;border-radius: 60px;}
+  .page-width.cost_section.pricing-table-div {padding: 40px 0px 30px;}
+  .pricing-table{font-size: 12px;}
   .three_image_main h2 {margin: 0 0 10px 0;}
   .three_image_main .imageblock h2 {margin: 15px 0 10px 0;}
   .icon_inner h4{font-size:18px;}
   
   .rte-setting.cost_text {width: 100%;padding: 0 0 40px}
+  .rte-setting.cost_text:nth-last-child(1) {padding: 0;}
   .cost_text p:first-child {font-size: 22px;}
   .rte-setting.cost_text:after {height: 1px;width: 100%;top: unset;bottom: 15px;max-width: 200px;transform: translate(-50%,0);left:50%;}
   .cost_section p:nth-child(4) {font-size: 10px;}
@@ -9760,7 +9789,7 @@ h2.h1.mega-title.slideshow__title, .h1.mega-title.slideshow__title.h2, .h1.mega-
     font-size: 20px;
         padding: 0 15px;
   }
-  .doctor_text_Section {
+  .doctor_text_Section, .pricing_text_Section {
     width: 100%;
     padding: 0 0px;
 }
@@ -9784,7 +9813,7 @@ h2.h1.mega-title.slideshow__title, .h1.mega-title.slideshow__title.h2, .h1.mega-
         margin-bottom: 15px !important;
   }
  
-  .doctor_text_Section {
+  .doctor_text_Section, .pricing_text_Section {
     padding-bottom: 30px;
 }
   p.benefit_span {
