@@ -106,6 +106,17 @@
       "1595329099508": {
         "type": "slideshow",
         "blocks": {
+          "1595329099508-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/GreencareBanner01.jpg",
+              "alignment": "center center",
+              "slide_title": "<p>Welcome to <\/p><p>Greencare Clinics<\/p><p><\/p>",
+              "subheading": "Greencare Clinics is an online medical wellness centre, connecting patients to our specialist doctors and nurses via telehealth appointments.",
+              "button_label": "BOOK APPOINTMENT",
+              "button_link": "#"
+            }
+          },
           "ec2cc415-c5c9-43bd-8c26-f5716f611c93": {
             "type": "image",
             "settings": {
@@ -114,17 +125,6 @@
               "slide_title": "<p>Greencare Clinics<\/p><p>is opening<\/p><p>March 31st 2021<\/p>",
               "subheading": "We look forward to helping you on your wellness journey.",
               "button_label": ""
-            }
-          },
-          "1595329099508-0": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/GreencareBanner01.jpg",
-              "alignment": "center center",
-              "slide_title": "<p>Become a<\/p><p>Greencare<\/p><p>patient today<\/p>",
-              "subheading": "We are exclusively an online medical consultation service, connecting patients, doctors and nurses via telehealth appointments, making our service simple, discreet and efficient for all.",
-              "button_label": "BOOK APPOINTMENT",
-              "button_link": "#"
             }
           },
           "1595329099508-1": {
@@ -143,7 +143,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/GreencareBanner03.jpg",
               "alignment": "center center",
-              "slide_title": "<p>Plant based medicines<\/p><p>are now accessible<\/p><p>for all Australians.<\/p>",
+              "slide_title": "<p>Plant based medicine<\/p><p>is now accessible<\/p><p>for all Australians.<\/p>",
               "subheading": "",
               "button_label": "BOOK Today",
               "button_link": "#"
@@ -151,8 +151,8 @@
           }
         },
         "block_order": [
-          "ec2cc415-c5c9-43bd-8c26-f5716f611c93",
           "1595329099508-0",
+          "ec2cc415-c5c9-43bd-8c26-f5716f611c93",
           "1595329099508-1",
           "1595329121085"
         ],
@@ -208,8 +208,8 @@
       "1595419385253": {
         "type": "three-icon-text",
         "settings": {
-          "main_heading": "Becoming a Greencare patient",
-          "main_text": "Prescription Plant Based and Endocannabinoid medicines are not like other prescription medications and can be challenging for patients to access.\n<br>\n<br>\nAt Greencare Clinics, we are exclusively an online medical consultation service, connecting patients, doctors and nurses via telehealth appointments, making our service simple, discreet and efficient for all.",
+          "main_heading": "Greencare Clinics",
+          "main_text": "Greencare Clinics is an online medical and wellness centre, connecting  our patients with our specialist doctors and nurses via telehealth appointments.  \n<br><br>\nWe are passionate about plant based therapy and our Doctors take a highly responsible approach prescribing plant based and endocannabinoid medicines, as an alternative to conventional pharmaceutical drugs.  \nOur service is personal, affordable\nand highly effective.",
           "image1": "shopify:\/\/shop_images\/Group_40.png",
           "heading1": "Step 1",
           "subheading1": "Eligibility and Information",
@@ -382,7 +382,7 @@
         "settings": {
           "banner_image": "shopify:\/\/shop_images\/MS010_Website_Banners3_80891efb-a42f-4591-97a2-4443b947c6d0.jpg",
           "title": "Doctors",
-          "subheading": "Greencare’s specialist physicians and nurses are experts in this complex and variable medicine, and follow all State and TGA prescribing guidelines when considering Endocannabinoid Medicine and Plant Based Alternatives as a treatment option.",
+          "subheading": "Greencare’s specialist physicians and nurses are experts in Plant Based Medicines and follow all State and TGA prescribing guidelines.",
           "logo_image": "shopify:\/\/shop_images\/Group_238.png"
         }
       },
@@ -496,7 +496,7 @@
         "settings": {
           "banner_image": "shopify:\/\/shop_images\/MS010_Website_Banners3_80891efb-a42f-4591-97a2-4443b947c6d0.jpg",
           "title": "FAQ's",
-          "subheading": "Plant based and Endocannabinoid medicine has been shown to help alleviate a range of symptoms including relieving pain, preventing or reduce vomiting and helping to bring on the onset of sleep.\n<br> <br>\nPlant based medicines have anti-inflammatory and antioxidant properties and can be particularly useful where other medications have failed.",
+          "subheading": "We are an exclusively online medical consultation service, connecting patients, doctors and nurses via telehealth appointments, making our service simple, discreet and efficient for all.",
           "logo_image": "shopify:\/\/shop_images\/Group_238.png"
         }
       },
@@ -664,15 +664,15 @@
         "type": "banner_image_pricing",
         "settings": {
           "banner_image": "shopify:\/\/shop_images\/pricing-banner.jpg",
-          "title": "Pricing",
-          "subheading": "",
+          "title": "Payment Options",
+          "subheading": "At Greencare, we offer patients a range of consults and pricing plans to suit your individual needs and situations.",
           "logo_image": "shopify:\/\/shop_images\/Group_238.png"
         }
       },
       "pricing_intro": {
         "type": "pricing_intro",
         "settings": {
-          "pricing_heading": "Pricing",
+          "pricing_heading": "Payment Options",
           "pricing_copy": "At Greencare, we offer patients a range of consults and pricing plans to suit your individual needs and\nsituations. We believe that by offering patients a range of options and information on what may suit them,\ngives the patient the ability to make the best decision for themselves, their health and their lifestyle."
         }
       },
