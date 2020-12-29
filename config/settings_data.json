@@ -665,15 +665,15 @@
         "settings": {
           "banner_image": "shopify:\/\/shop_images\/pricing-banner.jpg",
           "title": "Payment Options",
-          "subheading": "At Greencare, we offer patients a range of consults and pricing plans to suit your individual needs and situations.",
+          "subheading": "At Greencare, we offer patients a range of consults and pricing plans to suit your individual needs and situations. We believe that by offering patients a range of options and information on what may suit them, gives the patient the ability to make the best decision for themselves, their health and their lifestyle.",
           "logo_image": "shopify:\/\/shop_images\/Group_238.png"
         }
       },
       "pricing_intro": {
         "type": "pricing_intro",
         "settings": {
-          "pricing_heading": "Payment Options",
-          "pricing_copy": "At Greencare, we offer patients a range of consults and pricing plans to suit your individual needs and\nsituations. We believe that by offering patients a range of options and information on what may suit them,\ngives the patient the ability to make the best decision for themselves, their health and their lifestyle."
+          "pricing_heading": "",
+          "pricing_copy": ""
         }
       },
       "pricing_three_block": {
