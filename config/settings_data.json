@@ -114,7 +114,7 @@
               "slide_title": "<p>Welcome to <\/p><p>Greencare Clinics<\/p><p><\/p>",
               "subheading": "Greencare Clinics is an online medical wellness centre, connecting patients to our specialist doctors and nurses via telehealth appointments.",
               "button_label": "BOOK APPOINTMENT",
-              "button_link": "#"
+              "button_link": "shopify:\/\/pages\/book-appointment"
             }
           },
           "ec2cc415-c5c9-43bd-8c26-f5716f611c93": {
@@ -124,7 +124,8 @@
               "alignment": "center center",
               "slide_title": "<p>Greencare Clinics<\/p><p>is opening<\/p><p>March 31st 2021<\/p>",
               "subheading": "We look forward to helping you on your wellness journey.",
-              "button_label": ""
+              "button_label": "",
+              "button_link": "shopify:\/\/pages\/book-appointment"
             }
           },
           "1595329099508-1": {
@@ -135,7 +136,7 @@
               "slide_title": "<p>Do you suffer<\/p><p>from a sleep<\/p><p>disorder, anxiety,<\/p><p>or chronic pain?<\/p>",
               "subheading": "Connect with one of our specialist doctors from the comfort of your own home today.",
               "button_label": "BOOK APPOINTMENT",
-              "button_link": "#"
+              "button_link": "shopify:\/\/pages\/book-appointment"
             }
           },
           "1595329121085": {
@@ -146,7 +147,7 @@
               "slide_title": "<p>Plant based medicine<\/p><p>is now accessible<\/p><p>for all Australians.<\/p>",
               "subheading": "",
               "button_label": "BOOK Today",
-              "button_link": "#"
+              "button_link": "shopify:\/\/pages\/book-appointment"
             }
           }
         },
@@ -209,7 +210,7 @@
         "type": "three-icon-text",
         "settings": {
           "main_heading": "Greencare Clinics",
-          "main_text": "Greencare Clinics is an online medical and wellness centre, connecting  our patients with our specialist doctors and nurses via telehealth appointments.  \n<br><br>\nWe are passionate about plant based therapy and our Doctors take a highly responsible approach prescribing plant based and endocannabinoid medicines, as an alternative to conventional pharmaceutical drugs.  \nOur service is personal, affordable\nand highly effective.",
+          "main_text": "Greencare Clinics is an online medical and wellness centre, connecting  our patients with our specialist doctors and nurses via telehealth appointments.  \n<br><br>\nWe are passionate about plant based therapy and our Doctors take a highly responsible approach prescribing plant based and endocannabinoid medicines, as an alternative to conventional pharmaceutical drugs.  \nOur service is personal, affordable\nand highly effective.\n<br><br><br>",
           "image1": "shopify:\/\/shop_images\/Group_40.png",
           "heading1": "Step 1",
           "subheading1": "Eligibility and Information",
@@ -631,6 +632,7 @@
         ],
         "settings": {
           "heading_Support": "Benefits of working with Greencare Clinics:",
+          "careers_button_link": "mailto:hello@greencare.com.au",
           "careers_button_text": "Contact Us"
         }
       },
