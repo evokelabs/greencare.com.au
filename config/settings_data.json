@@ -112,7 +112,7 @@
               "image": "shopify:\/\/shop_images\/GreencareBanner01.jpg",
               "alignment": "center center",
               "slide_title": "<p>Welcome to <\/p><p>Greencare Clinics<\/p><p><\/p>",
-              "subheading": "Greencare Clinics is an online medical wellness centre, connecting patients to our specialist doctors and nurses via telehealth appointments.",
+              "subheading": "We are an online medical and wellness centre that passionately supports the use of naturally derived medicines to treat a wide range of symptoms.  \n\nOur highly experienced doctors will support your consultation privately and discretely through our video and telehealth.",
               "button_label": "BOOK APPOINTMENT",
               "button_link": "shopify:\/\/pages\/book-appointment"
             }
@@ -349,7 +349,7 @@
         "settings": {
           "banner_image": "shopify:\/\/shop_images\/MS010_Website_Banners2_d94eb93e-dfcb-4fab-ab8c-ada61d5314eb.jpg",
           "title": "Treatments",
-          "subheading": "Plant Based medicines and Endocannabinoids may be helpful with the management of symptoms associated with a wide\nvariety of conditions that have not responded to conventional treatments. \n<br>\nThe TGA does not\nhave an approved list of indications that may be applied for but common conditions include the below.",
+          "subheading": "Plant Based medicines and Endocannabinoids may be helpful with the management of symptoms associated with a wide\nvariety of conditions that have not responded to conventional treatments. \n<br>\nOur doctors are highly experienced in treating patients who present with many different symptoms. Some of which include:",
           "logo_image": "shopify:\/\/shop_images\/Group_238.png"
         }
       },
@@ -666,8 +666,8 @@
         "type": "banner_image_pricing",
         "settings": {
           "banner_image": "shopify:\/\/shop_images\/pricing-banner.jpg",
-          "title": "Payment Options",
-          "subheading": "At Greencare, we offer patients a range of consults and pricing plans to suit your individual needs and situations. We believe that by offering patients a range of options and information on what may suit them, gives the patient the ability to make the best decision for themselves, their health and their lifestyle.",
+          "title": "Costs",
+          "subheading": "At Greencare we offer competitive prices for premium professional services. <br>  \nPlease consider our payment plans to support your financial comfortability.  \n<br>",
           "logo_image": "shopify:\/\/shop_images\/Group_238.png"
         }
       },
