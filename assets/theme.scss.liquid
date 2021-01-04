@@ -1883,6 +1883,7 @@ a {
   &:not([disabled]):hover,
   &:focus {
     color: $color-text-focus;
+    color: #8bcfb6;
   }
 }
 
@@ -2643,6 +2644,7 @@ textarea {
   &:focus,
   &:hover {
     color: $color-text-focus;
+    color: #8bcfb6;
   }
 }
 
@@ -9183,11 +9185,34 @@ h1.heading_doctor{
 }
 
 {% comment %} Pricing CSS {% endcomment %}
-
+.no-margin {margin: 0}
+.no-padding {padding: 0}
 .pricing-table {width: 85%; margin: 35px auto; font-weight: bold;}
-.pricing-table-headers{background: #367387;}
-.pricing-table-headers td{text-align: center; color: #FFF;border: 1px solid #8bb8cb; width: 22%;}
-.pricing-table-headers td:first-child{width: auto};
+
+.pricing-table-single-appointment {border-collapse: separate; border-spacing: 10px; margin: 0;}
+.pricing-table-single-appointment td {border: none; text-align: center; padding: 0; width: 33%;}
+.pricing-table-single-appointment tr:first-child td {color: #fff; font-weight: bold; background: #367387; border-radius: 250px; padding: 10px 14px;}
+
+.pricing-table-header {border: none; border-collapse: separate; border-spacing: 7px; margin-bottom: 0;}
+.pricing-table-header tr:first-child td {color: #fff; font-weight: bold; background: #367387; border-radius: 250px; padding: 10px 14px;}
+.pricing-table-header td{text-align: center; color: #FFF;border: 0px solid #8bb8cb; width: 22%;}
+.pricing-table-header td:first-child{width: auto};
+.pricing-table-header .pricing-border-none td {border: none; padding: 0;}
+
+.pricing-table-body {border: none;}
+.pricing-table-body .pricing-border-none td {border: none; padding: 0;}
+
+.pricing-table-headers{background: #367387; border-radius: 250px; display: inline-table; width: 33%;}
+.pricing-table-headers td{text-align: center; color: #FFF;border: 0px solid #8bb8cb;}
+.pricing-table-headers td:first-child{width: auto;};
+
+.pricing-table-healthplans-containertable {margin-bottom: 0px};
+.pricing-table-healthplans-containertable td {width: 22%; border: 0px;}
+.pricing-table-healthplans-containertable td:first-child{width: auto};
+
+.pricing-table-healthplans-headers {background: #367387; border-radius: 250px; display: inline-table; margin-bottom: 0px;}
+.pricing-table-healthplans-headers td{text-align: center; color: #FFF;border: 0px solid #8bb8cb;}
+
 .pricing-border-top {border-top: 3px solid #367387;}
 .pricing-border-bottom {border-bottom: 3px solid #367387}
 
@@ -9435,6 +9460,7 @@ h1.doctor-hero__title, .doctor-hero__title.h1 {
   .site-nav a {font-size: 13px;}
   .site-nav__label {padding: 0 5px;}
   nav#AccessibleNav .icon {width: 20px;height: 20px;}
+  .pricing-table-headers {width: 100%;}
 }
 @media only screen and (max-width: 1024px){
   .three_image_main .imageblock_container p {   font-size: 16px;   line-height: 24px;}
