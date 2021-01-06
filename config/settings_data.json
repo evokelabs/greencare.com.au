@@ -109,7 +109,7 @@
           "1595329099508-0": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/GreencareBanner01.jpg",
+              "image": "shopify:\/\/shop_images\/GreencareBanner01b.jpg",
               "alignment": "center center",
               "slide_title": "<p>Welcome to <\/p><p>Greencare Clinics<\/p><p><\/p>",
               "subheading": "We are an online medical and wellness centre that passionately supports the use of naturally derived medicines to treat a wide range of symptoms.  \n\nOur highly experienced doctors will support your consultation privately and discretely through our video and telehealth.",
@@ -201,7 +201,7 @@
         "type": "three-icon-text",
         "settings": {
           "main_heading": "Becoming a Greencare Patient is easy ...",
-          "main_text": "<br><br>",
+          "main_text": "<br>",
           "image1": "shopify:\/\/shop_images\/Group_40.png",
           "heading1": "Step 1",
           "subheading1": "Eligibility and Information",
@@ -720,7 +720,7 @@
         "settings": {
           "full_width": false,
           "section_title": "Greencare Clinics",
-          "text": "<p>Greencare Clinics is an online medical and wellness centre, connecting  our patients with our specialist doctors and nurses via telehealth appointments.  <\/p><p>We are passionate about plant based therapy and our Doctors take a highly responsible approach prescribing plant based and endocannabinoid medicines, as an alternative to conventional pharmaceutical drugs.  Our service is personal, affordable and highly effective.<\/p><p>Our doctors are highly experienced in treating patients who present with many different symptoms. Some of which include: patients experiencing nausea and vomiting during chemotherapy, to improve appetite in people with HIV\/AIDS, to treat chronic pain and diseases, muscle spasms and even insomnia.<\/p>",
+          "text": "<p>Greencare Clinics is an online medical and wellness centre, connecting our patients with our specialist doctors and nurses via telehealth appointments.  <\/p><p>We are passionate about plant based therapy and our Doctors take a highly responsible approach prescribing plant based and endocannabinoid medicines, as an alternative to conventional pharmaceutical drugs. <\/p><p>Our service is personal, affordable and highly effective. Our doctors are highly experienced in treating patients who present with many different symptoms. Some of which include: patients experiencing nausea and vomiting during chemotherapy, to improve appetite in people with HIV\/AIDS, to treat chronic pain and diseases, muscle spasms and even insomnia.<\/p><p><\/p>",
           "text_size": "medium"
         }
       }
