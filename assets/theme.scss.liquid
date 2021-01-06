@@ -3173,7 +3173,6 @@ $slick-dot-size-small: 10px;
 /*================ Index sections ================*/
 .index-section {
   padding-top: $section-spacing-small;
-  padding-bottom: $section-spacing-small;
 
   @include media-query($medium-up) {
     padding-top: $section-spacing;
@@ -8839,6 +8838,7 @@ $min-height-disclosure: 92px;
 .slideshow__text-content-list p, .slideshow__text-content p {color: #fff;margin: 0;font-family:inherit;}
 span.mega-subtitle.slideshow__subtitle > br:first-child {display: none;}
 
+
 body{padding:0 20px;}
 p
 .site-nav.list--inline li a:after{ content: "|"; clear: both; display:none; }
@@ -8960,6 +8960,8 @@ h2.h3 {letter-spacing: 0;font-size: 40px;}
 
 
 /*By Shalu*/
+
+.three_image_main {margin-top: 65px !important;}
 .slideshow__text-content{/*max-width: 600px;*/margin-left: 10px;}
 h2.h1.mega-title.slideshow__title, .h1.mega-title.slideshow__title.h2{font-size: 52px;}
 .imageblock_container{  display: flex;flex-wrap: wrap;  margin: 0px -65px;}
@@ -9014,7 +9016,7 @@ i.fa.fa-linkedin {font-size: 28px;vertical-align: super;}
 .btn--single {font-size: 20px; letter-spacing: 0.24px; padding: 20px 44px; border-radius: 35px;}
 button.btn.video-control.video-control__play{height: 100px;width: 100px;padding: 22px 0px 15px 15px;}
 .video-control__play svg {width: 40px;height: 55px;}
-.section_para {font-size: 20px;text-align: center;margin: 0 0 80px 0;line-height: 1.2;}
+.section_para {font-size: 20px;text-align: center;margin: 0 0 60px 0;line-height: 1.2;}
 .iconblock h4{font-size: 25px;}
 .iconblock p {margin: 5px 0 1.5em 0;font-size: 20px;  line-height: 24px;}
 .iconblock a {font-size: 20px;}
@@ -9025,10 +9027,10 @@ span.mega-subtitle.slideshow__subtitle {line-height: 40px;
   font-size: 30px;}
 .custom_icon {max-width: 105px;}
 .payment-icons .icon {   width: 50px;height: 30px;}
-.index-section {padding-top: 65px; padding-bottom: 65px;}
-.index-section--slideshow{max-width: 100%;;}
-.page-width.rich-text.page_s { max-width: 1280px;padding-top:0px;}
-.section_full {margin-top: 80px;}
+.index-section {padding-top: 65px; padding-bottom: 0px;}
+.index-section--slideshow{max-width: 100%;}
+.page-width.rich-text.page_s { max-width: 1280px;padding-top:65px;}
+.section_full {margin-top: 65px;}
 .site-footer__item.site-footer__item--one-fifth {width: 17.7%;}
 .t_banner{height: 345px;background-position: center;}
 .t_block .col_left{padding: 0 20px 0 0px;}
@@ -9227,6 +9229,13 @@ h1.heading_doctor{
 .pricing-table-color-blue {color: #367387; background: #D0DFE6;}
 .pricing-table-hero-td {}
 
+.pricing-table-iconblock {text-align: center; position: relative; padding: 30px 0px 0px; display: block;}
+.pricing-table-iconblock a{text-transform: uppercase; letter-spacing: 0.23px; background: #225d4a; color: #fff; padding: 20px 44px; border-radius: 35px; transition: 0.4s; font-weight: 600; margin: 0 0 1.5em 0; border: 1px solid #225d4a;}
+.pricing-table-iconblock a:hover{background: transparent !important;color: #225d4a;border: 1px solid #225d4a;transition: 0.4s;}
+
+
+.pricing-table-smaller-text {font-size: 14px;}
+
 
 
 div#shopify-section-doctors_fourth_image_with_text .doctors_image_with_Text {
@@ -9332,15 +9341,15 @@ h1.doctor-hero__title, .doctor-hero__title.h1 {
 
 
 /* Cost Section */
-.page-width.cost_section {background: #8bb8cb;border-radius: 250px;padding:50px 10px 30px;text-align: center;max-width:1200px;}
+.page-width.cost_section {background: #D0DFE6;border-radius: 250px;padding:50px 10px 30px;text-align: center;max-width:1200px;}
 .pricing-table-div.page-width.cost_section {background: #D0DFE6;}
-.cost_section p {margin: 0;color: #fff;font-size: 24px;line-height: 36px;}
+.cost_section p {margin: 0;color: #000;font-size: 24px;line-height: 36px;}
 .cost_section img.banner_logo_image {width: 50px;margin: 10px auto 0;}
 .rte-setting.cost_text {width: 33.33%;float: left;position: relative; padding: 0 15px;}
 .rte-setting.cost_text:after {content: "";position: absolute;background: #fff;height: 138px;width: 1px;top: 0;right: 0;}
 .rte-setting.cost_text:last-child:after {display: none;}
 .cost_text_wrap {float: left;width: 100%;margin: 10px 0 20px 0;}
-.cost_text p:first-child {font-size: 34px;font-weight: 600;margin:0 0 8px 0;}
+.cost_text p:first-child {font-size: 25px;font-weight: 700;margin:0 0 8px 0; color: #225d4a; font-family: "Sequel Sans Medium Body",Arial,"Lucida Grande",sans-serif; letter-spacing: 0;}
 .cost_section p:nth-child(2){ font-weight: 600;font-size: 24px;}
 .cost_section p:nth-child(4) {font-size: 16px;line-height: 24px;}
 .page-width.cost_section h2.h3 {letter-spacing: -1px;margin: 0 0 10px 0;}
@@ -9381,7 +9390,6 @@ h1.doctor-hero__title, .doctor-hero__title.h1 {
 
 
 @media only screen and (max-width: 1440px){
-  .section_full {margin-top: 50px;}
   body {padding: 0 12px;}
   .three_image_main .imageblock_container .imageblock h2 {text-transform: uppercase;font-size: 26px; letter-spacing: 0px !important;}
   .three_image_main .imageblock_container p {font-size: 20px;line-height: 28px;}
@@ -9404,7 +9412,7 @@ h1.doctor-hero__title, .doctor-hero__title.h1 {
   .slideshow__btn-wrapper--push{margin-top: 30px; float: left;}
   .imageblock p{font-size: 24px; line-height: 38px;}
   .threeimagesec_btn a.btn.btn--cta, .threeimagesec_btn .shopify-payment-button a.btn--cta.shopify-payment-button__button--unbranded, .shopify-payment-button .threeimagesec_btn a.btn--cta.shopify-payment-button__button--unbranded{font-size: 16px; padding:14px 30px;}
-  .section_para{font-size:18px;line-height:30px;margin: 10px 0 110px 0;}
+  .section_para{font-size:18px;line-height:30px;}
   .icon_inner{padding: 80px 30px 35px;min-height:475px;}
   .iconblock h4, .iconblock .h4 {font-size: 20px; margin: 10px 0 0px;}
   .custom_icon{max-width: 100px;}
@@ -9476,7 +9484,7 @@ h1.doctor-hero__title, .doctor-hero__title.h1 {
    h1.heading_doctor {font-size: 25px;margin-bottom:10px !important;}
   div#shopify-section-doctors_three_block .three_block_section .single_block_section p.three_block_doctor { line-height: 22px;font-size: 14px;}
   .site-nav a {font-size: 14px;}
-  .index-section {padding-top: 40px;padding-bottom: 40px;}
+  .index-section {padding-top: 65px}
   .header_btn a {padding: 8px 18px;font-size: 14px;}
   h2.h1.mega-title.slideshow__title, .h1.mega-title.slideshow__title.h2, 
   .h1.mega-title.slideshow__title.h2 {font-size: 30px;    line-height: 36px;}
@@ -9586,7 +9594,7 @@ h2.h1.mega-title.slideshow__title, .h1.mega-title.slideshow__title.h2, .h1.mega-
   .iconblock a, .btn--single {padding: 7px 20px; font-size: 13px;}
   .three_image_main {padding: 50px 0;}
   .section_heading {font-size: 32px;}
-  .section_para {margin: 0 0 85px 0;}
+  .section_para {margin: 0 0 50px 0;}
   .treatment_section .t_banner {height: 250px;}
   .treatment_section .t_banner, .treatment_section p.section_content { margin-bottom: 35px;}
   .treatment_section p.section_content{font-size: 16px;line-height:22px;}  
@@ -9664,7 +9672,7 @@ h2.h1.mega-title.slideshow__title, .h1.mega-title.slideshow__title.h2, .h1.mega-
   .password-content .site-header__logo-image img {max-width: 100% !important;}
   .iconblock h2, .iconblock .h2,  .t_block h3.h4{font-size: 22px;}
   .imageblock p,.iconblock p,.t_block a.btn.btn--secondary {font-size: 16px;line-height: 26px;}
-  .section_heading {margin: 30px 0 10px 0;padding: 0 15px;}
+  .section_heading {margin: 0px 0 10px 0;padding: 0 15px;}
   .section_para{padding: 0 15px;}
   .section_para,.treatment_section p.section_content {font-size: 20px;}
   .slideshow__text-content--mobile {padding-top: 0;margin:0;}
@@ -9728,7 +9736,7 @@ h2.h1.mega-title.slideshow__title, .h1.mega-title.slideshow__title.h2, .h1.mega-
   .site-header__logo-image img {padding: 0 40px 0 15px;}
   span.mega-subtitle.slideshow__subtitle br {display: block;}
   .sub_title_wrap br { display: none;}
-  .index-section {padding-top: 35px;padding-bottom: 35px;}
+  .index-section {padding-top: 35px;}
   .site-header__logo-image img{padding: 0; padding-right: 40px;max-width: 100% !important;}
   .treatment_section h2.section_heading, .treatment_section .section_heading.h2, .treatment_section .section_heading.h2, .treatment_section .section_heading.h2{margin-bottom: 15px;}
   .treatment_section .t_banner {height:220px;}
@@ -9864,7 +9872,7 @@ p.three_block_doctor {
 }
   .three_block_section h2 {  font-size: 20px;  }
   
-  .page-width.rich-text.page_s {padding: 0 15px;}
+  .page-width.rich-text.page_s {padding: 50px 15px 0;}
 div#shopify-section-doctors_fourth_image_with_text .doctors_image_with_Text .threeimagesec_btn a.btn.btn--cta.truncate_more_link, div#shopify-section-doctors_fourth_image_with_text .doctors_image_with_Text .threeimagesec_btn .shopify-payment-button a.btn--cta.truncate_more_link.shopify-payment-button__button--unbranded, .shopify-payment-button div#shopify-section-doctors_fourth_image_with_text .doctors_image_with_Text .threeimagesec_btn a.btn--cta.truncate_more_link.shopify-payment-button__button--unbranded, div#shopify-section-doctors_image_with_text .doctor_text_Section a.btn.btn--cta.truncate_more_link, div#shopify-section-doctors_image_with_text .doctor_text_Section .shopify-payment-button a.btn--cta.truncate_more_link.shopify-payment-button__button--unbranded, .shopify-payment-button div#shopify-section-doctors_image_with_text .doctor_text_Section a.btn--cta.truncate_more_link.shopify-payment-button__button--unbranded {
     font-size: 14px;
     padding: 12px 25px;
