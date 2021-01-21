@@ -520,7 +520,7 @@
         "settings": {
           "banner_image": "shopify:\/\/shop_images\/MS010_Website_Banners_e6a3e4c1-cb18-428a-af6f-30297a4688c2.jpg",
           "title": "About Us",
-          "subheading": "We are an exclusively online medical consultation service, connecting patients, doctors and nurses via telehealth appointments, making our service simple, discreet and efficient for all.\n<br> <br> \nWe believe patients should have access to alternative medicines and therapies  to improve their health and wellbeing when traditional treatments have failed them. We support the responsible use of naturally derived medicines, in an effort to treat disease and\/or improve symptoms so that patients can get the most out of their life.  ",
+          "subheading": "We believe patients should have access to alternative medicines and therapies  to improve their health and wellbeing when traditional treatments have failed them. We support the responsible use of naturally derived medicines, in an effort to treat disease and\/or improve symptoms so that patients can get the most out of their life.  ",
           "logo_image": "shopify:\/\/shop_images\/Group_238.png"
         }
       },
@@ -551,15 +551,15 @@
             "settings": {
               "single_block_image": "shopify:\/\/shop_images\/01-hours.png",
               "single_block_heading": "Flexible Hours & WORK LOCATION",
-              "single_block_pera": "We are a 7 day practice which can accommodate flexible working hours from your own home or office."
+              "single_block_pera": "We are a 5 day practice which can accommodate flexible working hours from your own home or office."
             }
           },
           "3f0d5075-af9f-4bf5-b30e-938b77b9310e": {
             "type": "image",
             "settings": {
               "single_block_image": "shopify:\/\/shop_images\/03-attractivehourlyrates.png",
-              "single_block_heading": "Attractive Hourly Rates",
-              "single_block_pera": "Doctors earn $94.50 for each initial consult and $49.50 for follow up consultations. (Incl GST)"
+              "single_block_heading": "Attractive Rates",
+              "single_block_pera": "Doctors earn $94.50 for each initial consult and $49.50 for follow up consultations (incl GST) with the ability to see up to four patients per hour."
             }
           },
           "daa234ef-8c49-41e8-baeb-d794c8c38865": {
@@ -578,12 +578,20 @@
               "single_block_pera": "We source patients for you."
             }
           },
-          "b2d2bf7d-f17b-4402-979e-0718a6e8045b": {
+          "eaba211a-e4c1-44d2-93aa-8f37072ef370": {
             "type": "image",
             "settings": {
-              "single_block_image": "shopify:\/\/shop_images\/07-RemainInformed.png",
-              "single_block_heading": "Remain Informed",
-              "single_block_pera": "We share industry updates with our staff monthly."
+              "single_block_image": "shopify:\/\/shop_images\/09-LessPaperwork_54819125-57d9-4b64-a54e-4b6faa155623.png",
+              "single_block_heading": "Less Paperwork",
+              "single_block_pera": "We provide you with all the paperwork and information needed for the TGA so you can focus on patient care."
+            }
+          },
+          "60493661-f34d-4619-8e7f-6429a807003d": {
+            "type": "image",
+            "settings": {
+              "single_block_image": "shopify:\/\/shop_images\/10-PatientPreScreening_f5bb31b4-943e-46e8-8cc9-753d4fa1f09c.png",
+              "single_block_heading": "Patient Pre-screening",
+              "single_block_pera": "We perform an in depth questionnaire so all relevant patient information is available prior to appointments."
             }
           },
           "2f9d5c5e-168b-45bb-9192-4b7ef28ec87d": {
@@ -594,20 +602,12 @@
               "single_block_pera": "We provide ongoing training throughout the year."
             }
           },
-          "eaba211a-e4c1-44d2-93aa-8f37072ef370": {
+          "b2d2bf7d-f17b-4402-979e-0718a6e8045b": {
             "type": "image",
             "settings": {
-              "single_block_image": "shopify:\/\/shop_images\/09-LessPaperwork_54819125-57d9-4b64-a54e-4b6faa155623.png",
-              "single_block_heading": "Less Paperwork",
-              "single_block_pera": "We handle all the paperwork with the TGA so you can focus on patient care."
-            }
-          },
-          "60493661-f34d-4619-8e7f-6429a807003d": {
-            "type": "image",
-            "settings": {
-              "single_block_image": "shopify:\/\/shop_images\/10-PatientPreScreening_f5bb31b4-943e-46e8-8cc9-753d4fa1f09c.png",
-              "single_block_heading": "Patient Pre-screening",
-              "single_block_pera": "We perform an in depth questionnaire so all relevant patient information is available prior to appointments."
+              "single_block_image": "shopify:\/\/shop_images\/07-RemainInformed.png",
+              "single_block_heading": "Remain Informed",
+              "single_block_pera": "We share industry updates with our staff monthly."
             }
           }
         },
@@ -616,10 +616,10 @@
           "3f0d5075-af9f-4bf5-b30e-938b77b9310e",
           "daa234ef-8c49-41e8-baeb-d794c8c38865",
           "2aea1f08-f7a7-47a0-a87e-baeb27964472",
-          "b2d2bf7d-f17b-4402-979e-0718a6e8045b",
-          "2f9d5c5e-168b-45bb-9192-4b7ef28ec87d",
           "eaba211a-e4c1-44d2-93aa-8f37072ef370",
-          "60493661-f34d-4619-8e7f-6429a807003d"
+          "60493661-f34d-4619-8e7f-6429a807003d",
+          "2f9d5c5e-168b-45bb-9192-4b7ef28ec87d",
+          "b2d2bf7d-f17b-4402-979e-0718a6e8045b"
         ],
         "settings": {
           "heading_Support": "Benefits of working with Greencare Clinics:",
@@ -711,7 +711,7 @@
         "settings": {
           "full_width": false,
           "section_title": "Why Plant Based Medicine",
-          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "text": "<p>Herbal or Plant Based medicine has its origins in ancient cultures. It involves the medicinal use of plants to treat disease and enhance general health and wellbeing. <\/p><p>Plant based medicines have a long history of clinical use and are still the most widely used medicines in the world today. For approximately<strong> 5.1 billion people worldwide<\/strong>, natural plant-based remedies are used for a range of mild, acute and chronic health problems, from treating common colds to controlling blood pressure and cholesterol. <\/p><p>Studies have shown that these medicines have better patient tolerance and acceptance compared to synthetic options. <\/p><p>Many of the larger pharmaceutical companies in the US offered a broad variety of plant-based drugs in tablet, liquid and ointment forms until as late as the 1950&#x27;s. Whilst today you will find many synthetic drugs in pharmacies, plants are still the original source materials for up to 40% of these pharmaceuticals on offer. <\/p><p><\/p><p>To date, 35,000-70,000 plant species have been screened for their medicinal use and more are being researched daily. <\/p>",
           "text_size": "medium"
         }
       },
