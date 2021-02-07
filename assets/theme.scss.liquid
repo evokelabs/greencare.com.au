@@ -9343,15 +9343,12 @@ h1.doctor-hero__title, .doctor-hero__title.h1 {
 /* Cost Section */
 .page-width.cost_section {background: #D0DFE6;border-radius: 250px;padding:50px 10px 30px;text-align: center;max-width:1200px;}
 .pricing-table-div.page-width.cost_section {background: #D0DFE6;}
-.cost_section p {margin: 0;color: #000;font-size: 24px;line-height: 36px;}
 .cost_section img.banner_logo_image {width: 50px;margin: 10px auto 0;}
 .rte-setting.cost_text {width: 33.33%;float: left;position: relative; padding: 0 15px;}
 .rte-setting.cost_text:after {content: "";position: absolute;background: #fff;height: 138px;width: 1px;top: 0;right: 0;}
 .rte-setting.cost_text:last-child:after {display: none;}
 .cost_text_wrap {float: left;width: 100%;margin: 10px 0 20px 0;}
 .cost_text p:first-child {font-size: 25px;font-weight: 700;margin:0 0 8px 0; color: #225d4a; font-family: "Sequel Sans Medium Body",Arial,"Lucida Grande",sans-serif; letter-spacing: 0;}
-.cost_section p:nth-child(2){ font-weight: 600;font-size: 24px;}
-.cost_section p:nth-child(4) {font-size: 16px;line-height: 24px;}
 .page-width.cost_section h2.h3 {letter-spacing: -1px;margin: 0 0 10px 0;}
 /* Cost Section */
 
@@ -9427,10 +9424,7 @@ h1.doctor-hero__title, .doctor-hero__title.h1 {
   .doctor_text_Section ul li{font-size: 16px; margin-bottom: 0px}
   span.mega-subtitle.slideshow__subtitle {line-height: 35px;font-size: 22px;}
   .page-width.cost_section {max-width:900px;}
-  .cost_section p {font-size: 22px;line-height: 34px;}
   .cost_text p:first-child {font-size: 25px;margin:0 0 5px 0;}
-  .cost_section p:nth-child(2){font-size:21px;}
-  .cost_section p:nth-child(4){font-size:14px;}
   .rte-setting.cost_text:after{height:120px;}
 }
 @media only screen and (max-width: 1366px){
@@ -9456,7 +9450,6 @@ h1.doctor-hero__title, .doctor-hero__title.h1 {
   .site-nav__label {padding: 0 8px;}
   .template-index .slideshow__text-content .page-width { max-width: 500px;float: left;padding-left: 30px;}
   span.mega-subtitle.slideshow__subtitle {max-width: 100%;margin: 15px 0 0 0;}
-  .cost_section p {font-size: 21px;line-height: 33px;}
 }
 
 @media only screen and (max-width: 1200px){
@@ -9618,9 +9611,6 @@ h2.h1.mega-title.slideshow__title, .h1.mega-title.slideshow__title.h2, .h1.mega-
   .cost_section .rte-setting {margin: 0 0 7px 0;}
   .cost_section img.banner_logo_image {width: 50px;}
   .cost_text p:first-child { font-size: 26px;}
-  .cost_section p:nth-child(2) { font-size: 14px;}
-  .cost_section p {font-size: 20px; line-height: 28px;}
-  .cost_section p:nth-child(4) {font-size: 12px;line-height: 18px;}
   .rte-setting.cost_text:after {height: 105px;}
 }
 @media only screen and (max-width: 749px){
@@ -9717,7 +9707,6 @@ h2.h1.mega-title.slideshow__title, .h1.mega-title.slideshow__title.h2, .h1.mega-
   .rte-setting.cost_text:nth-last-child(1) {padding: 0;}
   .cost_text p:first-child {font-size: 22px;}
   .rte-setting.cost_text:after {height: 1px;width: 100%;top: unset;bottom: 15px;max-width: 200px;transform: translate(-50%,0);left:50%;}
-  .cost_section p:nth-child(4) {font-size: 10px;}
 
   .grid-why-choose-greencare {
   padding: 0px;
@@ -9765,7 +9754,6 @@ h2.h1.mega-title.slideshow__title, .h1.mega-title.slideshow__title.h2, .h1.mega-
   .slideshow__title--mobile{font-size:14px !important;}
   h2.h1.mega-title.slideshow__title{margin: 0px 0 0 0;}
   body h1.doctor-hero__title, .doctor-hero__title.h1 {font-size: 15px;}
-  .cost_section p {font-size: 15px;line-height: 24px;}
 
 }
 
@@ -9882,5 +9870,474 @@ div#shopify-section-doctors_fourth_image_with_text .doctors_image_with_Text .thr
    margin: 0 0 40px 0;}
   .mobile-nav__link, .mobile-nav__sublist-link {padding: 15px 5px;}
 }
-  
-  
+
+/* Booking Update CSS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@font-face {
+    font-family: 'Sequel Sans Medium Disp';
+    src: url('SequelSans-MediumDisp.eot');
+    src: url('SequelSans-MediumDisp.eot?#iefix') format('embedded-opentype'),
+        url('SequelSans-MediumDisp.woff2') format('woff2'),
+        url('SequelSans-MediumDisp.woff') format('woff'),
+        url('SequelSans-MediumDisp.ttf') format('truetype'),
+        url('SequelSans-MediumDisp.svg#SequelSans-MediumDisp') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sequel Sans Light Disp';
+    src: url('SequelSans-LightDisp.eot');
+    src: url('SequelSans-LightDisp.eot?#iefix') format('embedded-opentype'),
+        url('SequelSans-LightDisp.woff2') format('woff2'),
+        url('SequelSans-LightDisp.woff') format('woff'),
+        url('SequelSans-LightDisp.ttf') format('truetype'),
+        url('SequelSans-LightDisp.svg#SequelSans-LightDisp') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sequel Sans Light Body';
+    src: url('SequelSans-LightBody.eot');
+    src: url('SequelSans-LightBody.eot?#iefix') format('embedded-opentype'),
+        url('SequelSans-LightBody.woff2') format('woff2'),
+        url('SequelSans-LightBody.woff') format('woff'),
+        url('SequelSans-LightBody.ttf') format('truetype'),
+        url('SequelSans-LightBody.svg#SequelSans-LightBody') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sequel Sans Bold Disp';
+    src: url('SequelSans-BoldDisp.eot');
+    src: url('SequelSans-BoldDisp.eot?#iefix') format('embedded-opentype'),
+        url('SequelSans-BoldDisp.woff2') format('woff2'),
+        url('SequelSans-BoldDisp.woff') format('woff'),
+        url('SequelSans-BoldDisp.ttf') format('truetype'),
+        url('SequelSans-BoldDisp.svg#SequelSans-BoldDisp') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sequel Sans Bold Body';
+    src: url('SequelSans-BoldBody.eot');
+    src: url('SequelSans-BoldBody.eot?#iefix') format('embedded-opentype'),
+        url('SequelSans-BoldBody.woff2') format('woff2'),
+        url('SequelSans-BoldBody.woff') format('woff'),
+        url('SequelSans-BoldBody.ttf') format('truetype'),
+        url('SequelSans-BoldBody.svg#SequelSans-BoldBody') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sequel Sans Black Disp';
+    src: url('SequelSans-BlackDisp.eot');
+    src: url('SequelSans-BlackDisp.eot?#iefix') format('embedded-opentype'),
+        url('SequelSans-BlackDisp.woff2') format('woff2'),
+        url('SequelSans-BlackDisp.woff') format('woff'),
+        url('SequelSans-BlackDisp.ttf') format('truetype'),
+        url('SequelSans-BlackDisp.svg#SequelSans-BlackDisp') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sequel Sans Medium Body';
+    src: url('SequelSans-MediumBody.eot');
+    src: url('SequelSans-MediumBody.eot?#iefix') format('embedded-opentype'),
+        url('SequelSans-MediumBody.woff2') format('woff2'),
+        url('SequelSans-MediumBody.woff') format('woff'),
+        url('SequelSans-MediumBody.ttf') format('truetype'),
+        url('SequelSans-MediumBody.svg#SequelSans-MediumBody') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sequel Sans Book Body';
+    src: url('SequelSans-BookBody.eot');
+    src: url('SequelSans-BookBody.eot?#iefix') format('embedded-opentype'),
+        url('SequelSans-BookBody.woff2') format('woff2'),
+        url('SequelSans-BookBody.woff') format('woff'),
+        url('SequelSans-BookBody.ttf') format('truetype'),
+        url('SequelSans-BookBody.svg#SequelSans-BookBody') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 18px;
+    font-family: "Sequel Sans Book Body",
+    Arial,
+    "Lucida Grande",
+    sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #225d4a;
+    line-height: 1.2;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* New CSS */
+
+.pricing_text_Section {
+    margin: 0 auto;
+}
+
+.questionnaire-icon,
+.bookoption-icon {
+    justify-content: center;
+    width: 122px;
+    height: 122px;
+    color: #fff;
+    font-size: 70px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-105%);  
+}
+
+.bookoption-icon {
+    transform: translate(-50%, -155%);
+}
+
+/* Have you taken our Eligibility test? */
+
+.eligility-container,
+.bookoption-container {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 6em;
+    justify-content: center;
+    margin: 110px 0;
+}
+
+
+
+.eligiblity-item,
+.bookoption-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    background-color: #DDF1E9;
+    padding: 0 60px;
+    width: 500px;
+    height: 259px;
+    transform: scale(1);
+}
+
+.bookoption-item {
+    height: 375px;
+}
+
+.eligiblity-item:hover,
+.bookoption-item:hover {
+    border: 2px solid #225D4A;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.1s ease-out;
+}
+
+.eligiblity-item h3,
+.bookoption-item h3,
+.eligiblity-item:hover h3,
+.bookoption-item:hover h3,
+.eligiblity-item:focus h3,
+.bookoption-item:focus h3
+ {
+  color: #225d4a;
+}
+
+.container {
+    max-width: 1280px;
+    padding-top: 65px;
+    margin: 0 auto;
+}
+
+.book {text-align: center;}
+
+p {
+    color: #000000;
+    font-size: 20px;
+    margin: 0;
+    line-height: 1.4;
+
+}
+
+/* Questionnaire - Are you eligible? */
+
+
+.questionnaire-container {
+    margin: 0 auto;
+}
+
+.questionnaire-item {
+    display: inline-block;
+    background-color: #DDF1E9;
+    padding: 30px 70px 50px;
+    width: 1058px;
+    margin-top: 40px;
+}
+
+.questionnaire-item ul {
+    position: relative;
+    text-align: left;
+    color: #000;
+    width: 800px;
+    padding-left: 250px;
+    list-style: none;
+    margin-bottom: 0;
+    margin-top: 16px;
+
+}
+
+.questionnaire-item li {
+    font-size: 20px;
+}
+.questionnaire-item li::before {
+    content: "\2022";
+    color: #225D4A;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 20px;
+    width: 20px;
+    line-height: 1.5;
+    position: relative;
+}
+
+.questionnaire-radio-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: row;
+}
+
+.questionnaire-radio-label {
+    cursor: pointer;
+    font-size: 20px;
+    padding: 20px 50px 0;
+    color: #000;
+    
+}
+
+.questionnaire-radio-label input {
+     display: none;
+}
+
+.questionnaire-radio-label input + span {
+    display: inline-block;
+    position: relative;
+    padding-left: 40px;
+}
+
+.questionnaire-radio-label input+span:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -1px;
+    left: 0px;
+    border-radius: 50%;
+    margin-right: 5px;
+    width: 28px;
+    height: 28px;
+    border: 3px solid #225D4A;
+    background: #fff;
+}
+
+.questionnaire-radio-label input+span:after {
+    content: '';
+    display: block;
+    width: 20px;
+    height:20px;
+    background: #225D4A;
+    position: absolute;
+    border-radius: 50%;
+    top: 3px;
+    left: 4px;
+    opacity: 0;
+    transform: scale(0, 0);
+    transition: all 0.2s cubic-bezier(0.64, 0.57, 0.67, 1.53);
+}
+
+
+.questionnaire-radio-label input:checked+span:after {
+    opacity: 1;
+    transform: scale(1, 1);
+}
+
+.container button,
+.pricing_text_Section button {
+    font-family: "Sequel Sans Book Body",Arial,"Lucida Grande",sans-serif;
+    display: block;
+    color: #fff;
+    background-color: #225D4A;
+    border-radius: 35px;
+    padding: 15px 40px;
+    margin: 30px auto 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 2px solid #225D4A;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    line-height: inherit;
+}
+
+.pricing_text_Section button {
+  margin: 5px auto;
+}
+
+.pricing-table-small {
+  font-size: 15px;
+}
+
+.button-fill {
+    width: 90%;
+}
+.container button:hover,
+.pricing_text_Section button:hover{
+     background-color: #FFF;
+     color: #225D4A;
+     border: 2px solid #225D4A;
+}
+
+.pricing_text_Section button:hover {
+    background-color: #D0DFE6;
+}
+
+
+.book h2 {
+    font-family: "Sequel Sans Medium Body", Arial, "Lucida Grande", sans-serif;
+    font-weight: 700;
+    line-height: 1.15;
+    font-size: 42px;
+    letter-spacing: -0.02em;
+    color: #225d4a;
+    margin: 0 0 10px 0;
+    text-transform: inherit;
+}
+
+.book h3 {
+    font-size: 32px;
+    font-family: "Sequel Sans Medium Body", Arial, "Lucida Grande", sans-serif;
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    margin: 0px 0 10px 0;
+}
+
+.eligibility-results h2 {
+    margin-bottom: 50px;
+}
+
+.eligibility-results p {
+    margin-bottom: 30px;
+}
+
+.eligibility-results small {
+    display: block;
+    color: #000;
+    margin: 80px 0 0;
+}
+
+.HD-component {
+  background-color: #000;
+  height: 250px;
+  width: 650px;
+  margin: 0 auto;
+
+}
+
+
+
+@media (max-width: 1200px){
+    .container {
+        width: 90%;
+    }
+    .book h2 {
+        font-size: 26px;
+    }
+    p {
+        font-size: 18px;
+    }
+
+    .eligility-container,
+    .bookoption-container {
+        grid-auto-flow: row;
+    }
+
+    .eligiblity-item,
+    .bookoption-item {
+        width: auto;
+        height: auto;
+        padding: 100px 50px;
+    }
+
+    .eligiblity-item, .bookoption-item {
+        justify-content: start;
+    }
+
+    .questionnaire-item {
+        width: 100%;
+        padding: 30px 40px;
+    }
+
+    .questionnaire-icon,
+    .bookoption-icon {
+        transform: translate(-50%, -130%)
+    }
+    
+    .questionnaire-item p {
+        text-align: left;
+    }
+
+    .questionnaire-item ul {
+        width: auto;
+        padding-left: 0;
+    }
+
+    .questionnaire-item li {
+        font-size: 18px;
+    }
+    .questionnaire-radio-label {
+        padding: 10px 0px;
+    }
+    .questionnaire-radio-container {
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+    .pricing-table-small {
+      font-size: 12px;
+    }
+
+    .pricing_text_Section button {
+      font-size: 12px;
+      padding: 10px 15px;
+    }
+
+}
