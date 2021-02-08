@@ -559,15 +559,15 @@
             "settings": {
               "single_block_image": "shopify:\/\/shop_images\/03-attractivehourlyrates.png",
               "single_block_heading": "Attractive Rates",
-              "single_block_pera": "Doctors earn $94.50 for each initial consult and $49.50 for follow up consultations (incl GST) with the ability to see up to four patients per hour."
+              "single_block_pera": "Generous reenumeration on all consultations."
             }
           },
           "daa234ef-8c49-41e8-baeb-d794c8c38865": {
             "type": "image",
             "settings": {
               "single_block_image": "shopify:\/\/shop_images\/05-SupportiveCulture.png",
-              "single_block_heading": "Supportive Team Culture",
-              "single_block_pera": "Nursing Assistance provided."
+              "single_block_heading": "Support",
+              "single_block_pera": "We provide Nursing staff and a highly skilled admin team to assist with patient care, ongoing training throughout the year and monthly industry updates to keep our staff informed on any changes in the industry."
             }
           },
           "2aea1f08-f7a7-47a0-a87e-baeb27964472": {
@@ -593,22 +593,6 @@
               "single_block_heading": "Patient Pre-screening",
               "single_block_pera": "We perform an in depth questionnaire so all relevant patient information is available prior to appointments."
             }
-          },
-          "2f9d5c5e-168b-45bb-9192-4b7ef28ec87d": {
-            "type": "image",
-            "settings": {
-              "single_block_image": "shopify:\/\/shop_images\/08-StaffTraining_fb220147-2d53-4072-9f28-11e5bd844057.png",
-              "single_block_heading": "Staff Training",
-              "single_block_pera": "We provide ongoing training throughout the year."
-            }
-          },
-          "b2d2bf7d-f17b-4402-979e-0718a6e8045b": {
-            "type": "image",
-            "settings": {
-              "single_block_image": "shopify:\/\/shop_images\/07-RemainInformed.png",
-              "single_block_heading": "Remain Informed",
-              "single_block_pera": "We share industry updates with our staff monthly."
-            }
           }
         },
         "block_order": [
@@ -617,9 +601,7 @@
           "daa234ef-8c49-41e8-baeb-d794c8c38865",
           "2aea1f08-f7a7-47a0-a87e-baeb27964472",
           "eaba211a-e4c1-44d2-93aa-8f37072ef370",
-          "60493661-f34d-4619-8e7f-6429a807003d",
-          "2f9d5c5e-168b-45bb-9192-4b7ef28ec87d",
-          "b2d2bf7d-f17b-4402-979e-0718a6e8045b"
+          "60493661-f34d-4619-8e7f-6429a807003d"
         ],
         "settings": {
           "heading_Support": "Benefits of working with Greencare Clinics:",
