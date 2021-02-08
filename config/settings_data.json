@@ -518,9 +518,9 @@
       "banner_image_about": {
         "type": "banner_image_about",
         "settings": {
-          "banner_image": "shopify:\/\/shop_images\/MS010_Website_Banners_e6a3e4c1-cb18-428a-af6f-30297a4688c2.jpg",
-          "title": "About Us",
-          "subheading": "We believe patients should have access to alternative medicines and therapies  to improve their health and wellbeing when traditional treatments have failed them. We support the responsible use of naturally derived medicines, in an effort to treat disease and\/or improve symptoms so that patients can get the most out of their life.  ",
+          "banner_image": "shopify:\/\/shop_images\/MS010_Website_Banners3_80891efb-a42f-4591-97a2-4443b947c6d0.jpg",
+          "title": "Book an appointment",
+          "subheading": "",
           "logo_image": "shopify:\/\/shop_images\/Group_238.png"
         }
       },
@@ -711,7 +711,7 @@
         "settings": {
           "full_width": false,
           "section_title": "Why Plant Based Medicine",
-          "text": "<p>Herbal or Plant Based medicine has its origins in ancient cultures. It involves the medicinal use of plants to treat disease and enhance general health and wellbeing. <\/p><p>Plant based medicines have a long history of clinical use and are still the most widely used medicines in the world today. For approximately<strong> 5.1 billion people worldwide<\/strong>, natural plant-based remedies are used for a range of mild, acute and chronic health problems, from treating common colds to controlling blood pressure and cholesterol. <\/p><p>Studies have shown that these medicines have better patient tolerance and acceptance compared to synthetic options. <\/p><p>Many of the larger pharmaceutical companies in the US offered a broad variety of plant-based drugs in tablet, liquid and ointment forms until as late as the 1950&#x27;s. Whilst today you will find many synthetic drugs in pharmacies, plants are still the original source materials for up to 40% of these pharmaceuticals on offer. <\/p><p><\/p><p>To date, 35,000-70,000 plant species have been screened for their medicinal use and more are being researched daily. <\/p>",
+          "text": "<p>Herbal or Plant Based medicine has its origins in ancient cultures. It involves the medicinal use of plants to treat disease and enhance general health and wellbeing. <\/p><p>Plant based medicines have a long history of clinical use and are still the most widely used medicines in the world today. For approximately<strong> 5.1 billion people worldwide<\/strong>, natural plant-based remedies are used for a range of mild, acute and chronic health problems, from treating common colds to controlling blood pressure and cholesterol. <\/p><p>Studies have shown that Plant Based medicines can also have better patient tolerance and acceptance compared to some of the synthetic alternatives. <\/p><p>Many pharmaceutical companies in the US offer a broad variety of plant-based drugs in tablet, liquid and ointment forms until as late as the 1950&#x27;s. Whilst today you will find many synthetic drugs in pharmacies, plants are still the original source materials for up to 40% of these pharmaceuticals on offer. <\/p><p><\/p><p>To date, 35,000-70,000 plant species have been screened for their medicinal use and more are being researched daily. <\/p>",
           "text_size": "medium"
         }
       },
@@ -722,6 +722,15 @@
           "section_title": "Greencare Clinics",
           "text": "<p>Greencare Clinics is an online medical and wellness centre, connecting our patients with our specialist doctors and nurses via telehealth appointments.  <\/p><p>We are passionate about plant based therapy and our Doctors take a highly responsible approach prescribing plant based and endocannabinoid medicines, as an alternative to conventional pharmaceutical drugs. <\/p><p>Our service is personal, affordable and highly effective. Our doctors are highly experienced in treating patients who present with many different symptoms. Some of which include: patients experiencing nausea and vomiting during chemotherapy, to improve appetite in people with HIV\/AIDS, to treat chronic pain and diseases, muscle spasms and even insomnia.<\/p><p><\/p>",
           "text_size": "medium"
+        }
+      },
+      "banner_image_book": {
+        "type": "banner_image_book",
+        "settings": {
+          "banner_image": "shopify:\/\/shop_images\/MS010_Website_Banners3_80891efb-a42f-4591-97a2-4443b947c6d0.jpg",
+          "title": "Book an appointment",
+          "subheading": "",
+          "logo_image": "shopify:\/\/shop_images\/Group_238.png"
         }
       }
     },

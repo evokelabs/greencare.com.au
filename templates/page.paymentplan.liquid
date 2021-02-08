@@ -264,25 +264,29 @@
                         </tr>
                         <tr>
                             <td style="font-weight: normal; border: none;">
-                                <p class="pricing-table-small">What appointment type would you like?</p>
+                                <p>What appointment type would you like?</p>
                             </td>
                             <td style="border: none;">
-                                <button>Standard</button>
+                                <button class="pricing-button-option">Standard</button>
                             </td>
                             <td style="border: none;">
-                                <button>Mid</button>
+                                <button class="pricing-button-option">Mid</button>
                             </td>
                             <td style="border: none;">
-                                <button>Premium</button>
+                                <button class="pricing-button-option">Premium</button>
                             </td>
                         </tr>
                         <tr>
                             <td style="border: none;"></td>
                             <td colspan="3" style="border: none;">
-                                <button id="pricing-submit-button" class="button-fill">Submit</button>
+                                <button id="pricing-submit-button" class="button-fill hide-element">Submit</button>
                             </td>
                         </tr>
                     </table>
                 </div>
             </div>
         </div>
+{{ 'script.js' | asset_url | script_tag }}
+<script>
+enablePricingBtnEvent()
+</script>

@@ -1,0 +1,121 @@
+const questionnaires = document.querySelectorAll('.questionnaire-item')
+const questionnaire_btn = document.getElementById('questionnaire-submit')
+const questionnaire_container = document.getElementById('questionnaire-container-id')
+const pricings = document.querySelectorAll('.pricing-button-option')
+const pricing_btn = document.getElementById('pricing-submit-button')
+let questionnaireRadioButtons = null;
+let paymentPlan = null;
+
+
+function validateQuestionnaire() {
+    let IsThereAnError = false
+    questionnaires.forEach(questionnaire => {
+        
+        questionnaire.classList.remove('questionnaire-error')
+
+    });
+    for (var i = 0; i < questionnaireRadioButtons.length; i += 2) {
+        if (questionnaireRadioButtons[i].checked === false && questionnaireRadioButtons[i + 1].checked === false) {
+            questionnaireRadioButtons[i].parentNode.parentNode.parentNode.classList.add('questionnaire-error')
+            IsThereAnError = true;
+        }
+    }
+    (IsThereAnError === false) ? checkQuestionnaire(): scrollToTopQuestionnaire()
+}
+
+
+function checkQuestionnaire() {
+    let EligibleFlag = true;
+    questionnaires.forEach(questionnaire => {
+        let questionnaireRadioButtonsInput = questionnaire.getElementsByTagName("input")
+        for (var i = 0; i < questionnaireRadioButtonsInput.length; i += 2) {
+            if (questionnaireRadioButtonsInput[i + 1].checked === true) {
+                EligibleFlag = false;
+            }
+
+        }
+    })
+    if (EligibleFlag === true) {
+        console.log("You are eligable")
+        window.location.href = ".././pages/eligible";
+    } else {
+        console.log("You are not eligable")
+        window.location.href = ".././pages/not-eligible";
+    }
+}
+
+function validatePricing(e) {
+    pricings.forEach(pricing => {
+        pricing.classList.remove('highlighted-button')
+    })
+    e.classList.add('highlighted-button');
+    pricing_btn.classList.remove('hide-element');
+    paymentPlan = e.innerHTML.toLowerCase();
+}
+
+function checkPricing() {
+    if (paymentPlan === "standard") {
+        console.log("standard")
+        window.location.href = "./../pages/confirm?plan=standard";
+    } else if (paymentPlan === "mid") {
+        console.log("mid")
+        window.location.href = "./../pages/confirm?plan=mid";
+    } else if (paymentPlan === "premium") {
+        console.log("premium")
+        window.location.href = "./../pages/confirm?plan=premium";
+    }
+}
+
+
+
+function scrollToTopQuestionnaire() {
+    let questionnaireError = document.querySelectorAll('.questionnaire-error')
+    questionnaireError[0].scrollIntoView()
+}
+
+function parseHDComponent() {
+    var plan = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+        plan[key] = value;
+    });
+    return plan;
+}
+
+
+pricings.forEach(pricing => {
+    pricing.addEventListener('click', () => {
+        validatePricing(pricing);
+    })
+})
+
+function enableRadioButtonsValidation() {
+    questionnaireRadioButtons = questionnaire_container.getElementsByTagName("input")
+    for (var i = 0; i < questionnaireRadioButtons.length; i++) {
+        questionnaireRadioButtons[i].addEventListener('click', (event) => {
+            event.target.parentNode.parentNode.parentNode.classList.remove('questionnaire-error')
+        })
+    }
+}
+
+
+function enableRadioButtonsValidationInit(){
+    enableRadioButtonsValidation()
+}
+
+function enableQuestionnaireButtonEvent(){
+    questionnaire_btn.addEventListener('click', validateQuestionnaire)
+}
+
+function enablePricingBtnEvent(){
+    pricing_btn.addEventListener('click', checkPricing)
+}
+
+function parseHDComponentEvent(){
+    const HD = document.querySelector(".HD-component h1")
+    planObject = parseHDComponent()
+    console.log(planObject['plan'])
+    HD.innerHTML += " "+planObject['plan'].toUpperCase()
+
+}
+
+

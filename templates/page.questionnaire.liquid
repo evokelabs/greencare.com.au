@@ -5,7 +5,7 @@
             <div class="book">
                 <div class="container">
             <h2>Are you eligible?</h2>
-            <div class="questionnaire-container">
+            <div class="questionnaire-container" id="questionnaire-container-id">
                 <div class="questionnaire-item questionnaire-1">
                     <p>1. Do you suffer from any of the following conditions and have been diagnosed by a registered
                         medical practitioner in Australia?</p>
@@ -82,3 +82,8 @@
         </div>
     </div>
 </div>
+{{ 'script.js' | asset_url | script_tag }}
+<script>
+enableRadioButtonsValidation()
+questionnaire_btn.addEventListener('click', validateQuestionnaire)
+</script>
