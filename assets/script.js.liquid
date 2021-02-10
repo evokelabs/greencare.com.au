@@ -2,7 +2,6 @@ const questionnaires = document.querySelectorAll('.questionnaire-item')
 const questionnaire_btn = document.getElementById('questionnaire-submit')
 const questionnaire_container = document.getElementById('questionnaire-container-id')
 const pricings = document.querySelectorAll('.pricing-button-option')
-const pricing_btn = document.getElementById('pricing-submit-button')
 let questionnaireRadioButtons = null;
 let paymentPlan = null;
 
@@ -49,8 +48,8 @@ function validatePricing(e) {
         pricing.classList.remove('highlighted-button')
     })
     e.classList.add('highlighted-button');
-    pricing_btn.classList.remove('hide-element');
     paymentPlan = e.innerHTML.toLowerCase();
+    checkPricing();
 }
 
 function checkPricing() {
