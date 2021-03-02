@@ -2,11 +2,14 @@ const questionnaires = document.querySelectorAll('.questionnaire-item')
 const questionnaire_btn = document.getElementById('questionnaire-submit')
 const questionnaire_container = document.getElementById('questionnaire-container-id')
 const pricings = document.querySelectorAll('.pricing-button-option')
-let questionnaireRadioButtons = null;
-let paymentPlan = null;
+const pricing_icons = document.querySelectorAll('.pricing-question-icon')
+const pricing_rollover_popup = document.querySelectorAll('pop-up-help')
+let questionnaireRadioButtons = null
+let paymentPlan = null
+let pricing_icons_date = new Array()
 
 
-function validateQuestionnaire() {
+const validateQuestionnaire = () => {
     let IsThereAnError = false
     questionnaires.forEach(questionnaire => {
         
@@ -23,36 +26,36 @@ function validateQuestionnaire() {
 }
 
 
-function checkQuestionnaire() {
-    let EligibleFlag = true;
+const checkQuestionnaire = () => {
+    let EligibleFlag = true
     questionnaires.forEach(questionnaire => {
         let questionnaireRadioButtonsInput = questionnaire.getElementsByTagName("input")
         for (var i = 0; i < questionnaireRadioButtonsInput.length; i += 2) {
             if (questionnaireRadioButtonsInput[i + 1].checked === true) {
-                EligibleFlag = false;
+                EligibleFlag = false
             }
 
         }
     })
     if (EligibleFlag === true) {
         console.log("You are eligable")
-        window.location.href = ".././pages/eligible";
+        window.location.href = ".././pages/eligible"
     } else {
         console.log("You are not eligable")
-        window.location.href = ".././pages/not-eligible";
+        window.location.href = ".././pages/not-eligible"
     }
 }
 
-function validatePricing(e) {
+const validatePricing = (e) => {
     pricings.forEach(pricing => {
         pricing.classList.remove('highlighted-button')
     })
-    e.classList.add('highlighted-button');
-    paymentPlan = e.innerHTML.toLowerCase();
-    checkPricing();
+    e.classList.add('highlighted-button')
+    paymentPlan = e.innerHTML.toLowerCase()
+    checkPricing()
 }
 
-function checkPricing() {
+const checkPricing = () =>{
     if (paymentPlan === "standard") {
         console.log("standard")
         window.location.href = "./../pages/confirm?plan=standard";
@@ -67,27 +70,26 @@ function checkPricing() {
 
 
 
-function scrollToTopQuestionnaire() {
+const scrollToTopQuestionnaire = () => {
     let questionnaireError = document.querySelectorAll('.questionnaire-error')
     questionnaireError[0].scrollIntoView()
 }
 
-function parseHDComponent() {
-    var plan = {};
+const parseHDComponent = () => {
+    var plan = {}
     var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
-        plan[key] = value;
+        plan[key] = value
     });
-    return plan;
+    return plan
 }
-
 
 pricings.forEach(pricing => {
     pricing.addEventListener('click', () => {
-        validatePricing(pricing);
+        validatePricing(pricing)
     })
 })
 
-function enableRadioButtonsValidation() {
+const enableRadioButtonsValidation = () => {
     questionnaireRadioButtons = questionnaire_container.getElementsByTagName("input")
     for (var i = 0; i < questionnaireRadioButtons.length; i++) {
         questionnaireRadioButtons[i].addEventListener('click', (event) => {
@@ -97,19 +99,19 @@ function enableRadioButtonsValidation() {
 }
 
 
-function enableRadioButtonsValidationInit(){
+const enableRadioButtonsValidationInit = () => {
     enableRadioButtonsValidation()
 }
 
-function enableQuestionnaireButtonEvent(){
+const enableQuestionnaireButtonEvent = () => {
     questionnaire_btn.addEventListener('click', validateQuestionnaire)
 }
 
-function enablePricingBtnEvent(){
+const enablePricingBtnEvent = () => {
     pricing_btn.addEventListener('click', checkPricing)
 }
 
-function parseHDComponentEvent(){
+const parseHDComponentEvent = () =>{
     const HD = document.querySelector(".HD-component h1")
     planObject = parseHDComponent()
     console.log(planObject['plan'])
@@ -118,3 +120,108 @@ function parseHDComponentEvent(){
 }
 
 
+const pricingIconsRollOver = () => {
+
+    pricing_icons.forEach((pricing_icon,index) => {
+            pricing_icon.addEventListener('mouseover', (e) => {
+                iconRollOver(e, index)
+            })
+            pricing_icon.addEventListener('mouseout', (e) => {
+                iconRollOut(e)
+            })
+        })
+}
+
+const iconRollOver = (e,index) => {
+
+    e.preventDefault()
+
+    const x = e.clientX
+    const y = e.clientY
+
+    const leftOffset = e.target.offsetLeft
+    const topOffset = e.target.offsetTop
+
+    const xInside = x - leftOffset
+    const yInside = y - topOffset
+
+    pricing_rollover_popup.style.visibility = "visible"  
+
+    pricing_rollover_popup.innerHTML = toolTipArray[index] 
+
+    pricing_rollover_popup.style.top = `${yInside}px`
+    pricing_rollover_popup.style.left = `${xInside}px`
+
+    const heightPopUp = pricing_rollover_popup.clientHeight
+
+    console.log("e.clientX "+e.clientX)
+    console.log ("leftOffset "+leftOffset);
+    console.log ("xInside "+xInside);
+    console.log ("---------------")
+    {% comment %} pricing_rollover_popup.style.transform = "translateY("+(heightPopUp*2)+"px)" {% endcomment %}
+
+    {% comment %} pricing_rollover_popup.style.transform = "translate3d("+x+"px,"+y+"px,0px)" {% endcomment %}
+      {% comment %} transform: translateX(50%) translateY(100%); {% endcomment %}
+
+
+}
+
+const iconRollOut = (e,index) => {    
+     {% comment %} pricing_rollover_popup.style.visibility = "hidden" {% endcomment %}
+}
+
+var toolTipArray = [
+`<h2>Dr Consult</h2>
+<p>Your initial Doctors consult is an in depth consultation via telehealth with one of our specialist Doctors. It can be booked either before or after your Nurse consultation, depending on your need.</p>
+<p>You will discuss your current health and symptoms, current lifestyle, previously tried treatments and outcomes, as well as ultimate health goals. Your Doctor will then create a personalised, treatment plan for your specific needs with the aim of optimising your health.</p>
+<p>After your appointment your Greencare Doctor will apply for your prescription medication. You will receive an email with the outcome of the application and if approved it will include your prescription which you can then take to our recommended pharmacist.</p>
+`,
+`<h2>Nurse Consult</h2>
+<p>You can book an appointment with one of our specialist Nurses either before or after your initial Doctors consultation, depending on your needs.</p>
+<p>Prior to a Doctor consult, a Nurse consult can be helpful if you still have questions after reading out FAQs and taking our eligibility test. Our Nurses can answer any questions you may have about prescription Plant Based and Endocannabinoid Medicines in relation to your own health and treatment, as well as further information on the medicine in general.</p>
+<p>Nurse consults are also a great, affordable way to follow up with Greencare Clinics once you have started your treatment to share how you are adapting to the medication.</p>
+`,
+`<h2>Dr Follow up Consult</h2>
+<p>This consultation is offered for you to discuss your health and/or treatment plan with one of our doctors after commencing your treatment with Greencare and can be made at any time, depending on your need.</p>
+<p>This appointment is an opportunity for you to discuss any changes you have noticed in your health and symptoms, any improvements or regressions, potential issues that may have arisen or any worries you have since commencing your treatment plan. Our doctor can then adapt your treatment depending on your experiences and order a different prescription if need be.</p>
+<p>If your treatment is all going to plan and you don’t have any questions or worries, this consult is a good time for our Doctors to note your progress and order a new prescription if you need.</p>
+`,
+`<h2>Nurse Consult (at 6 months)</h2>
+<p>This consult is planned at 6 months post initial consult for our team to reconnect with you and see how you are adapting to your treatment plan and medication.</p>
+<p>At 6 months, enough time has passed whilst you have been on your treatment plan to be able to see changes and/or notice the difference in your health and symptoms and therefore is a great time to discuss with our Nurse any questions or concerns that may have arisen, changes you have noticed in your wellbeing and for our team to note your progress.</p>
+`,
+`<h2>Dr Consult (at 12 months)</h2>
+<p>This consult is an in-depth review of your treatment on the one year anniversary of your initial consultation.</p>
+<p>This consultation is designed for you to discuss with one of our Doctors how your health and symptoms have changed, any improvements or regressions you have experienced, changes in any of your other medications and hopes for your health for the next year ahead.</p>
+<p>Our Doctor will then work with you to decide if a change in medication or dosage is required and if you already are on the best path for your health.</p>
+`,
+`<h2>Educational Event Invites (quarterly events)</h2>
+<p>Online/Virtual events and discussions with leading Medicinal Cannabis experts on industry updates, recent research findings and benefits.</p>
+`,
+`<h2>9am to 5pm Hotline (limited to one call per month)</h2>
+<p>Access to a monthly Hotline call with one of our trained Nurses.</p>
+<p>This hotline is available to give you quick and easy access to a qualified practitioner if any questions and concerns, or if any issues have arisen that you would like to talk with a professional about in a quick phone call before deciding if you need to book another appointment to discuss further.</p>
+<p>One of our highly skilled admin team answers this hotline and organises for the next available Nurse to call you which is always within an hour of your initial call.</p>
+`,
+`<h2>Same day Bookings</h2>
+<p>We offer same day bookings for our Health Payment Plan patients, depending on our physicians availability.</p>
+<p>Patients wishing to make a same day appointment must call Greencare before 10am and speak to our admin staff to book.</p>
+`,
+`<h2>After Hours Bookings</h2>
+<p>Health Payment Plan patients are able to book an appointment outside of Greencare’s traditional working hours and book between 5-8pm depending on physician’s availability on their requested day.</p>
+<p>Patients wishing to book an after hours appointment must call Greencare and speak to our admin staff to book.</p>
+`,
+`<h2>Pharmacy Assistance (direct medication delivery to your door)</h2>
+<p>After sending in your prescription, our pharmacy will deliver your prescription directly to your door for further ease and convenience.</p>
+`,
+`<h2>Repeat Prescriptions</h2>
+<p>Greencare offers all eligible Health Plan Patients one prescription repeat so that patients don’t need to make an appointment with our physician just to refill their prescription.</p>
+`,
+`<h2>Monthly Industry Updates</h2>
+<p>Greencare keeps you informed of industry updates and research findings via our online newsletter.</p>
+`,
+`<h2>Ongoing Subscription </h2>
+<p>All our health plans are for 12 months so that you can organise your appointment times throughout the year to suit your needs.</p>
+<p>At the end of 12 months, your subscription will automatically roll on for another year, uness cancelled prior to the commencement date of your initial subscription.</p>
+<p>At any time throughout your subscription period, you will have the option to cancel your subscription. The balance of the total subscription will need to be made payable at that time.</p>
+`];

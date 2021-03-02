@@ -638,9 +638,9 @@
       "banner_image_pricing": {
         "type": "banner_image_pricing",
         "settings": {
-          "banner_image": "shopify:\/\/shop_images\/pricing-banner.jpg",
-          "title": "Costs",
-          "subheading": "At Greencare we offer competitive prices for premium professional services. <br>  \nPlease consider our payment plans to support your financial comfortability.  \n<br>",
+          "banner_image": "shopify:\/\/shop_images\/MS010_Website_Banners3_80891efb-a42f-4591-97a2-4443b947c6d0.jpg",
+          "title": "Book an Appointment",
+          "subheading": "At Greencare we offer competitive prices for premium professional services. <br>Please consider our payment plans to support your financial comfortability",
           "logo_image": "shopify:\/\/shop_images\/Group_238.png"
         }
       },
@@ -718,9 +718,9 @@
       "product-template": {
         "type": "product-template",
         "settings": {
-          "show_quantity_selector": false,
+          "show_quantity_selector": true,
           "show_variant_labels": false,
-          "show_vendor": false,
+          "show_vendor": true,
           "enable_payment_button": true,
           "show_share_buttons": false,
           "media_size": "medium",
@@ -743,7 +743,7 @@
           "grid": 3,
           "rows": 4,
           "show_collection_image": false,
-          "show_vendor": false,
+          "show_vendor": true,
           "sort_enable": false,
           "tags_enable": false
         }
@@ -754,6 +754,24 @@
           "display_type": "all",
           "sort": "alphabetical",
           "grid": 3
+        }
+      },
+      "banner_image_shop": {
+        "type": "banner_image_shop",
+        "settings": {
+          "banner_image": "shopify:\/\/shop_images\/MS010_Website_Banners4_4b33bffb-f80e-4af2-895a-c4ae8b5d99b8.jpg",
+          "title": "CBD Shop",
+          "subheading": "Quality Greencare products delivered straight to your door",
+          "logo_image": "shopify:\/\/shop_images\/Group_238.png"
+        }
+      },
+      "banner_image_product": {
+        "type": "banner_image_product",
+        "settings": {
+          "banner_image": "shopify:\/\/shop_images\/MS010_Website_Banners4_4b33bffb-f80e-4af2-895a-c4ae8b5d99b8.jpg",
+          "title": "CBD Shop",
+          "subheading": "Quality Greencare products delivered straight to your door",
+          "logo_image": "shopify:\/\/shop_images\/Group_238.png"
         }
       }
     },

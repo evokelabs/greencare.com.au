@@ -54,18 +54,18 @@
     {% else %}
       <div class="page-width">
         <div class="section-header text-center">
-          <h1>
+          {% comment %} <h1>
               <span class="visually-hidden">{{ 'collections.general.collection_label' | t }}: </span>
               {{ collection.title }}
-          </h1>
+          </h1> {% endcomment %}
           {% if collection.description != blank %}
             <div class="rte">
               {{ collection.description }}
             </div>
           {% endif %}
-          {% if is_filter_by_available == false and section.settings.sort_enable == false %}
+          {% comment %} {% if is_filter_by_available == false and section.settings.sort_enable == false %}
             <span class="filters-toolbar__product-count">{{ 'collections.general.items_with_count' | t: count: collection.products_count }}</span>
-          {% endif %}
+          {% endif %} {% endcomment %}
         </div>
       </div>
     {% endif %}

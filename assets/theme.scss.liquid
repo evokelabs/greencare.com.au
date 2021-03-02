@@ -3635,7 +3635,6 @@ $color-blankstate-background: rgba($color-body-text, 0.1);
 
 .product-form {
   width: auto;
-  padding-top: 2rem;
 }
 
 .product-form__controls-group {
@@ -3670,7 +3669,7 @@ $color-blankstate-background: rgba($color-body-text, 0.1);
   label {
     display: block;
 
-    .product-form--hide-variant-labels & {
+    {% comment %} .product-form--hide-variant-labels & {
       // sass-lint:disable no-important
       position: absolute !important;
       overflow: hidden;
@@ -3680,7 +3679,7 @@ $color-blankstate-background: rgba($color-body-text, 0.1);
       margin: -1px;
       padding: 0;
       border: 0;
-    }
+    } {% endcomment %}
   }
 }
 
@@ -9228,10 +9227,15 @@ h1.heading_doctor{
 .pricing-border-bottom {border-bottom: 3px solid #83a9b6}
 
 .pricing-table-body {margin-bottom: 50px;}
-.pricing-table-body td{text-align: center; width: 25%; border: 1px solid #83a9b6; border-top: 1px solid #83a9b6; border-bottom: 1px solid #83a9b6; height: 80px;}
+.pricing-table-body td{position: relative; text-align: center; width: 25%; border: 1px solid #83a9b6; border-top: 1px solid #83a9b6; border-bottom: 1px solid #83a9b6; height: 80px; vertical-align: middle;}
+
+
 .pricing-table-body td:first-child{width: auto; border-left: none;}
 .pricing-table-body td:last-child{border-right: none;}
-.pricing-table-img{max-width: 25px;}
+.pricing-table-img {max-width: 25px;}
+.pricing-question-icon {max-width: 15px; cursor: pointer;}
+
+
 
 .pricing-table-color-green {color: #225d4a;}
 .pricing-table-color-blue {color: #367387; background: #D0DFE6;}
@@ -9243,6 +9247,50 @@ h1.heading_doctor{
 
 
 .pricing-table-smaller-text {font-size: 12px;}
+
+/* Pricing Pop Up*/
+
+.pop-up-help {
+  position: absolute;
+  z-index: 20;
+  background-color: #fff;
+  width: 500px;
+  box-shadow: 5px 5px 5px grey;
+  padding: 35px;
+  border-radius: 10px;
+  text-align: left;
+  left: 0;
+  top: 0;
+  font-weight: bold;
+}
+
+
+.pop-up-help  h2 {
+  font-size: 23px;
+  text-transform: capitalize;
+  letter-spacing: normal;
+  margin-bottom: 14px;
+}
+
+.pop-up-help  p {
+  font-size: 15px;  
+  margin-bottom: 10px;
+  color: #225d4a;
+}
+
+.pop-up-help::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-left: -29px;
+  margin-top: -15px;
+  border-width: 15px;
+  border-style: solid;
+  border-color: transparent white transparent transparent;
+}
+
+/* Pricing Pop Up*/
 
 
 
@@ -9360,7 +9408,25 @@ h1.doctor-hero__title, .doctor-hero__title.h1 {
 .page-width.cost_section h2.h3 {letter-spacing: -1px;margin: 0 0 10px 0;}
 /* Cost Section */
 
+/* Collection Section */
+#Collection {
+  padding-top:4em;
+  text-align: center;
+}
+.price__regular {
+  margin: 0 auto;
+}
+.price__badges--listing {
+  margin: 10px auto;
+}
+/* Collection Section */
 
+
+/* Product Section */
+#ProductSection-product-template {
+  padding-top: 4em;
+}
+/* Product Section */
 
 
 
@@ -10372,3 +10438,22 @@ a {
     }
 
 }
+
+@media only screen and (max-width: 930px){
+  .pop-up-help{width: 350px;}
+}
+
+@media only screen and (max-width: 520px){
+  .pop-up-help{width: 300px;}
+}
+
+@media only screen and (max-width:420px){
+  .pop-up-help{width: 200px; padding: 20px;}
+  .pop-up-help h2 {font-size: 15px;}
+  .pop-up-help p{font-size: 11px;}
+}
+
+@media only screen and (max-width:320px){
+  .pop-up-help{width: 150px;}
+}
+
