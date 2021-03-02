@@ -3,7 +3,7 @@ const questionnaire_btn = document.getElementById('questionnaire-submit')
 const questionnaire_container = document.getElementById('questionnaire-container-id')
 const pricings = document.querySelectorAll('.pricing-button-option')
 const pricing_icons = document.querySelectorAll('.pricing-question-icon')
-const pricing_rollover_popup = document.querySelectorAll('pop-up-help')
+const pricing_rollover_popup = document.querySelectorAll('.pop-up-help')
 let questionnaireRadioButtons = null
 let paymentPlan = null
 let pricing_icons_date = new Array()
@@ -121,13 +121,16 @@ const parseHDComponentEvent = () =>{
 
 
 const pricingIconsRollOver = () => {
+    pricing_rollover_popup.forEach((rollover_popup,index) => {
+        rollover_popup.innerHTML=toolTipArray[index]
+    })
 
     pricing_icons.forEach((pricing_icon,index) => {
             pricing_icon.addEventListener('mouseover', (e) => {
                 iconRollOver(e, index)
             })
             pricing_icon.addEventListener('mouseout', (e) => {
-                iconRollOut(e)
+                iconRollOut(e, index)
             })
         })
 }
@@ -136,38 +139,34 @@ const iconRollOver = (e,index) => {
 
     e.preventDefault()
 
-    const x = e.clientX
-    const y = e.clientY
-
-    const leftOffset = e.target.offsetLeft
-    const topOffset = e.target.offsetTop
-
-    const xInside = x - leftOffset
-    const yInside = y - topOffset
-
-    pricing_rollover_popup.style.visibility = "visible"  
-
-    pricing_rollover_popup.innerHTML = toolTipArray[index] 
-
-    pricing_rollover_popup.style.top = `${yInside}px`
-    pricing_rollover_popup.style.left = `${xInside}px`
-
-    const heightPopUp = pricing_rollover_popup.clientHeight
-
-    console.log("e.clientX "+e.clientX)
-    console.log ("leftOffset "+leftOffset);
-    console.log ("xInside "+xInside);
-    console.log ("---------------")
-    {% comment %} pricing_rollover_popup.style.transform = "translateY("+(heightPopUp*2)+"px)" {% endcomment %}
-
-    {% comment %} pricing_rollover_popup.style.transform = "translate3d("+x+"px,"+y+"px,0px)" {% endcomment %}
-      {% comment %} transform: translateX(50%) translateY(100%); {% endcomment %}
-
-
+    {% comment %} const x = e.clientX {% endcomment %}
+    const leftOffset = e.target.offsetLeft + 50
+    const topOffset = e.target.offsetTop + 5
+    {% comment %} const xInside = x - leftOffset {% endcomment %}
+    const xInside = leftOffset
+    const yInside = topOffset
+    
+    pricing_rollover_popup.forEach((rollover_popup,index2) => {
+        if (index === index2) {        
+            rollover_popup.style.visibility = "visible" 
+            rollover_popup.style.left = 0+xInside+"px"
+            rollover_popup.style.top = 0+yInside+"px"
+            rollover_popup.style.transform = "translateY(-50%) translateX(0%)"
+            }
+        })
+    
 }
 
 const iconRollOut = (e,index) => {    
-     {% comment %} pricing_rollover_popup.style.visibility = "hidden" {% endcomment %}
+     e.preventDefault()
+    
+    pricing_rollover_popup.forEach((rollover_popup,index2) => {
+        if (index === index2) {
+            console.log("a hit")        
+            rollover_popup.style.visibility = "hidden" 
+            }
+        })
+
 }
 
 var toolTipArray = [
