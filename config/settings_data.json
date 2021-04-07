@@ -113,7 +113,7 @@
               "alignment": "center center",
               "slide_title": "<p>Welcome to <\/p><p>Greencare Clinics<\/p><p><\/p>",
               "subheading": "We are an online medical and wellness centre that passionately supports the use of naturally derived medicines to treat a wide range of symptoms.  \n\nOur highly experienced doctors will support your consultation privately and discretely through our video and telehealth.",
-              "button_label": "BOOK APPOINTMENT",
+              "button_label": "BOOK ONLINE TODAY",
               "button_link": "shopify:\/\/pages\/book-appointment"
             }
           },
@@ -146,7 +146,7 @@
               "alignment": "center center",
               "slide_title": "Plant based medicine <p> has it's origins in <\/p><p> ancient cultures<\/p>",
               "subheading": "Over 35,000 plant species have been screened for their medicinal use and more are being researched daily.",
-              "button_label": "BOOK Today",
+              "button_label": "BOOK ONLINE Today",
               "button_link": "shopify:\/\/pages\/book-appointment"
             }
           }
@@ -339,7 +339,7 @@
         "settings": {
           "banner_image": "shopify:\/\/shop_images\/MS010_Website_Banners2_d94eb93e-dfcb-4fab-ab8c-ada61d5314eb.jpg",
           "title": "Treatments",
-          "subheading": "Plant based and endocannabinoid mediciness may be helpful with the management of symptoms associated with a wide\nvariety of conditions that have not responded to conventional treatments. \n<br><br>\nOur doctors are highly experienced in treating patients who present with many different symptoms. \n<br>Some of which include:",
+          "subheading": "Plant based and endocannabinoid medicine may be helpful with the management of symptoms associated with a wide\nvariety of conditions that have not responded to conventional treatments. \n<br><br>\nOur doctors are highly experienced in treating patients who present with many different symptoms. \n<br>Some of which include:",
           "logo_image": "shopify:\/\/shop_images\/Group_238.png"
         }
       },
@@ -373,7 +373,7 @@
         "settings": {
           "banner_image": "shopify:\/\/shop_images\/MS010_Website_Banners3_80891efb-a42f-4591-97a2-4443b947c6d0.jpg",
           "title": "Doctors",
-          "subheading": "Greencare’s specialist physicians and nurses are experts in plant based medicines and follow all State and TGA prescribing guidelines.",
+          "subheading": "Greencare's specialist physicians and nurses are experts in plant based medicines and follow all State and TGA prescribing guidelines.",
           "logo_image": "shopify:\/\/shop_images\/Group_238.png"
         }
       },
@@ -382,7 +382,7 @@
         "settings": {
           "doctor_left_heading": "Referring Patients",
           "doctor_left_pera": "Greencare is a trusted Australian based health service company that supports patients in accessing endocannabinoid medicines and plant based, natural alternatives when other treatments have failed them. We offer consultations via telehealth with a small team of carefully selected physicians and nurses who specialise in plant based treatments.\n<br>\n<br>\nIt is our job to walk your patients through the process of finding the most effective plant based medicine for their current conditions with the focus on optimising their health and wellbeing for the future. We do an in depth pre-screening of all patients, screen for drug interactions and contraindications and closely monitor patients for any adverse events. We focus on safe and controlled administration of plant based medicines, whilst striving for positive outcomes for the patient.\n<br>\n<br>\nWe do not require a referral form from you to treat your patients, you can direct them straight to the Greencare website. A downloadable information pamphlet is available via the button below for you to easily provide information about our service to your patients.\n<br>\n<br>",
-          "doctor_button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0438\/2697\/0775\/files\/Greencare_Patient_Pamphlet_e0f0e6d2-ed2e-4063-9dcb-5f52a433969a.pdf",
+          "doctor_button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0438\/2697\/0775\/files\/Greencare_Patient_Pamphlet_ec30248a-ca2f-4a21-87a9-c603df6e29b1.pdf",
           "doctor_left_pera_button": "Patient Pamphlet",
           "doctor_banner_right_image": "shopify:\/\/shop_images\/dronline2.jpg"
         }
@@ -775,11 +775,11 @@
     "content_for_index": [
       "1595329099508",
       "160989373745d2d1be",
+      "1595335011811",
       "1595419385253",
       "1603081577d8fe06ff",
       "16098038718e6d5f20",
-      "1595329256397",
-      "1595335011811"
+      "1595329256397"
     ]
   },
   "presets": {
