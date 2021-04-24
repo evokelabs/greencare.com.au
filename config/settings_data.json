@@ -168,6 +168,7 @@
       },
       "1595329256397": {
         "type": "video",
+        "disabled": true,
         "settings": {
           "image": "shopify:\/\/shop_images\/image.png",
           "image_position": "center center",
@@ -181,6 +182,7 @@
       },
       "1595335011811": {
         "type": "three_image",
+        "disabled": true,
         "settings": {
           "title": "What’s the difference?",
           "background_color": "#ddf1e9",
@@ -382,7 +384,7 @@
         "settings": {
           "doctor_left_heading": "Referring Patients",
           "doctor_left_pera": "Greencare is a trusted Australian based health service company that supports patients in accessing endocannabinoid medicines and plant based, natural alternatives when other treatments have failed them. We offer consultations via telehealth with a small team of carefully selected physicians and nurses who specialise in plant based treatments.\n<br>\n<br>\nIt is our job to walk your patients through the process of finding the most effective plant based medicine for their current conditions with the focus on optimising their health and wellbeing for the future. We do an in depth pre-screening of all patients, screen for drug interactions and contraindications and closely monitor patients for any adverse events. We focus on safe and controlled administration of plant based medicines, whilst striving for positive outcomes for the patient.\n<br>\n<br>\nWe do not require a referral form from you to treat your patients, you can direct them straight to the Greencare website. A downloadable information pamphlet is available via the button below for you to easily provide information about our service to your patients.\n<br>\n<br>",
-          "doctor_button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0438\/2697\/0775\/files\/Greencare_Patient_Pamphlet_ec30248a-ca2f-4a21-87a9-c603df6e29b1.pdf",
+          "doctor_button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0438\/2697\/0775\/files\/Greencare_Patient_Pamphlet_150daa0f-39a9-4fdd-bea6-c3b17f9dd45f.pdf?v=1618203143",
           "doctor_left_pera_button": "Patient Pamphlet",
           "doctor_banner_right_image": "shopify:\/\/shop_images\/dronline2.jpg"
         }
@@ -393,7 +395,7 @@
           "1599291963840": {
             "type": "image",
             "settings": {
-              "single_block_image": "shopify:\/\/shop_images\/DoctorIcon-1.png",
+              "single_block_image": "shopify:\/\/shop_images\/09-LessPaperwork.png",
               "single_block_heading": "Simple Registration",
               "single_block_pera": "Greencare patients have the opportunity to apply online 24 hours\/day."
             }
@@ -401,15 +403,15 @@
           "1599292012288": {
             "type": "image",
             "settings": {
-              "single_block_image": "shopify:\/\/shop_images\/DoctorIcon-2.png",
-              "single_block_heading": "Medical Cannabis Experts",
+              "single_block_image": "shopify:\/\/shop_images\/05-SupportiveCulture.png",
+              "single_block_heading": "highly trained specialists",
               "single_block_pera": "Our team of specialist physicians and nurses are here to help our patients use cannabis as a safe and effective plant based medical treatment."
             }
           },
           "1599292055812": {
             "type": "image",
             "settings": {
-              "single_block_image": "shopify:\/\/shop_images\/DoctorIcon-3_6704eb9b-2cd2-4d69-b118-541b738153d4.png",
+              "single_block_image": "shopify:\/\/shop_images\/06-ReadyClientBase.png",
               "single_block_heading": "Personalised Treatment Plan",
               "single_block_pera": "Greencare provides the highest rated customer care in the industry and personalises each plan to the individual patient and their needs."
             }
@@ -417,25 +419,25 @@
           "4c62c2ea-812a-4a58-9fb9-5246b2c49570": {
             "type": "image",
             "settings": {
-              "single_block_image": "shopify:\/\/shop_images\/DoctorIcon-4.png",
+              "single_block_image": "shopify:\/\/shop_images\/02-flexible.png",
               "single_block_heading": "Australian Wide Consultations",
-              "single_block_pera": "We are an exclusively online clinic,utilising the latest technology, therefore we can consult on appointments anywhere within Australia.  Proving a discrete and convenient alternative to time consuming, invasive clinic visits."
+              "single_block_pera": "We are an exclusively online clinic, utilising the latest technology, therefore we can consult on appointments anywhere within Australia.  Proving a discrete and convenient alternative to time consuming, invasive clinic visits."
             }
           },
           "4af005d6-2379-4950-8f01-21b9413610c4": {
             "type": "image",
             "settings": {
-              "single_block_image": "shopify:\/\/shop_images\/DoctorIcon-3.png",
-              "single_block_heading": "Medical Cannabis Privileges",
-              "single_block_pera": "We provide our patients with access to the highest quality cannabis treatments in the world along with physicians specialised in the medical cannabis industry."
+              "single_block_image": "shopify:\/\/shop_images\/03-attractivehourlyrates.png",
+              "single_block_heading": "Prescription Access Privileges",
+              "single_block_pera": "We provide our patients with access to the highest quality plant based treatments in the world along with physicians specialised in the industry."
             }
           },
           "526b9ecd-6142-439f-833e-1857664b42f2": {
             "type": "image",
             "settings": {
-              "single_block_image": "shopify:\/\/shop_images\/DoctorIcon-6.png",
+              "single_block_image": "shopify:\/\/shop_images\/08-StaffTraining_fb220147-2d53-4072-9f28-11e5bd844057.png",
               "single_block_heading": "Efficient Delivery",
-              "single_block_pera": "The successfully prescribed cannabis will conveniently be delivered to the door of every Greencare’s patient, anywhere in Australia and within 3 days from the time a nominated pharmacy receives the prescription."
+              "single_block_pera": "Successful prescriptions will conveniently be delivered to the door of every Greencare’s patient, anywhere in Australia and within 3 days from the time a nominated pharmacy receives the prescription."
             }
           }
         },
