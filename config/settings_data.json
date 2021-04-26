@@ -374,8 +374,8 @@
         "type": "banner_image_doctor",
         "settings": {
           "banner_image": "shopify:\/\/shop_images\/MS010_Website_Banners3_80891efb-a42f-4591-97a2-4443b947c6d0.jpg",
-          "title": "Doctors",
-          "subheading": "Greencare's specialist physicians and nurses are experts in plant based medicines and follow all State and TGA prescribing guidelines.",
+          "title": "Patients",
+          "subheading": "Optomising patient's health and working with them on individualised treatment plans to help them with their symptoms and their needs is of the utmost importance at Greencare.",
           "logo_image": "shopify:\/\/shop_images\/Group_238.png"
         }
       },
@@ -511,8 +511,8 @@
         "type": "banner_image_career",
         "settings": {
           "banner_image": "shopify:\/\/shop_images\/MS010_Website_Banners6.jpg",
-          "title": "Careers",
-          "subheading": "Greencare Clinics is a trusted Australian based health service company, comprising a team of authorised specialist physicians and nurses who provide premium healthcare advice and support for patients when accessing endocannabinoid medicines and plant based alternatives to traditional treatments via online consultations.",
+          "title": "Doctors",
+          "subheading": "Greencare's specialist physicians and nurses are experts in plant based medicines and follow all State and TGA prescribing guidelines.",
           "logo_image": "shopify:\/\/shop_images\/Group_238.png"
         }
       },
