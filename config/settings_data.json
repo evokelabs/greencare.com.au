@@ -457,7 +457,7 @@
         "type": "doctors_fourth_image_with_text",
         "settings": {
           "doctor_left_heading_fourth": "Work with Greencare Clinics",
-          "doctor_left_pera_fourth": "Greencare Clinics is a trusted Australian based health service company, comprising a team of authorised specialist physicians and nurses who provide premium healthcare advice and support for patients when accessing legal plant based and endocannabinoid medicine via online consultations.\n<br><br> \nOur team are experts in the field of plant based medicines and are registered Authorised Prescribers with the TGA. \n<br><br>\nWe are always interested in speaking with doctors, mental health and allied health professionals interested in working with plant based and endocannabinoid medicines as an effective medical treatment.",
+          "doctor_left_pera_fourth": "Greencare Clinics is a trusted Australian based health service company, comprising a team of authorised specialist physicians and nurses who provide premium healthcare advice and support for patients when accessing legal plant based and endocannabinoid medicine via online consultations.\n<br>\n<br>Our team are experts in the field of plant based medicines and are registered Authorised Prescribers with the TGA.\n<br>\n<br>\nWe are always interested in speaking with doctors, mental health and allied health professionals interested in working with plant based and endocannabinoid medicines as an effective medical treatment.\n<br>\n<br>",
           "doctor_sub_heading": "",
           "doctor_list1": "",
           "doctor_list2": "",
@@ -771,6 +771,110 @@
           "title": "CBD Shop",
           "subheading": "Quality Greencare products delivered straight to your door",
           "logo_image": "shopify:\/\/shop_images\/Group_238.png"
+        }
+      },
+      "banner_image_patient": {
+        "type": "banner_image_patient",
+        "settings": {
+          "banner_image": "shopify:\/\/shop_images\/MS010_Website_Banners3_80891efb-a42f-4591-97a2-4443b947c6d0.jpg",
+          "title": "Patients",
+          "subheading": "Optomising patient's health and working with them on individualised treatment plans to help them with their symptoms and their needs is of the utmost importance at Greencare.",
+          "logo_image": "shopify:\/\/shop_images\/Group_238.png"
+        }
+      },
+      "patients_image_with_text": {
+        "type": "patients_image_with_text",
+        "settings": {
+          "doctor_left_heading": "Referring Patients",
+          "doctor_left_pera": "Greencare is a trusted Australian based health service company that supports patients in accessing endocannabinoid medicines and plant based, natural alternatives when other treatments have failed them. We offer consultations via telehealth with a small team of carefully selected physicians and nurses who specialise in plant based treatments.\n<br>\n<br>\nIt is our job to walk your patients through the process of finding the most effective plant based medicine for their current conditions with the focus on optimising their health and wellbeing for the future. We do an in depth pre-screening of all patients, screen for drug interactions and contraindications and closely monitor patients for any adverse events. We focus on safe and controlled administration of plant based medicines, whilst striving for positive outcomes for the patient.\n<br>\n<br>\nWe do not require a referral form from you to treat your patients, you can direct them straight to the Greencare website. A downloadable information pamphlet is available via the button below for you to easily provide information about our service to your patients.\n<br>\n<br>",
+          "doctor_left_pera_button": "Patient Pamphlet",
+          "doctor_banner_right_image": "shopify:\/\/shop_images\/dronline2.jpg"
+        }
+      },
+      "patients_three_block": {
+        "type": "patients_three_block",
+        "blocks": {
+          "56eb4d3f-b553-4a79-aa15-7f02ca43ed94": {
+            "type": "image",
+            "settings": {
+              "single_block_image": "shopify:\/\/shop_images\/09-LessPaperwork_54819125-57d9-4b64-a54e-4b6faa155623.png",
+              "single_block_heading": "Simple Registration",
+              "single_block_pera": "Greencare patients have the opportunity to apply online 24 hours\/day."
+            }
+          },
+          "f55b0d3d-3f57-459f-b113-367393e20bed": {
+            "type": "image",
+            "settings": {
+              "single_block_image": "shopify:\/\/shop_images\/05-SupportiveCulture.png",
+              "single_block_heading": "highly trained specialists",
+              "single_block_pera": "Our team of specialist physicians and nurses are here to help our patients use cannabis as a safe and effective plant based medical treatment."
+            }
+          },
+          "6e309f53-ac8d-44bd-879c-4bcccbb4a7e8": {
+            "type": "image",
+            "settings": {
+              "single_block_image": "shopify:\/\/shop_images\/06-ReadyClientBase.png",
+              "single_block_heading": "Personalised Treatment Plan",
+              "single_block_pera": "Greencare provides the highest rated customer care in the industry and personalises each plan to the individual patient and their needs."
+            }
+          },
+          "f355cd75-d59f-41f4-86eb-daf368ddcd27": {
+            "type": "image",
+            "settings": {
+              "single_block_image": "shopify:\/\/shop_images\/02-flexible.png",
+              "single_block_heading": "Australian Wide Consultations",
+              "single_block_pera": "We are an exclusively online clinic, utilising the latest technology, therefore we can consult on appointments anywhere within Australia.  Proving a discrete and convenient alternative to time consuming, invasive clinic visits."
+            }
+          },
+          "24d9262c-960f-45a7-a639-71a587e8fbfd": {
+            "type": "image",
+            "settings": {
+              "single_block_image": "shopify:\/\/shop_images\/03-attractivehourlyrates.png",
+              "single_block_heading": "Prescription Access Privileges",
+              "single_block_pera": "We provide our patients with access to the highest quality plant based treatments in the world along with physicians specialised in the industry."
+            }
+          },
+          "236acdca-f535-4e53-9a06-251bbe364b39": {
+            "type": "image",
+            "settings": {
+              "single_block_image": "shopify:\/\/shop_images\/08-StaffTraining.png",
+              "single_block_heading": "Efficient Delivery",
+              "single_block_pera": "Successful prescriptions will conveniently be delivered to the door of every Greencare’s patient, anywhere in Australia and within 3 days from the time a nominated pharmacy receives the prescription."
+            }
+          }
+        },
+        "block_order": [
+          "56eb4d3f-b553-4a79-aa15-7f02ca43ed94",
+          "f55b0d3d-3f57-459f-b113-367393e20bed",
+          "6e309f53-ac8d-44bd-879c-4bcccbb4a7e8",
+          "f355cd75-d59f-41f4-86eb-daf368ddcd27",
+          "24d9262c-960f-45a7-a639-71a587e8fbfd",
+          "236acdca-f535-4e53-9a06-251bbe364b39"
+        ],
+        "settings": {
+          "heading_Support": "Supporting Patients"
+        }
+      },
+      "doctors_fourth_image_with_text_b": {
+        "type": "doctors_fourth_image_with_text_b",
+        "settings": {
+          "doctor_left_heading_fourth": "Work with Greencare Clinics",
+          "doctor_left_pera_fourth": "Greencare Clinics is a trusted Australian based health service company, comprising a team of authorised specialist physicians and nurses who provide premium healthcare advice and support for patients when accessing legal plant based and endocannabinoid medicine via online consultations.\n<br><br> \nOur team are experts in the field of plant based medicines and are registered Authorised Prescribers with the TGA. \n<br><br>\nWe are always interested in speaking with doctors, mental health and allied health professionals interested in working with plant based and endocannabinoid medicines as an effective medical treatment.",
+          "doctor_sub_heading": "",
+          "doctor_list1": "",
+          "doctor_list2": "",
+          "doctor_list3": "",
+          "doctor_list4": "",
+          "doctor_list5": "",
+          "doctor_list6": "",
+          "doctor_list7": "",
+          "doctor_list8": "",
+          "doctor_list9": "",
+          "doctor_list10": "",
+          "doctor_list11": "",
+          "doctor_cta_heading": "",
+          "doctor_left_pera_button_fourth": "",
+          "doctor_banner_right_image_fourth": "shopify:\/\/shop_images\/dronline.jpg"
         }
       }
     },

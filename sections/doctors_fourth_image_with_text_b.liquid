@@ -1,0 +1,178 @@
+<div class="doctor-page-width">
+<div class="doctors_image_with_Text">
+  <div class="doctor_text_Section">
+    {% if section.settings.doctor_left_heading_fourth != '' %}
+    <h1 class="heading_doctor">{{section.settings.doctor_left_heading_fourth}}</h1>
+    {% endif %}
+    {% if section.settings.doctor_left_pera_fourth != '' %}
+    <p class="para_doctor">{{section.settings.doctor_left_pera_fourth }}</p>
+    {% endif %}
+    
+    {% if section.settings.doctor_sub_heading != '' %}
+    <h1 class="benefit_span">{{section.settings.doctor_sub_heading }}</h1>
+    {% endif %}
+    
+    {% if section.settings.doctor_list1 != '' %}
+    <ul>
+    {% if section.settings.doctor_list1 != '' %}
+    <li>{{section.settings.doctor_list1 }}</li>
+    {% endif %}
+    {% if section.settings.doctor_list2 != '' %}
+    <li>{{section.settings.doctor_list2 }}</li>
+    {% endif %}
+    {% if section.settings.doctor_list3 != '' %}
+    <li>{{section.settings.doctor_list3 }}</li>
+    {% endif %}
+    {% if section.settings.doctor_list4 != '' %}
+    <li>{{section.settings.doctor_list4 }}</li>
+    {% endif %}
+    {% if section.settings.doctor_list5 != '' %}
+    <li>{{section.settings.doctor_list5 }}</li>
+    {% endif %}
+    {% if section.settings.doctor_list6 != '' %}
+    <li>{{section.settings.doctor_list6 }}</li>
+    {% endif %}
+    {% if section.settings.doctor_list7 != '' %}
+    <li>{{section.settings.doctor_list7 }}</li>
+    {% endif %}
+    {% if section.settings.doctor_list8 != '' %}
+    <li>{{section.settings.doctor_list8 }}</li>
+    {% endif %}
+     {% if section.settings.doctor_list9 != '' %}
+    <li>{{section.settings.doctor_list9 }}</li>
+    {% endif %}
+     {% if section.settings.doctor_list10 != '' %}
+    <li>{{section.settings.doctor_list10 }}</li>
+    {% endif %}
+     {% if section.settings.doctor_list11 != '' %}
+    <li>{{section.settings.doctor_list11 }}</li>
+    {% endif %}
+    </ul>
+    {% endif %}
+
+    {% if section.settings.doctor_left_pera_fourth != '' %}
+    <p class="para_doctor">{{section.settings.doctor_cta_heading}}</p>
+    {% endif %}
+      
+    {% comment %} {% if section.settings.doctor_button_link_fourth != '' %}
+    <div class="threeimagesec_btn">
+      <a href="{{section.settings.doctor_button_link_fourth}}" class="btn btn--cta">{{section.settings.doctor_left_pera_button_fourth}}</a>
+    </div>
+    {% endif %} {% endcomment %}
+    
+  </div>
+  
+  {% if section.settings.doctor_banner_right_image_fourth != '' %}
+  <div class="doctor_image_section">
+    <img src="{{section.settings.doctor_banner_right_image_fourth | img_url: 'master'}}">
+  </div>
+  {% endif %}
+  
+</div>
+</div>
+{% schema %}
+  {
+    "name": "Doctor Image With Text",
+    "settings": [
+     {
+     "type": "text",
+     "id": "doctor_left_heading_fourth",
+     "label": "Heading",
+     "default": "Referring Patients"
+     },
+     {
+     "type": "html",
+     "id": "doctor_left_pera_fourth",
+     "label": "Content"
+      },
+     {
+     "type": "html",
+     "id": "doctor_sub_heading",
+     "label": "Sub Heading"
+      },
+     {
+     "type": "text",
+     "id": "doctor_list1",
+     "label": "Point 1"
+      },
+      {
+     "type": "text",
+     "id": "doctor_list2",
+     "label": "Point 2"
+      },
+      {
+     "type": "text",
+     "id": "doctor_list3",
+     "label": "Point 3"
+      },
+     {
+     "type": "text",
+     "id": "doctor_list4",
+     "label": "Point 4"
+      },
+     {
+     "type": "text",
+     "id": "doctor_list5",
+     "label": "Point 5"
+      },
+      {
+     "type": "text",
+     "id": "doctor_list6",
+     "label": "Point 6"
+      },
+     {
+     "type": "text",
+     "id": "doctor_list7",
+     "label": "Point 7"
+      },
+      {
+     "type": "text",
+     "id": "doctor_list8",
+     "label": "Point 8"
+      },
+      {
+     "type": "text",
+     "id": "doctor_list9",
+     "label": "Point 9"
+      },
+      {
+     "type": "text",
+     "id": "doctor_list10",
+     "label": "Point 10"
+      },
+      {
+     "type": "text",
+     "id": "doctor_list11",
+     "label": "Point 11"
+      },
+      {
+     "type": "html",
+     "id": "doctor_cta_heading",
+     "label": "CTA Heading"
+      },
+     {
+     "type": "url",
+     "id": "doctor_button_link_fourth",
+     "label": "Link"
+     },
+     {
+     "type": "text",
+     "id": "doctor_left_pera_button_fourth",
+     "label": "Text",
+     "default": "Referral Form"
+     },
+     {
+     "type": "image_picker",
+     "id": "doctor_banner_right_image_fourth",
+     "label": "Image"
+     }
+
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
